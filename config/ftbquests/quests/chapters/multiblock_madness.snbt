@@ -1,0 +1,345 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "multiblock_madness"
+	group: "719BFF182E0820D1"
+	icon: "gtceu:electric_blast_furnace"
+	id: "0D08F142B78A6A7F"
+	order_index: 1
+	quest_links: [
+		{
+			id: "2070029A6252326F"
+			linked_quest: "5508FD87F3EDFC43"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "26A01BF16CA80CC3"
+			linked_quest: "38BDF7CF00C0F79B"
+			x: 0.0d
+			y: 4.2d
+		}
+		{
+			id: "502BD626D3B097C8"
+			linked_quest: "04C5C1FA9E81534F"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "66B63B45F744EA31"
+			linked_quest: "5935E382FB8440A1"
+			x: 0.0d
+			y: 2.1d
+		}
+		{
+			id: "7DDF4C35977BC0CD"
+			linked_quest: "6A8AA847FF086063"
+			x: 0.0d
+			y: 5.25d
+		}
+		{
+			id: "5DFC82CA86D9064D"
+			linked_quest: "148F44A0575A0874"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "463FB0DC8B95ADC1"
+			linked_quest: "766BAAFE15F357ED"
+			x: 0.0d
+			y: 3.15d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["5508FD87F3EDFC43"]
+			description: ["这个可能很明显，但它不仅仅是一个多方块结构建造时的可爱图片！使用鼠标来&d旋转&r预览，并&9悬停在使用的方块上&r以查看额外信息。REI页面还包含所需方块的成分列表。你还可以&d右键单击&r预览中的方块，以获得在特定位置工作的所有方块的显示。"]
+			icon: "minecraft:spyglass"
+			id: "0AFBBE59F7000734"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "724C6228D53E1655"
+				type: "checkmark"
+			}]
+			title: "#1: 检查REI预览！"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0AFBBE59F7000734"]
+			description: ["没有\"确定”的方式来形成多方块结构。大多数情况下，你可以完全自由地选择使用的&9总线/舱口的层次&r，并且你还可以选择&d选择你想要的输入/输出位置&r。"]
+			icon: "minecraft:writable_book"
+			id: "11A6CA6132B781C4"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "726FE74016D96ED6"
+				type: "checkmark"
+			}]
+			title: "#2: JEI预览是建议！"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11A6CA6132B781C4"]
+			description: ["以EBF为例，任何能源/总线/舱口的层次都可以使用，并且它们可以放置在任何外壳的位置。流体舱口也是可选的，但如果需要处理液体配方，则可能需要它们。"]
+			icon: "gtceu:electric_blast_furnace"
+			id: "5447DD73E19C7CF4"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3D97E1440DEA05A4"
+				type: "checkmark"
+			}]
+			title: "案例研究：EBF"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["04C5C1FA9E81534F"]
+			description: [
+				"&9- &r检查多方块结构是否正确插入（我们都会犯这些错误！）。"
+				""
+				"&9- &r在适当的舱口进行初始维护修复。"
+				""
+				"&9- &r验证配方使用情况-提供给多方块结构的最大EU/t必须大于配方的EU/t。"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1B7F55E1618CEA05"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "3020BA3F10747EB7"
+				type: "checkmark"
+			}]
+			title: "故障排除：第一部分"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04C5C1FA9E81534F"]
+			description: [
+				"&9- &r检查配方可能具有的特殊要求（JEI始终有某种指示，如果是这种情况）。"
+				""
+				"&9- &r确保正确的物品输入到总线/舱口中。这比在常规机器中更不明显，因为你必须在输入总线和输入舱口之间进行协调。"
+				""
+				"&9- &r确保有输出空间。也许多方块结构已形成，但你忘记了舱口。另一个最大的罪犯是输出舱口的层次太低，因此容量太小！"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:crossbow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0C30A4DAC081ABAE"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "6E54A98AE373005B"
+				type: "checkmark"
+			}]
+			title: "故障排除：第二部分"
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38BDF7CF00C0F79B"]
+			description: ["EBF需要至少&4120EU/t&r的电力输入才能运行其配方。这可以通过&3两个LV能源舱口&r来实现。每个舱口需要2安培的LV，因此最大功率为128EU/t的4安培的LV。"]
+			icon: "gtceu:electric_blast_furnace"
+			id: "1E65349C50954124"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "73BE67DDBC689EBD"
+				type: "checkmark"
+			}]
+			title: "案例研究：为EBF供电"
+			x: 1.0d
+			y: 4.2d
+		}
+		{
+			dependencies: ["5935E382FB8440A1"]
+			description: [
+				"大多数多方块结构需要一个&3维护舱门&r。你需要对多方块结构进行维护才能开始运行。"
+				""
+				"这可以通过在你的库存中拥有&9扳手&r、&9螺丝刀&r、&9软木槌&r、&9锤子&r、&9钳子&r和&9撬棍&r，打开维护舱门并&eclicking the center spot once&r来完成。&c无需逐个移动工具&r。"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2375A0CB4CD34F73"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "584715C00331CAB6"
+				type: "checkmark"
+			}]
+			title: "维护操作"
+			x: 1.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["5935E382FB8440A1"]
+			description: ["或者，你可以通过在维护仓中放置&9胶带&r来规避这些问题，但很多人会抓住机会告诉你胶带是&o\"不道德的\"&r——而且，胶带被限制在HV时代之后。"]
+			icon: "gtceu:duct_tape"
+			id: "6D289134FCA8B04D"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "05F08FA8B61DDB7A"
+				type: "checkmark"
+			}]
+			title: "用胶带固定"
+			x: 2.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["5935E382FB8440A1"]
+			description: [
+				"每&d小时的多方块活动&r有&d5%&r的几率出现维护问题。不用说，它们非常罕见。每个维护问题会增加配方持续时间10%。修复问题的方法与上述相同。"
+				""
+				"在&6HV&r时代，你将解锁其他不需要手动维修的维护舱门。"
+			]
+			icon: "minecraft:clock"
+			id: "5634EA95C972671A"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "5058704EE71F6582"
+				type: "checkmark"
+			}]
+			title: "维护问题"
+			x: 3.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["6A8AA847FF086063"]
+			description: ["当执行配方时，&3消音舱门&r有一定几率提供奖励物品——通常是微小的灰尘。这些物品可以加工成一些有用的资源。"]
+			icon: "gtceu:ash_small_dust"
+			id: "4FB603E048B171EB"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "27641DA3ABBFC6AB"
+				type: "checkmark"
+			}]
+			title: "嗯，嗯..."
+			x: 0.9999999999999991d
+			y: 5.25d
+		}
+		{
+			dependencies: ["6A8AA847FF086063"]
+			description: [
+				"不要尝试自动提取&3消音舱门&r中的物品！它不是为了自动化挑战而设计的，因为当满时会使多余的内容无效，所以不用担心它会停止机器运行。"
+				""
+				"在GTCEu中，消音舱门更多地是关于纯美学（来吧，你不能否认那些粒子看起来很好！）和小奖励，而不是惩罚性的游戏机制。"
+			]
+			icon: "ae2:fluix_glass_cable"
+			id: "2CE466EC5A550898"
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "或者说，不自动化"
+			tasks: [{
+				id: "414CE9680B470B59"
+				title: "Automating the muffler hatch"
+				type: "checkmark"
+			}]
+			x: 1.9999999999999991d
+			y: 5.25d
+		}
+		{
+			dependencies: ["766BAAFE15F357ED"]
+			description: [
+				"对于EBF来说，事情变得稍微复杂了一些。EBF在特定的&d温度&r下熔炼物品。这主要取决于所使用的加热线圈的等级 - &6&r&6铜镍合金&r在&d1800K&r下熔炼，&b康塔尔&r在&e&d2700K&r下熔炼，等等。此外，从&6HV&r开始，每个能量等级都会增加&d100K&r的温度。"
+				"{@pagebreak}"
+				"这对你有什么影响？每个EBF配方都有一定的基础温度。例如，&b铝&r在&d1700K&r下熔炼。如果EBF温度不够高，配方就不会发生。如果EBF温度足够高，将应用2种不同的奖励："
+				""
+				"&9-&r对于每个超过配方温度的&d900K&r，所需能量的数量将乘以&a0.95x&r - 这是可以叠加的。"
+				"&9-&r对于每个超过配方温度的&d1800K&r，一个额外的超频将是&6100%的效率&r；换句话说，它将&5使配方速度增加4倍&r，而不是2倍。"
+			]
+			icon: "gtceu:electric_blast_furnace"
+			id: "227B180E5C6C3BFC"
+			shape: "rsquare"
+			size: 0.7d
+			subtitle: "开始变得复杂"
+			tasks: [{
+				id: "15874C6153CB9EB3"
+				type: "checkmark"
+			}]
+			title: "EBF中的线圈"
+			x: 1.0d
+			y: 3.15d
+		}
+		{
+			dependencies: ["766BAAFE15F357ED"]
+			description: [
+				"与EBF相比，热解炉要简单得多。"
+				""
+				"铜镍合金线圈会对配方持续时间施加+25%的惩罚 - 实际上，如果使用铜镍合金线圈，配方会比所列出的慢。"
+				""
+				"坎塔尔线圈将配方持续时间恢复到正常长度。"
+				""
+				"然而，高于坎塔尔的线圈会对配方持续时间施加一个额外的-50%的奖励！"
+			]
+			icon: "gtceu:pyrolyse_oven"
+			id: "4945BEB5C1EE89D0"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "062A461A64E240F0"
+				title: "热解炉中的线圈"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 3.15d
+		}
+		{
+			dependencies: ["766BAAFE15F357ED"]
+			description: [
+				"裂化机r要简单得多。"
+				""
+				"每个白铜之后的线圈等级将使其能源使用量减少10%。"
+			]
+			icon: "gtceu:cracker"
+			id: "1B986BF312962FD1"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "2D01D75A87500249"
+				type: "checkmark"
+			}]
+			title: "裂化机中的线圈"
+			x: 3.0d
+			y: 3.15d
+		}
+		{
+			dependencies: ["766BAAFE15F357ED"]
+			description: ["多功能熔炉中的线圈可以减少每个操作的能量消耗，同时增加可以并行处理的物品数量。"]
+			icon: "gtceu:multi_smelter"
+			id: "4C6C3144BC0E75C7"
+			shape: "rsquare"
+			size: 0.7d
+			tasks: [{
+				id: "12AD449A217543D2"
+				type: "checkmark"
+			}]
+			title: "多功能熔炉中的线圈"
+			x: 4.0d
+			y: 3.15d
+		}
+	]
+	subtitle: ["了解模块化多方块"]
+	title: "多方块礼仪"
+}

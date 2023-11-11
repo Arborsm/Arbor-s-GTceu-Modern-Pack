@@ -1,0 +1,103 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_processing_array"
+	group: "719BFF182E0820D1"
+	icon: "gtceu:iv_processing_array"
+	id: "1BE6B65467FD55C5"
+	order_index: 6
+	quest_links: [
+		{
+			id: "029075CD5A9C46C8"
+			linked_quest: "2DAC91AF2EBB68E2"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "4974A0B5AD3D6ED5"
+			linked_quest: "4194EC9F1C6632E4"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			id: "0D1D1759DD3181F8"
+			linked_quest: "3B2D2C47BEBCFFA7"
+			size: 1.1d
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["2DAC91AF2EBB68E2"]
+			description: [
+				"&9-&r &4并行处理&r 比超频更优！可用于矿石加工或石油蒸馏等被动设置。"
+				""
+				"&9-&r &6不同的总线&r：一个 &3PA&r 可接受最多 10 个 &3输入总线&r。可用于与 &3Extrude&rr、&3Engrave&rr 等进行模式自动化。"
+			]
+			id: "4C9DA2CEE4432B8D"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "70D6D60322EDDA8C"
+				type: "checkmark"
+			}]
+			title: "为什么要并行处理？"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DAC91AF2EBB68E2"]
+			description: [
+				"能源成本基于当前运行的配方，乘以执行的 &4并行&r 数量。"
+				""
+				"举个 &9例子&r，&316 LV 蒸馏器&r 需要一个 &3HV 能量孔&r 才能有效运行。"
+			]
+			id: "1A9F4087799316AF"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "14C2CA8E400CDB01"
+				type: "checkmark"
+			}]
+			title: "能源使用"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B2D2C47BEBCFFA7"]
+			description: [
+				"简单来说，Gregicality 多方块结构是你可能熟悉的 格雷科技 机器的更大版本。明显增加的资源成本值得你的时间，因为它们可以升级以获得并行处理能力——类似于你很快就会遇到的处理阵列多方块结构。"
+				""
+				"它们还引入了机器模式——根据配置的机器模式，多方块结构在处理材料时将使用不同的配方类型。你可以通过点击机器 GUI 上的机器臂按钮来更改这个。"
+			]
+			icon: "gtceu:large_sifting_funnel"
+			id: "273906227EE88AE9"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "7770945856A2DA8F"
+				type: "checkmark"
+			}]
+			title: "GCYM 提供什么？"
+			x: -3.0d
+			y: -1.125d
+		}
+		{
+			dependencies: ["3B2D2C47BEBCFFA7"]
+			description: ["通过在 Gregicality 多方块结构中包含并行控制孔，你可以赋予它们并行处理能力。有 4 个层次的孔，每个层次进一步增加 4 倍的并行能力。"]
+			icon: "gtceu:iv_parallel_hatch"
+			id: "0CAF819796393DE2"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "1831CD442FF54E1A"
+				type: "checkmark"
+			}]
+			title: "并行控制孔"
+			x: -3.0d
+			y: 1.125d
+		}
+	]
+	title: "在平行宇宙中"
+}

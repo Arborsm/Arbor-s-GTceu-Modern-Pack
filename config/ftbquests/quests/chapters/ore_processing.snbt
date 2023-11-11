@@ -1,0 +1,290 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ore_processing"
+	group: "719BFF182E0820D1"
+	icon: {
+		Count: 1b
+		id: "minecraft:diamond_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "0E06BF868110DE7D"
+	order_index: 5
+	quest_links: [
+		{
+			id: "04819432FE9587C7"
+			linked_quest: "7813F183681E0342"
+			x: 0.375d
+			y: 1.625d
+		}
+		{
+			id: "53D184106CC9B6CF"
+			linked_quest: "724FB950CC472BB4"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["7813F183681E0342"]
+			description: ["格雷科技矿石处理的主要目的是在初始结果之上提供&a副产品&l&r。在蒸汽时代，没有任何副产品可获得，但这很快就会变得不一样。"]
+			icon: "minecraft:iron_ore"
+			id: "21CFDD8EBE0B7E16"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "02A8D13462465EA6"
+				type: "checkmark"
+			}]
+			title: "为什么要处理我的矿石？"
+			x: 1.375d
+			y: 1.125d
+		}
+		{
+			dependencies: ["21CFDD8EBE0B7E16"]
+			description: [
+				"蒸汽时代可用的步骤如下："
+				""
+				"一个矿石（方块）&9->&r两个碎矿石（粉碎机）"
+				""
+				"一个碎矿石&9->&r一个不纯净的粉尘（锤子）"
+				""
+				"一个不纯净的粉尘&9->&r一个粉尘（世界中的制作）"
+				""
+				"一个粉尘&9->&r一个锭（熔炉，你应该知道这个）"
+			]
+			icon: "minecraft:furnace"
+			id: "4A33704406C739B9"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "2C83DD7D9E8354BF"
+				type: "checkmark"
+			}]
+			title: "我应该如何进行处理？"
+			x: 2.375d
+			y: 1.625d
+		}
+		{
+			dependencies: ["4A33704406C739B9"]
+			description: [
+				"带有锤击附魔的镐或采矿锤，或直接使用格雷科技锤子，从矿石块中获得碎矿石，但比率仅为1:1。"
+				""
+				"幸运附魔可以将此比率增加到最多2倍，与破碎机相匹配。"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3ED1A3C91E61A743"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5C1F5747310514DC"
+				item: "gtceu:redstone_crushed_ore"
+				type: "item"
+			}]
+			title: "不要处理，我有锤子"
+			x: 3.375d
+			y: 1.125d
+		}
+		{
+			dependencies: ["04CE88D1196F03CA"]
+			description: ["感谢你听我们唠叨而没有打瞌睡！请收下这个奖励。"]
+			icon: "minecraft:diamond"
+			id: "4F46E1D6E1EC1AF1"
+			rewards: [
+				{
+					count: 32
+					id: "1A1447298C97B891"
+					item: "gtceu:chalcopyrite_ore"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7FEB9C69B037C231"
+					item: "minecraft:iron_ore"
+					type: "item"
+				}
+			]
+			title: "你现在是专家了！"
+			x: 6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"要在大规模上自动化&6矿石处理&r，你将需要："
+				""
+				"&9-&r一个或几个&3IV破碎机&r（或更高级别）。"
+				"&9-&r几个&3处理阵列&r（PA）将你的低级机器放入其中-或&r&2GCYM&r变体。"
+				"&9-&r在PA中的16个LV&3热离心机&r（可升级到64个高级PA）。"
+				"&9-&r一个或几个MV&3电解机&r，可能在PA中。"
+				"&9-&r一个&3多方块熔炉&r。"
+				"&9-&r一个&3打包机&r的任何级别。"
+				"&9-&r充当大型缓冲区的库存，例如&3钨钢板箱&r。"
+				"&9-&r&3ME存储总线&r或大量&3物品管&r+&a过滤器&r覆盖，以及&a物品标签过滤器&r"
+			]
+			icon: "gtceu:iv_macerator"
+			id: "53F18E5FB7DF495A"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "2F1660ADE2D388EF"
+				type: "checkmark"
+			}]
+			title: "需要什么？"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"你可以选择添加以下内容："
+				""
+				"&9-&r 几个LV &3矿石洗涤机&r，用于快速洗涤。"
+				"&9-&r 最多可在PA中添加16个LV &3矿石洗涤机&r，配备一组&3蒸馏器&r，用于制作&d蒸馏水&r。"
+				"&9-&r 最多可在PA中添加16个LV &3离心机&r，用于不纯/纯净的粉尘。"
+				"&9-&r 使用&d汞&r或&d过硫酸钠&r的&3化学浸洗机&r，用于特殊副产品。"
+				"&9-&r 任何等级的&3筛子&r（更高的等级=更好的产出机会），用于宝石矿石。"
+				"&9-&r &3电磁分离器&r。"
+			]
+			icon: "gtceu:lv_ore_washer"
+			id: "53F38229646F8F5F"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4FF2D0ED901A1470"
+				type: "checkmark"
+			}]
+			title: "可选添加"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"超频不节能，因此在被动设置中通常更好选择低级机器。你也可以认为它们更便宜。"
+				""
+				"&3处理阵列&r弥补了大量机器。如果你愿意，仍然可以使用更高级别的机器，但是能耗会更大。"
+				""
+				"如果你已经制造了任何&2Gregicality多方块结构&r，只需使用它们即可。"
+			]
+			icon: "gtceu:lv_machine_hull"
+			id: "6AA18111842A6DEC"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "但我想要更快的速度..."
+			tasks: [{
+				id: "1D1E97D3F3752429"
+				type: "checkmark"
+			}]
+			title: "为什么选择&7LV&r机器？"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"是的。"
+				""
+				"但是，设置你的处理方式以获得更多副产品或获得更好的产量完全取决于你。"
+				""
+				"&3热力离心机&r几乎是必需的，因为它们从研磨步骤中解锁了一个&6独特的副产品&r。"
+			]
+			icon: "gtceu:iv_thermal_centrifuge"
+			id: "4ACCF2E25AA67A9E"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "43352FC6E613CC9D"
+				type: "checkmark"
+			}]
+			title: "我应该选择可选副产品吗？"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"黄铜矿、硫铜矿、铜矿、四面体矿、五金矿和谢尔登矿石都应该转化为它们的&d纯净碎片&r，并发送到&6铂族金属&r链中。"
+				""
+				"纯净碎铅矿和闪锌矿可以保留用于铟，直到你有&6纳米合金&r链。"
+				""
+				"&a镓&r、&a铬&r、&a铌&r、&a稀土&r、&a萤石&r是你想优先考虑的&6副产品&r。"
+				""
+				"如果我们漏掉了任何内容，请在Discord上联系我们，我们一定会更改。"
+			]
+			icon: "gtceu:chalcopyrite_ore"
+			id: "562FC71B18D4ABC8"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "71AA29BFA1530399"
+				type: "checkmark"
+			}]
+			title: "我应该优先考虑哪些矿石？"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"如你所知，使用AE2进行自动化非常强大。"
+				""
+				"&3ME存储总线&r可以轻松路由物品。它们还具有巨大的白名单或黑名单配置。将它们放在&3钨钢箱&r上以缓冲物品，或使用专用AE2子网。"
+				""
+				"为了将&a微小的粉尘&r组合成完整的&a粉尘&r，你需要将&3存储总线&r与&e&ldusts/tiny&r的&d物品标签&r过滤器配对，并将其设置为高优先级。请注意，PBI链需要一些微小的粉尘，因此如果它是你的主要网络，你可以将它们列入黑名单。"
+			]
+			icon: "ae2:storage_bus"
+			id: "4FF46725A4529902"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "74BA1EE90A4913D1"
+				type: "checkmark"
+			}]
+			title: "存储总线？"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["724FB950CC472BB4"]
+			description: [
+				"对于你想加工但不想得到副产品的矿石，因为在机器中需要太长时间，优先过滤它们进行快速清洗。"
+				""
+				"通常的最佳路径是：破碎机 -> 矿石洗涤机 -> 热离心机 -> 破碎机。如果由于各种原因偏离了这个路径，你将不得不手动设置过滤器。"
+			]
+			icon: "minecraft:dirt"
+			id: "0D39EBC7CAF44B44"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "685CDC1B793E59CA"
+				type: "checkmark"
+			}]
+			title: "如果我不想麻烦呢？"
+			x: 6.998724489795926d
+			y: 3.0025510204081627d
+		}
+		{
+			dependencies: ["3ED1A3C91E61A743"]
+			description: ["&o&e后续可在REI中查询"]
+			id: "04CE88D1196F03CA"
+			tasks: [{
+				id: "4E6A3E4DD57E34B5"
+				item: "gtceu:redstone_refined_ore"
+				type: "item"
+			}]
+			title: "使用REI"
+			x: 4.9285714285714235d
+			y: 1.5178571428571423d
+		}
+	]
+	title: "矿石加工"
+}

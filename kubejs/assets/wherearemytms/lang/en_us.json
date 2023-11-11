@@ -1,0 +1,12 @@
+{
+    "item.wherearemytms.blank_hm": "空白TR",
+    "item.wherearemytms.blank_tm": "空白TM",
+    "block.wherearemytms.move_machine": "TM机器",
+    "description.wherearemytms.requires_printing": "使用TM机器写入招式",
+    "description.wherearemytms.breaks_after_use": "使用后会损坏！请谨慎使用",
+    "response.wherearemytms.cannot_learn": "%1$s无法从TM中学习%2$s！",
+    "response.wherearemytms.already_learned": "%1$s已经学会了%2$s。",
+    "response.wherearemytms.success": "%1$s学会了如何使用%2$s！",
+    "response.wherearemytms.bad_move_caution": "注意：并非所有官方的TM/蛋/导师招式都适用于所有宝可梦！",
+    "response.wherearemytms.get_a_bloody_tm_first": "你需要拿着一张空白的TM/TR才能从你的宝可梦上传招式！"
+}

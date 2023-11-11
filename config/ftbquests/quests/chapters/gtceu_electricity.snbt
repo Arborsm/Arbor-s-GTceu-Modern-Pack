@@ -1,0 +1,457 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gtceu_electricity"
+	group: "719BFF182E0820D1"
+	icon: "gtceu:lv_battery_hull"
+	id: "78143C34A257B32B"
+	order_index: 0
+	quest_links: [
+		{
+			id: "1E0BEF514062908F"
+			linked_quest: "6E186F9C57155BFA"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "7A34878030ACD40E"
+			linked_quest: "7B0FF43022F6C2EC"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "2314B5E680199D8B"
+			linked_quest: "6A844F93292A01DC"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "73658F75574096ED"
+			linked_quest: "6C20A9A64C1BE0BF"
+			shape: "rsquare"
+			size: 0.75d
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "3ABFF7620810CE15"
+			linked_quest: "4B8D66A65F102D7E"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "5107BD377C9F044F"
+			linked_quest: "7B472E0AF15726F0"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			id: "3627AD257B23C80B"
+			linked_quest: "583D0CC4FAA4FC98"
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			id: "5FFADDE150FEB028"
+			linked_quest: "03DBF1961AE21C76"
+			x: 1.0d
+			y: -5.75d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["6E186F9C57155BFA"]
+			description: [
+				"通过直接连接，使用&a电线&r或&a电缆&r来传输EU。"
+				""
+				"电线是次优选项，因为它们会&c电击&r你并关闭更多能量&r，因为电力通过电线传输，所以你需要使用绝缘电缆。请记住，你不能将电缆组合成更厚的变体，因此请确保你绝缘正确的厚度，以避免任何麻烦。"
+				""
+				"&c电缆损失&r意味着你必须将你的机器靠近你的发电机，但这只是在早期游戏中才会成为问题。如果你翻阅任务书，你最终将能够获得&6超导体&r，从而避免这个问题！"
+			]
+			icon: "gtceu:aluminium_single_cable"
+			id: "3A37D379DDBD548D"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "6A64F735F925A515"
+				type: "checkmark"
+			}]
+			title: "EU传输"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B0FF43022F6C2EC"]
+			description: [
+				"你可能已经意识到，在&2格雷科技&r中的能源系统与你在模组Minecraft中使用的&1RF&r相比，&c远非简单&r。"
+				""
+				"格雷科技的能量单位是EU。"
+				""
+				"&1EU&r机制具有一定的特色，与现实世界的电力也有相似之处。如果处理不当，它们也可能是&4危险和惩罚性的&r。然而，当能量系统被很好地利用时，它给格雷科技玩家带来了很多&6满足感&r。"
+				"{@pagebreak}"
+				"&b传说：&r 1.12.2 GTCE中的电流漏洞、利用或特性（无论你如何称呼它！）已经在GTCEu中被&l修复&r。能源网络现在按照预期工作。"
+			]
+			icon: "gtceu:lv_transformer_2a"
+			id: "6232BD50F5411201"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4DBE489DA7F13C93"
+				title: "Amperage"
+				type: "checkmark"
+			}]
+			title: "EU是什么？"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B0FF43022F6C2EC"]
+			description: [
+				"格雷科技中的每个单方块发电机都配置为产生其电压等级的&91 A&r。对于&7LV&r，这意味着&232EU/t&r。"
+				""
+				"如果机器需要16EU/t，则每隔一个刻度就会发送一个32EU的\"数据包”&6（假设没有电缆损失）-不多也不少。"
+				""
+				"一个带有&94&r电池的电池缓冲器可以以&2128EU/t&r的&7LV&r电源产生高达&94 A&r，这对于&3电动高炉&r非常重要-或者同时运行多台机器。"
+				""
+				"通用机器被配置为最多吸收&92 A&r以考虑电缆损失。其他机器具有特定的&9A输入&r，其在其工具提示中描述。"
+			]
+			id: "10122F79C49896DA"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "3259A966A14903AE"
+				type: "checkmark"
+			}]
+			title: "机器电流"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B0FF43022F6C2EC"]
+			description: [
+				"最重要的事情是要知道&a导线&r具有&9电流强度&c限制&r。尝试传输超过此限制的电流将&4烧毁你的导线&r。"
+				""
+				"&9电流&r仅通过直接连接发电机和用电器的&a导线&r传输，并且仅在用电器处于活动状态时才会吸收。"
+				""
+				"这意味着你可以在某些地方安全地降级导线-请随意尝试！"
+			]
+			icon: "minecraft:campfire"
+			id: "1D4CB1889C44E8AB"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "EBF燃烧时的扭动"
+			tasks: [{
+				id: "485F963DA6CD1B10"
+				type: "checkmark"
+			}]
+			title: "电缆燃烧"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6A844F93292A01DC"]
+			description: [
+				"让我们来看看一些基本物理学："
+				""
+				"° &9功率&r = &2电压&r * &d电流&r"
+				"° &1能量&r = &9功耗&r * &6时间&r"
+				""
+				"&8电阻&r是格雷科技中排除的概念，而是部分模拟为电缆损失。"
+				""
+				"单位定义如下："
+				""
+				"- &1EU&r是&1能量&r的单位。"
+				"- &9EU/t&r是&9功率&r。"
+				"- &dA&r或&dAmp&r是&d电流&r。"
+				"- &2V&r &o则 &r是&2电压&r，但我们更喜欢将其称为&7LV&r、&bMV&r、&6HV&r等，因为这些是游戏玩法的相关值（技术上：&7LV&r = 32V = 32EU/t/A）。"
+			]
+			icon: "minecraft:apple"
+			id: "51E9035AA830A859"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "哎呀，我的头！"
+			tasks: [{
+				id: "3FC502CEBAE1B0DA"
+				type: "checkmark"
+			}]
+			title: "基本物理学"
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A844F93292A01DC"]
+			description: [
+				"这里是可能&4破坏性&r的部分，请仔细阅读："
+				""
+				"&9-&r如果&a电缆&r和&a线&r接收到比其额定电压更高的&2电压&r，则会&c烧毁&r，除非它们接收到太多的&d电流&r。"
+				""
+				"&9-&r如果&3机器&r接收到比其等级更高的&2电压&r，则会&c爆炸&r。砰！额外的&d电流&r不会产生不良影响，因为它们只消耗所需的电流"
+			]
+			icon: "ae2:tiny_tnt"
+			id: "144F1F475735CFE3"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "nomifactory.gif"
+			tasks: [{
+				id: "24AA0FBE677C12E9"
+				type: "checkmark"
+			}]
+			title: "爆炸！"
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6A844F93292A01DC"]
+			description: [
+				"每个 &6时刻&r，&1EU&r &a包&r 试图从能源发电机传输到用电器。这些 &a包&r 有两个参数：由发电机的等级确定的 &2电压&r 级别和 &d电流&r。这决定了实际可以传输多少 &9能量&r。"
+				""
+				"电流不足，这意味着只有当完整的电流&a包&r能够接收时才会传输能量。你可能会注意到这一点，当你的机器处于不足输入电压或不足1A时，它们只会接受EU不会工作。"
+			]
+			icon: "minecraft:sticky_piston"
+			id: "21165FF6B466E115"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "38F603FF520379B8"
+				type: "checkmark"
+			}]
+			title: "时刻行为"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"6A844F93292A01DC"
+				"21165FF6B466E115"
+				"51E9035AA830A859"
+				"144F1F475735CFE3"
+			]
+			description: [
+				"总之，能量以 &a包&r 的形式传输，&7LV&r 为 &132EU&r，&bMV&r 为 &1128EU&r...以此类推。由于电缆损失，实际接收到的能量可能会比发送的能量低。"
+				""
+				"机器能量输入受 &2电压&r（过高会导致 &6爆炸&r！）和 &d电流&r 的限制。因此，连接到 &7LV&r 线路的 &bMV&r 机器的 &d2A&r 输入将永远不会接受超过 &964EU/t&r 的能量。"
+				""
+				"仍然可以在 &7LV&r 线路上运行 &bMV&r 机器，但只有当配方的 &9功率&r 足够低，或者在充电槽中放置了 &3MV 电池&r 时才能这样做。机器在空闲时只会接受 &d1A&r，因此 &3电池&r 的最大充电速率为 &932EU/t&r。"
+			]
+			icon: "minecraft:book"
+			id: "626DCB7567936888"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "2312782365B0DB34"
+				type: "checkmark"
+			}]
+			title: "总结..."
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7B0FF43022F6C2EC"]
+			description: [
+				"&6超导体&r 是每个电压等级都有的特殊电线。它们没有任何电缆对应物，但这并不必要，因为它们完全没有电缆损失！当你触摸它们时，它们也不会伤害你。"
+				""
+				"如果不考虑价格，它们是任何电压等级的布线的最佳选择。"
+			]
+			icon: "gtceu:mercury_barium_calcium_cuprate_single_wire"
+			id: "15FE6124D69B7FB5"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4EB334D0DA04D848"
+				title: "Superconductors"
+				type: "checkmark"
+			}]
+			title: "超导"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E186F9C57155BFA"]
+			description: [
+				"更改和限制电流/电压可能看起来令人生畏，但有许多工具可帮助防止错误。"
+				""
+				"&6此任务解锁了 &l技巧和窍门&r&6 选项卡中的新教程-请查看以了解更多信息！&r"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:iron_wrench"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "25BFD5598A82C056"
+			shape: "rsquare"
+			tasks: [{
+				id: "54F553DB043ECD55"
+				title: "Manipulating Power"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B472E0AF15726F0"]
+			description: [
+				"每个超过配方等级的等级允许一次超频。每次超频意味着："
+				""
+				"&9-&r 2倍配方速度"
+				"&9-&r 4倍能量消耗"
+				"&9->&r 2倍总能量成本"
+				""
+				"正如你所看到的，有优点和缺点。这是一个平衡的游戏：问问自己，你是否想以更大的能量消耗为代价获得更快的配方。"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "3C28D51ABB1635D0"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "6A8626DC27760924"
+				type: "checkmark"
+			}]
+			title: "超频的数学"
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7B472E0AF15726F0"]
+			description: [
+				"专业提示-对于自动化设置，尽可能少地超频！"
+				""
+				"机器有一个侧面菜单，可设置它将超频到的最高电压等级。单击它以循环浏览所有可用电压并选择一个限制。"
+			]
+			icon: "minecraft:obsidian"
+			id: "3BD55CCFE642A6F3"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5BEA9540C9836982"
+				title: "Limiting your overclocks"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E186F9C57155BFA"]
+			description: ["&2GTCEu&r电缆现在具有&6本地RF支持&r！你可以将任何RF设备插入EU源中，它将自动转换。比例为&a4：1&r（RF：EU）。请注意，你可以在此包中生成RF-但如果你想制作自己的RF，这是一个想法！"]
+			icon: "gtceu:lv_battery_hull"
+			id: "3E63B7035BCDFF21"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "6A8812C3708B157B"
+				type: "checkmark"
+			}]
+			title: "RF转EU"
+			x: 0.375d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6E186F9C57155BFA"]
+			description: ["启用了GT6风格电缆。这意味着放置电缆只会将它们连接到它们放置的方块。要打开更多连接，请在网格上使用&5剪线钳&r。"]
+			icon: {
+				Count: 1b
+				id: "gtceu:wrought_iron_wire_cutter"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "76D1CB36DBC50309"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5433EAA76631DF14"
+				type: "checkmark"
+			}]
+			title: "为什么我的电缆无法连接？"
+			x: 1.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: [
+				"你可能已经熟悉EU作为电动机的能量单位-但蒸汽呢？"
+				""
+				"蒸汽机将使用与你选择的配方查看器中列出的EU与蒸汽比例相等的比例的蒸汽运行。"
+			]
+			icon: "gtceu:lv_steam_turbine"
+			id: "20CA74FD0C99335D"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "使用蒸汽来驱动你的机器"
+			tasks: [{
+				id: "4742BDA66BF64EBB"
+				type: "checkmark"
+			}]
+			title: "蒸汽动力"
+			x: 0.0d
+			y: -5.75d
+		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: [
+				"常规蒸汽机器的完成配方速度是REI中列出速度的两倍。要使你的机器加速，你可能需要追求高压蒸汽机械。"
+				""
+				"高压蒸汽机器的速度与REI指示的相同，但蒸汽消耗有所调整。一旦获得钢材，你将解锁它们。"
+			]
+			icon: "gtceu:hp_steam_solid_boiler"
+			id: "068049DA233C9ED0"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "为什么我的机器不快？"
+			tasks: [{
+				id: "3A3056D2ACBB9762"
+				type: "checkmark"
+			}]
+			title: "压力差异"
+			x: 1.0d
+			y: -6.75d
+		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: [
+				"每个配方后，蒸汽机将从具有正方形的一侧排出较冷的蒸汽（带有时髦的粒子）。这是排气口。"
+				""
+				"重要提示：保持排气口不被阻塞-这既不是输入也不是输出插槽！如果机器无法排出蒸汽，它将停止工作。"
+				""
+				"提醒：使用扳手更改排气口面向的侧面（右键单击）。"
+			]
+			icon: "gtceu:assembly_line_grating"
+			id: "402072841230707C"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "我看到了蒸汽排气"
+			tasks: [{
+				id: "34FF221CCFF8E84C"
+				type: "checkmark"
+			}]
+			title: "蒸汽排气"
+			x: 1.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: ["嘘！如果你不在极限世界中，请站在输送蒸汽的管道上，或者站在机器运行配方时的排气口前。"]
+			icon: "minecraft:skeleton_skull"
+			id: "27D4118D7EAF29B1"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "再见，残酷的世界"
+			tasks: [{
+				id: "601BB1F557E26611"
+				type: "checkmark"
+			}]
+			title: "蒸汽致命"
+			x: 2.0d
+			y: -5.75d
+		}
+	]
+	subtitle: ["理解GT的电力系统"]
+	title: "蒸汽和电力"
+}

@@ -1,0 +1,588 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "zpm__zero_point_module"
+	group: "693226878D58638A"
+	icon: "gtceu:zpm_electric_motor"
+	id: "0945247E83444D90"
+	order_index: 7
+	quest_links: [
+		{
+			id: "6BE70146903B5CBD"
+			linked_quest: "52D00CD3E8D1E293"
+			shape: "rsquare"
+			size: 0.66d
+			x: -1.32d
+			y: 2.31d
+		}
+		{
+			id: "21A3EAE297C446EC"
+			linked_quest: "24F0454B9A090C44"
+			size: 0.66d
+			x: -6.6d
+			y: 2.31d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["24F0454B9A090C44"]
+			description: [
+				"&a零点模块&r（物品）是一种非可充电电池，储存了大量能量。你可能已经找到了其中之一，但在达到&cZPM&r层级之前无法放电。"
+				""
+				"这些只能从&6丛林神庙&r的战利品中获得。它们非常罕见 - 不用担心找不到。"
+				""
+				"这个任务是&6可选的&r，只是为了好玩。如果你只想获得完成点数，可以勾选复选框！"
+				"{@pagebreak}"
+				"&b传说:&r 零点模块，即ZPM层级的全名，也来自星际之门。它的名字来源于一种产生疯狂能量的装置。"
+			]
+			icon: "gtceu:zero_point_module"
+			id: "75905E3672399A63"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "无限能量！"
+			tasks: [
+				{
+					id: "10AC8DC9332D084C"
+					item: "gtceu:zero_point_module"
+					type: "item"
+				}
+				{
+					id: "7AD0E74B9CD9AFAE"
+					type: "checkmark"
+				}
+			]
+			title: "零点模块"
+			x: -6.6d
+			y: -0.33d
+		}
+		{
+			dependencies: ["4C7C0F6A6598BC24"]
+			description: [
+				"&aZPM超导体&r是你和&9聚变反应堆Mk2&r之间的主要门槛，它使用大量结构块。"
+				""
+				"你还可以用它们来制作更便宜的&9超导线圈&r。"
+			]
+			id: "2587BFD0D9F3FF4A"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "厌倦了所有这些漆黑的锭吗？"
+			tasks: [{
+				id: "5688605649CC30C3"
+				item: "gtceu:uranium_rhodium_dinaquadide_single_wire"
+				type: "item"
+			}]
+			title: "ZPM超导体"
+			x: -5.28d
+			y: 0.99d
+		}
+		{
+			dependencies: [
+				"7A74F692F14F0FF8"
+				"24F0454B9A090C44"
+			]
+			description: [
+				"&cZPM&r组件比&dLuV&r稍微难一些。"
+				""
+				"它们使用大量&9铱锇合金&r，所以确保你的铂处理过程能够胜任。"
+			]
+			icon: "gtceu:zpm_electric_motor"
+			id: "5BBFE222190891DE"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "准备好你的铂线了！"
+			tasks: [
+				{
+					id: "17E45B64101F2249"
+					item: "gtceu:zpm_electric_motor"
+					type: "item"
+				}
+				{
+					id: "4EDD7EE060B4895B"
+					item: "gtceu:zpm_electric_piston"
+					type: "item"
+				}
+				{
+					id: "61AAFDF548821774"
+					item: "gtceu:zpm_electric_pump"
+					type: "item"
+				}
+				{
+					id: "4EEAD829002AD3FE"
+					item: "gtceu:zpm_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "2AFFFD27485AD039"
+					item: "gtceu:zpm_robot_arm"
+					type: "item"
+				}
+				{
+					id: "68A105502E49FEDC"
+					item: "gtceu:zpm_sensor"
+					type: "item"
+				}
+				{
+					id: "555A9F017694B184"
+					item: "gtceu:zpm_emitter"
+					type: "item"
+				}
+			]
+			title: "绝对的欢愉"
+			x: -6.6d
+			y: 0.99d
+		}
+		{
+			dependencies: ["378F0AFCF95354B2"]
+			description: [
+				"&a富集硅岩&r是钠铬的同位素，Nq-528。它具有放射性，并将用于核反应堆。"
+				""
+				"目前，你只需要它来制作&9三合一线圈&r。"
+			]
+			icon: "gtceu:enriched_naquadah_ingot"
+			id: "74B037D7031F4A78"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "钠铬，但放射性！"
+			tasks: [
+				{
+					id: "4598D1D78A71E514"
+					item: "gtceu:enriched_naquadah_sulfate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "08B5C0B89DB3E272"
+					item: "gtceu:enriched_naquadah_ingot"
+					type: "item"
+				}
+			]
+			title: "富集硅岩"
+			x: -5.28d
+			y: -1.65d
+		}
+		{
+			dependencies: [
+				"74B037D7031F4A78"
+				"0DC999F79A685194"
+				"2FCBA0D780DBDA9E"
+			]
+			description: [
+				"&a三合一线圈&r将热容量提高到&d9,001K&r。"
+				""
+				"这些线圈是进展到&cZPM&r的后半部分及以后所必需的。"
+			]
+			id: "4C7C0F6A6598BC24"
+			subtitle: "超过9000！！！"
+			tasks: [{
+				count: 16L
+				id: "11CD2F83031C6706"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			title: "三合一线圈"
+			x: -5.28d
+			y: -0.33d
+		}
+		{
+			dependencies: ["7AE681E2AB31EA0D"]
+			description: [
+				"进入&3聚变Mk2&r需要&aUV主机&r。"
+				""
+				"它也是在装配线中制造的。"
+				""
+				"除了你已经知道如何制造的东西，还要注意&6HSS-E框架&r。"
+			]
+			id: "79E4E53E9DF45549"
+			tasks: [{
+				id: "226973A23C89BDD2"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			title: "第一个UV电路！"
+			x: -3.96d
+			y: 3.63d
+		}
+		{
+			dependencies: ["370FC1CDF5F9A9CC"]
+			description: [
+				"&a水晶SoC&r用于制造更便宜的&9水晶电路&r。享受折扣吧！"
+				""
+				"水晶SoC需要&9ZPM发射器&r，这意味着你需要&a数据球&r进行研究。"
+				""
+				"在未来，这些可能会变得更难制造。"
+				"{@pagebreak}"
+				"&b传说&r：在GT5u中，这个物品的纹理是红色的，并没有特殊的设计。有一个带有设计的\"原始\"版本，但它用于其他无关的事情。谁知道为什么呢？"
+			]
+			id: "29B7D93D7F32DBA9"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "当一次雕刻不够时"
+			tasks: [{
+				id: "488A759013AF2680"
+				item: "gtceu:crystal_soc"
+				type: "item"
+			}]
+			title: "水晶SoC"
+			x: -3.96d
+			y: 0.99d
+		}
+		{
+			dependencies: [
+				"378F0AFCF95354B2"
+				"4C7C0F6A6598BC24"
+			]
+			description: ["&a超能硅岩&r是硅岩的同位素，Nq-522。它非常不稳定，但仍将用于&3UV&r组件、&9聚变Mk2&r以及融合中子锭。"]
+			icon: "gtceu:naquadria_ingot"
+			id: "6D1F10543A391940"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "纳卡达，但更放射性！"
+			tasks: [
+				{
+					id: "4A49FE8B35B48D97"
+					item: "gtceu:naquadria_sulfate_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "13A95E109FF72A87"
+					item: "gtceu:naquadria_ingot"
+					type: "item"
+				}
+			]
+			title: "超能硅岩"
+			x: -2.64d
+			y: -0.33d
+		}
+		{
+			dependencies: ["690E013DFCB060ED"]
+			description: [
+				"&a灭菌生长基质&r的生产是GTCEu中的最终加工线，目前为止。"
+				""
+				"你需要它来制作你的第一个&4湿式电路&r。"
+				""
+				"虽然制造它不像PBI那么麻烦，但几乎每一步都需要一个灭菌洁净室&r。这意味着你需要创造性地利用你的空间。"
+				""
+				"确保仔细审查每一步。有些配方比其他配方更有效率！"
+				""
+				"&e专业提示&r：如果你想要更多的空间，你可以在门之间共享洁净室。"
+				"{@pagebreak}"
+				"&b背景故事&r：GTCEu的灭菌生长基质链松散地基于GTNH的Bartworks。主要区别在于GTNH需要一个细菌培养池多方块结构，这比有序的装配线更复杂。GTCEu正在考虑在未来添加一个类似的多方块结构，但加入他们自己的元素。"
+				"{@pagebreak}"
+				"&b更多背景故事&r：在Gregicality Legacy中，灭菌生长基质的生产链非常不同。这是模组中最困难的过程之一，有超过30个复杂的步骤！它基于生产不同的现实生活维生素和营养素。"
+				"{@pagebreak}"
+				"&b更多背景故事&r：在Greg之影中，这只需要蒸馏水和绞肉就可以制作。我们已经走了多远……"
+			]
+			id: "6AFDA523304711DB"
+			size: 0.66d
+			subtitle: "最终的加工线，终于来了！"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:sterilized_growth_medium"
+				id: "090D7595FCB21B63"
+				type: "fluid"
+			}]
+			title: "灭菌生长基质"
+			x: 0.0d
+			y: 0.99d
+		}
+		{
+			dependencies: [
+				"64EA73FAB2A51850"
+				"0D7C978F9CDF771B"
+			]
+			description: [
+				"&aZPM 能量模块&r比&dLuV&r更好！当然，它的价格也更高……"
+				"{@pagebreak}"
+				"&b背景故事&r：想象一下为了制作一个这样的电池需要制作64个IV或8个LuV电池！有关LuV电池的详细信息，请参见LuV电池的背景故事。"
+			]
+			id: "690A51204DF5D469"
+			size: 0.66d
+			subtitle: "一个能量奇点！"
+			tasks: [{
+				id: "41813C4D68B991D7"
+				item: "gtceu:energy_module"
+				type: "item"
+			}]
+			title: "超级电池"
+			x: -1.32d
+			y: 0.99d
+		}
+		{
+			dependencies: [
+				"52D00CD3E8D1E293"
+				"7A74F692F14F0FF8"
+				"24F0454B9A090C44"
+			]
+			description: [
+				"这个任务将通过&3ZPM能量孵化器&r或&3ZPM发电机孵化器&r完成你的多方块发电机。"
+				""
+				"不要忘记&d16安培&r变体的存在！"
+				""
+				"不要忘记这些孵化器需要一个&9数据宝珠&r进行研究。"
+			]
+			icon: "gtceu:zpm_energy_input_hatch"
+			id: "64EA73FAB2A51850"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [
+				{
+					id: "0B57097F8879481C"
+					item: "gtceu:zpm_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2C60B79F78094E6A"
+					item: "gtceu:zpm_energy_output_hatch"
+					type: "item"
+				}
+			]
+			title: "升级你的装配线II"
+			x: -2.64d
+			y: 2.31d
+		}
+		{
+			dependencies: [
+				"35F13B6D60361904"
+				"3568BC9742092FC5"
+			]
+			description: [
+				"制作下一级电路需要灭菌超净间&r。几乎每一步都必须在里面完成。祝你好运，把所有东西塞进这么小的空间里！"
+				""
+				"如果你只有一个&3超净间&r，你需要另一个用于灭菌&r配方。"
+				""
+				"&e注意&r：普通超净间配方无法在灭菌超净间中运行，所以你不能只是\"升级”你的旧超净间。"
+			]
+			id: "690E013DFCB060ED"
+			size: 0.66d
+			subtitle: "附带消毒剂！"
+			tasks: [{
+				count: 8L
+				id: "6A4C78385FF8019A"
+				item: "gtceu:sterilizing_filter_casing"
+				type: "item"
+			}]
+			title: "灭菌超净间"
+			x: 0.0d
+			y: 2.31d
+		}
+		{
+			dependencies: ["6AFDA523304711DB"]
+			description: ["&a干细胞&r是&4生物电路&r的主要组成部分。只是不要问为什么这些使用锇铱合金。"]
+			id: "33A1FF5C31EAF716"
+			size: 0.66d
+			subtitle: "这个纹理曾经非常丑陋......"
+			tasks: [{
+				id: "1E31342D5310ED6D"
+				item: "gtceu:stem_cells"
+				type: "item"
+			}]
+			title: "干细胞"
+			x: 0.0d
+			y: -0.33d
+		}
+		{
+			dependencies: ["33A1FF5C31EAF716"]
+			description: [
+				"最终的电路板——它终于来了！正如你所看到的，这个电路板比其他的要&c昂贵&r得多，但你应该没问题。你现在是专业人士了！"
+				"{@pagebreak}"
+				"&b背景故事&r：在GTNH中，这些电路板需要LuV传感器，而不是IV。这意味着需要其他（晶体）LuV电路来制作湿式LuV电路！"
+				""
+				"此外，由于湿式电路板非常昂贵，除非需要UHV湿式电路，否则使用晶体更为优选。幸运的是，CEu没有这个问题，LuV湿式电路值得制作。"
+			]
+			id: "678CABA03E17516A"
+			size: 0.66d
+			subtitle: "生命本身的电路板"
+			tasks: [{
+				id: "0097D7805D82EDEC"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			title: "湿式印刷电路板"
+			x: 0.0d
+			y: -1.65d
+		}
+		{
+			dependencies: ["678CABA03E17516A"]
+			description: ["&a神经处理单元&r是&4湿式印刷电路板&r的CPU。它还需要一个电路板来制作，但不要被吓到。"]
+			id: "3BD68E5909A97532"
+			size: 0.66d
+			subtitle: "计算的神经元"
+			tasks: [{
+				id: "06AE61C5F174F4E7"
+				item: "gtceu:neuro_processing_unit"
+				type: "item"
+			}]
+			title: "它活了！"
+			x: 1.32d
+			y: -1.65d
+		}
+		{
+			dependencies: ["082AB255886E73C2"]
+			description: [
+				"&4湿式印刷电路板&r系列的第二个电路。"
+				""
+				"这也是最好的&cZPM&r电路！"
+			]
+			id: "370FC1CDF5F9A9CC"
+			tasks: [{
+				id: "31DF7507733F3EE0"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			title: "最好的ZPM电路！"
+			x: 1.32d
+			y: 1.65d
+		}
+		{
+			dependencies: ["3BD68E5909A97532"]
+			description: [
+				"&4湿式印刷电路板&r系列的第一个电路。"
+				""
+				"&6恭喜&r！"
+			]
+			id: "082AB255886E73C2"
+			tasks: [{
+				id: "0B12A1F63822CF8A"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			title: "最好的LuV电路！"
+			x: 1.32d
+			y: -0.33d
+		}
+		{
+			dependencies: ["24366846FDA52CE3"]
+			description: [
+				"还记得&3GTCE&r中的&a钅达&r工具吗？好吧……猜猜谁又回来了？"
+				""
+				"&a钅达&r是&3UV&r船体的主要材料。它再次通过聚变制造。"
+				"{@pagebreak}"
+				"&b趣闻&r：在标准条件下，砷不以液态存在，而是直接升华成气体！\"现实主义”一边去。"
+			]
+			id: "6988AE94BE7B461F"
+			size: 0.66d
+			subtitle: "我想要我的粒子加速器回来……"
+			tasks: [{
+				id: "798EFE8E18E79C0C"
+				item: "gtceu:darmstadtium_ingot"
+				type: "item"
+			}]
+			title: "钅达"
+			x: -2.64d
+			y: 4.62d
+		}
+		{
+			dependencies: ["546CC03435E763CF"]
+			description: [
+				"&a铿铀&r是星际迷航中的一种材料，在GT中用于一些很棒的管道，但除此之外你不需要太多。"
+				"{@pagebreak}"
+				"&b背景故事&r：在某些GT5u版本中，这种材料完全是白色的。事实上，大多数聚变材料和后来的材料都是这样的。无聊！"
+			]
+			id: "2CB8FCE09920042C"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "谁需要星际之门呢？"
+			tasks: [{
+				id: "0933A476B9F87E66"
+				item: "gtceu:duranium_ingot"
+				type: "item"
+			}]
+			title: "铿铀"
+			x: 0.0d
+			y: 4.62d
+		}
+		{
+			dependencies: ["24366846FDA52CE3"]
+			description: [
+				"&a镅&r是聚变Mk2材料，在CEu进程中大量使用！"
+				""
+				"它需要2个聚变步骤才能获得——镧和硅将制成&b镥&r，将这个&b镥&r与铬结合，就可以得到&a镅&r。"
+				"{@pagebreak}"
+				"&b背景故事&r：在Gregicality Legacy中，镅被替换为镝。锕是只能从核反应堆中获得的材料，因此GCYL将其替换为合成元素镅。"
+			]
+			id: "762C48F0C2EA6B81"
+			size: 0.66d
+			subtitle: "如果我们能在核反应堆中制造它就好了……"
+			tasks: [{
+				id: "5D597AE565A54388"
+				item: "gtceu:americium_ingot"
+				type: "item"
+			}]
+			title: "镅"
+			x: -1.3101020408163322d
+			y: 3.627857142857149d
+		}
+		{
+			dependencies: ["370FC1CDF5F9A9CC"]
+			description: [
+				"&4湿件&r系列的第三个电路。你需要&b铕&r来制作这些电路。"
+				""
+				"这也是最好的&3UV&r电路！"
+			]
+			id: "359121584E056022"
+			tasks: [{
+				id: "5F54BE8467A5C882"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			title: "最佳UV电路！"
+			x: 1.32d
+			y: 3.63d
+		}
+		{
+			dependencies: [
+				"6D1F10543A391940"
+				"64EA73FAB2A51850"
+				"79E4E53E9DF45549"
+			]
+			description: [
+				"使用&aREI&r中的聚变玻璃构建所显示的结构。"
+				""
+				"为了节省聚变外壳，尽可能在可以的地方安装输入+输出舱口（如结构中所示）。"
+				""
+				"&a聚变反应堆Mk2&r甚至比Mk1更昂贵！关键区别在于它具有更高的&6启动能量&r，使你能够运行新的配方。"
+				""
+				"它还可以超频低电压配方，例如Mk1反应堆中的配方。请参阅Mk1任务以了解这些机制的工作原理。"
+			]
+			id: "24366846FDA52CE3"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "聚变变得更昂贵了..."
+			tasks: [{
+				id: "0D45B9FFF6BA13FE"
+				item: "gtceu:zpm_fusion_reactor"
+				type: "item"
+			}]
+			title: "聚变反应堆II"
+			x: -2.63663265306122d
+			y: 3.5870408163265317d
+		}
+		{
+			dependencies: [
+				"2CB8FCE09920042C"
+				"24366846FDA52CE3"
+			]
+			description: [
+				"&a三钛&r是星际迷航中的材料，在GT中用于其他一些事情。与&9铿铀&r一样，它需要两个聚变步骤！"
+				""
+				"你需要它来获得下一层电路，并用于&3UV&r组件。"
+				"{@pagebreak}"
+				"&b传说&r：在某些GT5u版本中，只有三钛流体是红色的。材料本身是白色的。在GTCEu中，我们决定将整个材料都变成红色。看起来更好看！"
+			]
+			id: "35F13B6D60361904"
+			size: 0.66d
+			subtitle: "星际迷航再次来袭！"
+			tasks: [{
+				id: "6C5B3B1C0B85C003"
+				item: "gtceu:tritanium_ingot"
+				type: "item"
+			}]
+			title: "三钛"
+			x: 0.0d
+			y: 3.63d
+		}
+	]
+	subtitle: ["掌握宇宙并掌握细菌学"]
+	title: "&cZPM&r - 零点模块"
+}

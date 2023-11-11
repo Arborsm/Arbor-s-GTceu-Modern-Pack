@@ -1,0 +1,8 @@
+{
+  "added":[
+	{
+	  "stack": "item:create:chromatic_compound",
+	  "after": "item:create:builders_tea"
+	}
+  ]
+}

@@ -1,0 +1,1702 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ev__extreme_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:ev_electric_motor"
+	id: "7FB9F636D95820A3"
+	order_index: 4
+	quest_links: [
+		{
+			id: "2E99A771FCA40E15"
+			linked_quest: "7FA0ACB7F161F378"
+			shape: "gear"
+			size: 1.5d
+			x: 4.125d
+			y: 5.25d
+		}
+		{
+			id: "01E88C8523658529"
+			linked_quest: "40408FFD02134148"
+			size: 0.75d
+			x: 4.125d
+			y: 6.75d
+		}
+		{
+			id: "567AFEA6A07F1886"
+			linked_quest: "390E59F05132FCB8"
+			x: 0.0d
+			y: 7.875d
+		}
+		{
+			id: "33EE8F2888E09B86"
+			linked_quest: "528CE69DA4358B2E"
+			x: 4.125d
+			y: 11.25d
+		}
+		{
+			id: "156278F7405DCE44"
+			linked_quest: "017019EB38F7A18C"
+			size: 0.75d
+			x: 5.25d
+			y: 10.125d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["16B735F9C391D260"]
+			description: [
+				"然而说实话，蒸汽作为一种能源选项在这个时候真的不值得了。"
+				""
+				"&3大型蒸汽涡轮机&r是一种用于&6HV&r电力的多方块蒸汽涡轮机。它是一个相当昂贵的多方块结构，仅能产生微不足道的1024 EU/t，但它还拥有强大的能力，可以扩展到&9更高的功率生产和更高的效率&r。"
+				""
+				"如果给定一个&3输出口&r，涡轮机将输出&d蒸馏水&r。你可以将其循环回你的&3大型锅炉&r。我们并不完全支持这样做，因为如果系统失败，你的锅炉会爆炸..."
+				""
+				"每个大型涡轮机都需要一个&a涡轮转子&r和一个&3转子支架&r。更多关于涡轮机的机制将在&l下一个&r任务中介绍。"
+				"{@pagebreak}"
+				"&9注意:&r这个任务&e只需要控制器&r，但你仍然需要所有的多方块部件来构建涡轮机。"
+				""
+				"如果无法输出，涡轮机将&c消耗能量&r。如果你计划使用这个与HV电力，使用一个接近100%功率状态的转子。"
+			]
+			icon: "gtceu:steam_large_turbine"
+			id: "189F84D6C76CDC8B"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "如果你仍在使用蒸汽...那么，我们有一个解决方案！"
+			tasks: [{
+				id: "793B9FC5F9ACCCC7"
+				item: "gtceu:steam_large_turbine"
+				type: "item"
+			}]
+			title: "大型蒸汽涡轮机"
+			x: 0.75d
+			y: 1.875d
+		}
+		{
+			dependencies: [
+				"0F539EC8D2361791"
+				"189F84D6C76CDC8B"
+				"4E9DED9569AA17F5"
+			]
+			description: [
+				"大型涡轮机是目前在GTCEu中最复杂的多方块发电机。"
+				""
+				"让我们深入涡轮机！"
+				""
+				"&6这个任务将解锁一个新的教程在&l技巧和诀窍&r&6选项卡中 - 去看看学习更多！&r"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:turbine_rotor"
+				tag: {
+					GT.PartStats: {
+						Material: "neutronium"
+					}
+				}
+			}
+			id: "188A8C3DD38C2762"
+			min_required_dependencies: 1
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "我的机制很复杂"
+			tasks: [{
+				id: "2CE74616CF080BF9"
+				type: "checkmark"
+			}]
+			title: "大型涡轮机机制"
+			x: 0.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["35E7E45987D9B1F6"]
+			description: [
+				"从这里开始，&3能源&r和&3发电机口&r可以升级到&d4A&r版本。"
+				""
+				"这对于多方块发电机非常有用。"
+			]
+			icon: "gtceu:ev_energy_input_hatch"
+			id: "7820DF52516344F4"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "完全正常的进展"
+			tasks: [{
+				id: "1696F760B75B3544"
+				item: "gtceu:ev_energy_input_hatch"
+				type: "item"
+			}]
+			title: "升级你的EBF III"
+			x: 1.875d
+			y: 1.875d
+		}
+		{
+			dependencies: ["35E7E45987D9B1F6"]
+			description: [
+				"&3大型燃气涡轮机&r在&5EV&r时代可能不会留下很大的印象，但它具有扩展到&9更好的生产&r比基础的4096 EU/t和&9更高的效率&r的能力。"
+				""
+				"每个大型涡轮机都需要一个&a涡轮转子&r和一个&3转子支架&r。更多关于涡轮机的机制将在&l下一个&r任务中介绍。"
+				"{@pagebreak}"
+				"&9注意:&r这个任务&e只需要控制器&r，但你仍然需要所有的多方块部件来构建涡轮机。"
+				""
+				"如果无法输出，涡轮机将&c消耗能量&r。如果你计划使用这个与HV电力，使用一个接近100%功率状态的转子。"
+			]
+			icon: "gtceu:gas_large_turbine"
+			id: "0F539EC8D2361791"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "7243C47692B04E81"
+				item: "gtceu:gas_large_turbine"
+				type: "item"
+			}]
+			title: "大型燃气涡轮机"
+			x: 1.875d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"30A6EDDF25A5E5F8"
+				"7A55CC71442CC854"
+			]
+			description: [
+				"新的切割机？ &a✓&r"
+				""
+				"新的镜头？ &a✓&r"
+				""
+				"新的电源电路？ &a✓&r"
+				""
+				"需要新的EBF金属？ &a✓&r"
+				""
+				"能量舱需要新的线圈？ &a✓&r"
+				""
+				"&9注意:&r 如果你还没有找到丛林，你可以使用&acentrifuge Stone Dust&r来制作&dMetal Mixture Dust&r，它可以作为棕色染料。"
+			]
+			icon: "gtceu:mpic_chip"
+			id: "35E7E45987D9B1F6"
+			size: 0.75d
+			tasks: [
+				{
+					id: "2475364829C80B50"
+					item: "gtceu:mpic_chip"
+					type: "item"
+				}
+				{
+					id: "1225B9C57910A98A"
+					item: "gtceu:brown_glass_lens"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "功率集成电路"
+			x: 3.0d
+			y: 1.875d
+		}
+		{
+			dependencies: [
+				"35E7E45987D9B1F6"
+				"14D277A164202FF8"
+			]
+			description: [
+				"&3大型燃烧引擎&r是一个多方块结构，可以燃烧&d燃烧燃料&r以产生更多的电力！"
+				""
+				"它的默认产出为2048 EU/t，与4个&3涡轮燃烧发电机&r相同。"
+				""
+				"它的亮点在于能够通过&6氧气&r进行&6增强&r。这将使燃料消耗翻倍，但&9三倍的电力产生&r，达到6144 EU/t！这导致了&6150%的燃料效率&r。"
+				""
+				"它还需要少量的&a润滑剂&r - 没有太疯狂的东西。"
+				""
+				"&3LCE&r也是无虚空的，不像大型涡轮机。任何无法输出的能量都会暂时暂停多方块结构。"
+				"{@pagebreak}"
+				"&9注意:&r 这个任务需要完成任何&r任务，但你仍然需要所有的零件。"
+				""
+				"为了利用6144 EU/t的电力输出，你需要一个&34A EV 动力仓&r或一个&3IV 动力仓&r。"
+			]
+			icon: "gtceu:large_combustion_engine"
+			id: "1AD309112ADD8D8D"
+			size: 0.75d
+			tasks: [
+				{
+					id: "4B0E8EBCA3950AA0"
+					item: "gtceu:large_combustion_engine"
+					type: "item"
+				}
+				{
+					id: "38A33D0B4E9CD811"
+					item: "gtceu:ev_energy_output_hatch"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "大型燃烧"
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"3398FC108D9DCB46"
+				"14D277A164202FF8"
+				"124B32A0583A636A"
+			]
+			description: [
+				"高级纳米胸甲将保护、个人电池和&6增强喷气背包&r结合在一起。"
+				""
+				"为了&d启用充电&r，在手中时按住Shift右键，然后装备它（注意有时它可能不想充电...你会原谅它的，对吧？）。"
+				""
+				"请注意，它存储了&o一堆&r的能量，并且使用得相当快。你可能需要投资一个&3HV涡轮充电器&r。"
+			]
+			id: "513B95B8FD03AA8C"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "完全值得"
+			tasks: [{
+				id: "2AB729EA4DFCD51C"
+				type: "checkmark"
+			}]
+			title: "更好的飞行"
+			x: 3.0d
+			y: 4.125d
+		}
+		{
+			dependencies: [
+				"7A55CC71442CC854"
+				"478B0D55369C0F7F"
+			]
+			description: [
+				"以4倍的钻掘能量为代价，&3高级液体钻探装置&r在液体方面的产出增加了&616倍&r。"
+				""
+				"矿脉的耗尽速度也减半。这意味着你可以从基岩液体矿脉中获得&632倍&r的石油（或其他液体）直到耗尽！"
+				""
+				"即使矿脉耗尽，你仍然可以使用它并保持稳定的能量正值。"
+				""
+				"一个&3高级液体钻探装置&r应该足以为一个&dLuV&r时代的基地提供能量，甚至可能更多！"
+				"{@pagebreak}"
+				"作为&9提醒&r，这些任务出现在&bMV&r中："
+				""
+				"&9-&r &a轻质油&r可用于&d液化石油气&r和&d甲烷&r，以运行&3大型燃气涡轮机&r。"
+				"&9-&r &a石油&r可用于&d柴油&r和&d增压柴油&r，以运行&3大型内燃机&r。"
+				"&9-&r &a重质油&r可用于&d硝基苯&r，以运行&3大型燃气涡轮机&r。"
+			]
+			icon: "gtceu:hv_fluid_drilling_rig"
+			id: "10987A49F647279E"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "极限是一个合适的描述词"
+			tasks: [{
+				id: "3FE1F17DD37F0A56"
+				item: "gtceu:hv_fluid_drilling_rig"
+				type: "item"
+			}]
+			title: "极限液体钻探"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"330BDB559A7BAB35"
+				"41D32C5178760F47"
+			]
+			description: [
+				"如何获得铂："
+				""
+				"&9-&r 通过&3化学浴缸&r或&3HV破碎机&r处理&a镍矿石&r的副产品"
+				"&9-&r 从末地的&a谢尔登矿脉&r中获得"
+				"&9-&r 从&a铂族污泥&r中获得，这是一个复杂的链条，可以获得所有的铂族金属。高度&c不推荐&r，直到IV时代，但最终是必需的。"
+				""
+				"铂金在&5EV&r时代开始的众多配方中需要少量使用&dSMD二极管&r。"
+				"{@pagebreak}"
+				"&b传说：&r Mekanism的主要材料原计划是铂金。然而，GregoriusT抱怨这种稀有材料在全世界传播的逻辑，因此Mekanism的开发人员选择将主要材料改为奥斯米。"
+			]
+			icon: "gtceu:platinum_ingot"
+			id: "3398FC108D9DCB46"
+			size: 0.75d
+			tasks: [
+				{
+					id: "422782D7BAC8024B"
+					item: "gtceu:platinum_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20DD24EB9315C33B"
+					item: "gtceu:platinum_ingot"
+					type: "item"
+				}
+			]
+			title: "铂"
+			x: 4.125d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"0B25A282F677744B"
+				"7A55CC71442CC854"
+			]
+			description: [
+				"一个完全&d可选&r的多方块结构。在测试中，我一直使用HV单方块矿工，并且使用它们很好。"
+				""
+				"当从矿脉中收集矿石时，&3更大的矿工&r将进一步提高你的收益！"
+				""
+				"矿石被开采时，就像被&a破碎&r一样，但它们产生&6三倍&r的&d破碎矿石&r。"
+				""
+				"你需要自动化&a钻探液体&r来运行它。"
+				""
+				"你可能还想使用AE2的&3量子隧道&r和&3GTEU P2P隧道&r来传输物品和为其供电。"
+				"{@pagebreak}"
+				"&b传说：&r从格雷科技 5中移植过来时，这个多方块结构有一些有趣的副作用...它并不完美，因为升级这个矿工到高级版本并没有真正的优势。我们正在考虑重新平衡能量成本和每个层级的产量。"
+			]
+			icon: "gtceu:ev_large_miner"
+			id: "16E7CAC7BC8BFD8E"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "4576F08E8AE8C110"
+				item: "gtceu:ev_large_miner"
+				type: "item"
+			}]
+			title: "多方块矿工"
+			x: 5.25d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"40408FFD02134148"
+				"7FA0ACB7F161F378"
+				"4AFD3073C731A1E4"
+			]
+			description: ["你现在已经知道了。"]
+			icon: "gtceu:ev_assembler"
+			id: "7A55CC71442CC854"
+			subtitle: "推进到EV"
+			tasks: [{
+				id: "2F60DE9B52FDEFFC"
+				item: "gtceu:ev_assembler"
+				type: "item"
+			}]
+			title: "EV装配机"
+			x: 4.125d
+			y: 1.875d
+		}
+		{
+			dependencies: ["7A55CC71442CC854"]
+			description: [
+				"最适合 &5EV&r 的电池类物品！"
+				""
+				"&a拉普特水晶&r 需要进行大量的嵌套制作，因此建议批量制作或使用AE2模式进行自动化。"
+			]
+			icon: "gtceu:lapotron_crystal"
+			id: "69E384F389B0D07B"
+			size: 0.75d
+			tasks: [{
+				id: "3DF109921CA21ADB"
+				item: "gtceu:lapotron_crystal"
+				type: "item"
+			}]
+			title: "极限电池"
+			x: 4.125d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"3398FC108D9DCB46"
+				"41D32C5178760F47"
+				"40408FFD02134148"
+				"4AFD3073C731A1E4"
+				"6B08799BCFD01D3D"
+				"7FA0ACB7F161F378"
+			]
+			description: [
+				"这个任务将涵盖钨链。&a钨&r 可以从末地的&e钨酸盐&r或&e白钨矿&r中获得，它们是同一矿脉的一部分。"
+				""
+				"就像 &d金红石&r 链一样，你只需要输入一种物品类型，其他所有物品都会完美循环！"
+				"{@pagebreak}"
+				"你需要："
+				""
+				"&9-&r 一个 &3化学浴缸&r，用于制作 &d钨酸&r。"
+				"&9-&r 一个 &3电解槽&r，用于电解 &o两个&r 化学浴缸的输出。"
+				"&9-&r 一个 &3化学反应器&r，用于将 &d氢气&r 和 &d氯气&r 循环回 &a盐酸&r 中。"
+				""
+				"你将获得钙或锂作为副产品 - 这是免费的！"
+				"{@pagebreak}"
+				"&b传说:&r 在GTCE中，将钨酸盐或白钨矿电解成1个钨粉需要40秒和4个1920 EU/t的氢气桶。即使它更简单，它也更昂贵！"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:tungsten_dust"
+			id: "271CE5C2B78A1EDC"
+			rewards: [
+				{
+					count: 6
+					id: "7987EDE1771A5BEE"
+					item: "gtceu:endstone_scheelite_ore"
+					type: "item"
+				}
+				{
+					count: 6
+					id: "45F295D16818D055"
+					item: "gtceu:endstone_tungstate_ore"
+					type: "item"
+				}
+			]
+			size: 0.75d
+			subtitle: "一站式服务！"
+			tasks: [{
+				id: "6BA811C086B5CF00"
+				item: "gtceu:tungsten_dust"
+				type: "item"
+			}]
+			title: "钨链"
+			x: 6.375d
+			y: 3.0d
+		}
+		{
+			dependencies: ["271CE5C2B78A1EDC"]
+			description: ["需要 &3EV 混合器&r 来制作更多的合金，其中最重要的是 &d钨钢&r。"]
+			hide_dependency_lines: false
+			hide_dependent_lines: true
+			icon: "gtceu:ev_mixer"
+			id: "478B0D55369C0F7F"
+			size: 0.75d
+			subtitle: "开始注意到模式了吗？"
+			tasks: [{
+				id: "0E0232ACC9B93FE4"
+				item: "gtceu:ev_mixer"
+				type: "item"
+			}]
+			title: "极限混合"
+			x: 5.25d
+			y: 1.875d
+		}
+		{
+			dependencies: ["478B0D55369C0F7F"]
+			description: [
+				"&a钨钢&r 由一半的钢组成...可以说，你需要大量的 &a铁&r 和 &a钨&r！"
+				""
+				"现在，你需要它来制作 &3能量&r 或 &3动力仓&r...离那些讨厌的单块发电机远点。"
+				""
+				"在 &3电动高炉&r 中提高熔炼配方需要 &e氦气&r。你可以从 &a提取独居石&r 或 &a离心末地石&r 中获得初始供应。"
+				""
+				"从长远来看，你将希望通过 &a液态空气蒸馏&r 获得氦气。"
+			]
+			icon: "gtceu:tungsten_steel_ingot"
+			id: "30A6EDDF25A5E5F8"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "主要的 &1IV&r 电缆材料！"
+			tasks: [
+				{
+					id: "4BEA3166CD486845"
+					item: "gtceu:tungsten_steel_dust"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6D93081E44DD9678"
+					item: "gtceu:tungsten_steel_ingot"
+					type: "item"
+				}
+			]
+			title: "钨钢"
+			x: 7.125d
+			y: 1.875d
+		}
+		{
+			dependencies: ["271CE5C2B78A1EDC"]
+			description: [
+				"在瑞典语中，钨直接翻译为\"重石”，这很有趣。你可能也知道这个元素叫做钨，因此它的化学式是W。"
+				""
+				"&a钨&r 将成为主要的 &1IV&r 电缆材料，但也会在其他地方出现！"
+			]
+			icon: "gtceu:tungsten_ingot"
+			id: "0B25A282F677744B"
+			tasks: [{
+				id: "5D897ADB4F7D9920"
+				item: "gtceu:tungsten_ingot"
+				type: "item"
+			}]
+			title: "钨"
+			x: 7.875d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30A6EDDF25A5E5F8"]
+			description: [
+				"即使没有通道，P2P隧道仍然是极其重要的自动化工具！"
+				""
+				"&9注意:&r 有许多在线资源可以解释P2P隧道的工作原理。简短的描述是它们允许从1个输入传输到无限输出。你可以使用记忆卡将它们链接起来。"
+				""
+				"这个任务作为一个教程，教你如何使用P2P隧道来获得自己的利益。"
+			]
+			icon: "ae2:me_p2p_tunnel"
+			id: "39E7997F3080250A"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "不要害怕，通道已经消失了"
+			tasks: [{
+				id: "578F4D24289C544E"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			title: "P2P隧道"
+			x: 6.375d
+			y: 0.75d
+		}
+		{
+			dependencies: ["069FD86133D7D582"]
+			description: [
+				"如果你想大幅提高处理能力，，新的多方块结构是你的不二之选。"
+				""
+				"以前被称为&2Gregicality多方块结构&r的插件已经完全集成到格雷科技 CEu Modern中！"
+				""
+				"你需要利用许多新的&9合金&r来建造新的多方块结构。耶，更多的内容！"
+				""
+				"&6这个任务解锁了&l技巧和窍门&r&6选项卡中的新教程——去看看学习更多！&r"
+			]
+			icon: "gtceu:vibration_safe_casing"
+			id: "3B2D2C47BEBCFFA7"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "我们走了这么远……"
+			tasks: [{
+				id: "02739BCF3877B446"
+				type: "checkmark"
+			}]
+			title: "Gregicality多方块结构"
+			x: 8.625d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"7A55CC71442CC854"
+				"478B0D55369C0F7F"
+				"6B08799BCFD01D3D"
+				"30A6EDDF25A5E5F8"
+			]
+			description: [
+				"&a钨钢线圈&r将热容量提高到灼热的&d4,500K&r。"
+				""
+				"这将在&1IV&r时代需要，但像往常一样，你应该尽早获得它以获得&6线圈奖励&r。"
+			]
+			icon: "gtceu:tungstensteel_coil_block"
+			id: "069FD86133D7D582"
+			subtitle: "哇，好热   :脸红:"
+			tasks: [{
+				count: 16L
+				id: "16A26A909A8CE527"
+				item: "gtceu:tungstensteel_coil_block"
+				type: "item"
+			}]
+			title: "钨钢线圈"
+			x: 8.625d
+			y: 1.875d
+		}
+		{
+			dependencies: [
+				"2D01E80DE837F6A6"
+				"7FA0ACB7F161F378"
+				"25BFD5598A82C056"
+			]
+			description: [
+				"&3二极管&r（块而非元件）可以从5个方向接受能量输入，但只能通过一个方向输出。"
+				""
+				"它的主要目的是&d限制电流&r。当调节集中式电力发电时，它可以很有用，这样你就可以在不必计算消费者所需的电缆尺寸安全性的情况下将电力分配到任何地方……"
+				""
+				"当电缆（或GTEU P2P隧道，稍后会详细介绍！）的电压损失过高时，它们也可以用作电气重复器的替代品。"
+				""
+				"你可以使用&5软锤&r来更改输出的电流限制。"
+				""
+				"&e任何&r二极管都将完成此任务。"
+			]
+			icon: "gtceu:ev_diode"
+			id: "4B8D66A65F102D7E"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [
+				{
+					id: "465414A0E1FADED3"
+					item: "gtceu:hv_diode"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2DC589A19B085EE9"
+					item: "gtceu:ev_diode"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "23F7A084E66CFA40"
+					item: "gtceu:iv_diode"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "二极管"
+			x: 1.5d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"4AFD3073C731A1E4"
+				"7FA0ACB7F161F378"
+			]
+			description: [
+				"&a大型钛合金锅炉&r是另一种蒸汽锅炉。它比以前的更有效率，产生的蒸汽也更多。然而，在这个电压下，蒸汽&c几乎不可扩展&r。"
+				""
+				"这个东西绝对不值得，而且现在有很多更好的发电选择，所以你应该避免制造它。更好的选择需要&9EV能量舱口&r，这是在本章后期才有的。"
+				""
+				"&e注意&r：LTB太糟糕了，我们会让你通过点击复选框跳过这个任务（完成进度），你实际上不需要制造一个。"
+				"{@pagebreak"
+				"&b传说&r：在GT5u中，玩家可以构建另一个多方块结构-大型换热器。它也是用钛制造的，但是从热IC2冷却剂或熔岩中产生超热蒸汽。这比普通蒸汽好得多，实际上是可行的！这可能会在CEu中得到应用。"
+			]
+			id: "249FA99AADAC3710"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "我们需要更多木炭"
+			tasks: [{
+				id: "7D2406F7A603AAAE"
+				item: "gtceu:titanium_large_boiler"
+				type: "item"
+			}]
+			title: "更糟糕的燃烧"
+			x: 2.625d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"40408FFD02134148"
+				"7FA0ACB7F161F378"
+			]
+			description: [
+				"制作&aEV电机&r需要大量&d坎塞尔&r。当你处于EV的边缘时，这可能会感到痛苦，但以后不会成为问题-相信我们。"
+				""
+				"&d钕&r是用于&a磁性棒&r的金属。"
+				""
+				"&a铝电缆&r需要用&dPVC&r进行绝缘。"
+				""
+				"最后，你需要&4氡&r来制作&a发射器&r配方中的&d量子眼。"
+			]
+			icon: "gtceu:ev_electric_motor"
+			id: "26575D4FEB3D3F62"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [
+				{
+					id: "0D12376158C00640"
+					item: "gtceu:ev_electric_motor"
+					type: "item"
+				}
+				{
+					id: "322D14ACA96F5AB0"
+					item: "gtceu:ev_electric_piston"
+					type: "item"
+				}
+				{
+					id: "0B69C2C121FE94F4"
+					item: "gtceu:ev_electric_pump"
+					type: "item"
+				}
+				{
+					id: "32CCFFF3D3AA039F"
+					item: "gtceu:ev_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "717A861CDCAE51E1"
+					item: "gtceu:ev_robot_arm"
+					type: "item"
+				}
+				{
+					id: "751105214D8D6343"
+					item: "gtceu:ev_emitter"
+					type: "item"
+				}
+				{
+					id: "152B7CB2E3FA07E9"
+					item: "gtceu:ev_sensor"
+					type: "item"
+				}
+			]
+			title: "\"乐趣”永远不会停止"
+			x: 3.0d
+			y: 6.375d
+		}
+		{
+			dependencies: ["7FA0ACB7F161F378"]
+			description: [
+				"&3ME舱口&r直接连接到你的&aAE系统&r，允许你跳过直接在总线和舱口上放置接口。"
+				""
+				"&b传说&r：这个功能最初来自GTNH！"
+			]
+			id: "681F1423A36FD4FF"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "不再需要在总线上放置接口"
+			tasks: [{
+				id: "1E0A3CC1F51CD245"
+				type: "checkmark"
+			}]
+			title: "ME舱口"
+			x: 5.625d
+			y: 4.125d
+		}
+		{
+			dependencies: [
+				"40408FFD02134148"
+				"4AFD3073C731A1E4"
+				"7FA0ACB7F161F378"
+			]
+			description: [
+				"当你悬停在&2JEI&r的奖励输出上时，你可能已经注意到了&9\"每层机会\"&r。每个超频器超过所需层级将向机会输出添加该%奖励！"
+				""
+				"这意味着使用&3EV破碎机&r将产生&6更多副产品&r！"
+			]
+			id: "7B23AF5B6B62BC19"
+			size: 0.75d
+			tasks: [{
+				id: "4EC5F44332F7533B"
+				item: "gtceu:ev_macerator"
+				type: "item"
+			}]
+			title: "更多副产品"
+			x: 5.25d
+			y: 6.375d
+		}
+		{
+			dependencies: [
+				"73E8283634E5E33A"
+				"3398FC108D9DCB46"
+				"40408FFD02134148"
+				"4AFD3073C731A1E4"
+				"7FA0ACB7F161F378"
+			]
+			description: [
+				"相当漫长的旅程。"
+				""
+				"&3EV电路组装&r使下一级电路&5纳米&r成为可能。"
+			]
+			id: "383B789B654C4094"
+			subtitle: "你已经牢牢地处于EV中！"
+			tasks: [{
+				id: "544E19AF6D2630DC"
+				item: "gtceu:ev_circuit_assembler"
+				type: "item"
+			}]
+			title: "EV电路组装"
+			x: 4.125d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"4AFD3073C731A1E4"
+				"7FA0ACB7F161F378"
+			]
+			description: [
+				"请注意，理论上，通过使用&3大型化学反应器&r可以跳过&3EV化学反应器&r，但我们够邪恶，强迫你制造它。"
+				""
+				"它足够便宜，而且因为它很紧凑，所以有它的用途。"
+			]
+			id: "7D15EEE81B1A3100"
+			shape: "square"
+			size: 0.75d
+			tasks: [{
+				id: "0AF5929611BCDF2C"
+				item: "gtceu:ev_chemical_reactor"
+				type: "item"
+			}]
+			title: "极端化学反应"
+			x: 5.625d
+			y: 5.25d
+		}
+		{
+			dependencies: ["7D15EEE81B1A3100"]
+			description: [
+				"&a纳米处理器晶圆&r是通过将普通的&a处理器晶圆&r注入&d萤石&r和&9原始碳纤维&r制成的。"
+				""
+				"在制作&5纳米&r线路电路时需要大量使用。"
+				""
+				"更高级的聚合物会增加你的&9原始碳纤维&r产量。一份&d环氧树脂&r足以制作一整组。"
+				""
+				"&9提示：&r不喜欢挖掘&d萤石&r吗？试试红石矿石加工——它真的很强大！"
+			]
+			icon: "gtceu:nano_cpu_wafer"
+			id: "63A87C9303D54487"
+			size: 0.75d
+			tasks: [
+				{
+					count: 16L
+					id: "1276318CB2F198F7"
+					item: "gtceu:carbon_fibers"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "47E901701A935F9D"
+					item: "gtceu:nano_cpu_wafer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D6E97DA360FBA32"
+					item: "gtceu:nano_cpu_chip"
+					type: "item"
+				}
+			]
+			title: "纳米CPU"
+			x: 6.375d
+			y: 6.375d
+		}
+		{
+			dependencies: [
+				"5E6BA54E8A5BEBDE"
+				"383B789B654C4094"
+				"63A87C9303D54487"
+				"4C3805F75C9EE3DD"
+			]
+			description: [
+				"制作最佳的&6HV&r电路将为你的按需自动化提供更便捷的&6HV&r机器。方便！"
+				""
+				"从这里开始，所有电路线路将保持一致，直到游戏结束。"
+				""
+				"每个层级直到&fZPM&r都将在获取新的更好电路时面临自己的挑战。"
+			]
+			id: "196FC518F744B983"
+			size: 0.75d
+			tasks: [{
+				id: "028DC1BC1D3E1381"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			title: "最佳HV电路！"
+			x: 6.375d
+			y: 7.875d
+		}
+		{
+			dependencies: ["117FBB18DEE6F08B"]
+			description: [
+				"现在你拥有了&a环氧树脂&r，可以制作&a高级电路板&r！下一个电路层级就在眼前，所以继续努力。"
+				""
+				"&9&l提示：&r"
+				""
+				"- 考虑使用&d电气分解&r和&d矿石加工&r来获取&e琥珀金&r。"
+				"- 考虑使用&3化学浴缸&r和&d汞&r来从各种矿石中获取&e黄金&r。"
+			]
+			id: "5E6BA54E8A5BEBDE"
+			size: 0.75d
+			subtitle: "相当高的金币成本……"
+			tasks: [{
+				id: "27C6D1AB82DA805D"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			title: "高级电路板"
+			x: 5.25d
+			y: 7.875d
+		}
+		{
+			dependencies: ["383B789B654C4094"]
+			description: [
+				"&6片上系统&r（或&bSoC&r）是一种专业组件，将所有典型的电路组件（如SMD）微型化到单个芯片上。"
+				""
+				"它们非常有用，因为它们解锁了创建&6精炼&r、&6微型&r和&6纳米电路&r的最有效配方。"
+				""
+				"每个基于SoC的电路配方都需要不同的最低&a组装机&r层级，其中纳米电路需要&eLuV&r。&a片上系统&r解锁了&dLV电路&r的最佳配方。"
+			]
+			id: "6781213726919716"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "29BA6B4E01C4AFB6"
+				item: "gtceu:soc"
+				type: "item"
+			}]
+			title: "片上系统"
+			x: 7.5d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"196FC518F744B983"
+				"7F272A099E65F848"
+			]
+			description: [""]
+			id: "0017FFFAD7CD2EFE"
+			size: 0.75d
+			subtitle: "更难、更好、更快、更强"
+			tasks: [{
+				id: "658F8D1F068928CE"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			title: "更多EV电路！"
+			x: 6.375d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"0017FFFAD7CD2EFE"
+				"2D5BECC0AC0E316B"
+			]
+			description: ["使用这些电路进入&1IV&r时代不应该太痛苦。"]
+			id: "5CC9B0E832545569"
+			size: 0.75d
+			tasks: [{
+				id: "2E0E4FF63368E44C"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			title: "更多IV电路"
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["017019EB38F7A18C"]
+			description: [
+				"NOR门需要两个输入信号，并仅在两个输入信号都为低电平时输出高电平信号。"
+				""
+				"现在这还不重要，它只是一个更复杂的晶片。它用于&a数据球&r（&3处理阵列&r的制作组件）和&5纳米&r电路生产中。"
+			]
+			id: "2D5BECC0AC0E316B"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "6D561B2E5375B013"
+				item: "gtceu:nor_memory_chip"
+				type: "item"
+			}]
+			title: "NOR门"
+			x: 6.375d
+			y: 10.125d
+		}
+		{
+			dependencies: ["5CC9B0E832545569"]
+			description: ["为&3IV电路组装机&r保存两个。"]
+			id: "58BBD540D7D4FF01"
+			tasks: [{
+				id: "40A35927E6D7848D"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			title: "第一个LuV电路！"
+			x: 7.5d
+			y: 11.25d
+		}
+		{
+			dependencies: [
+				"06B4AAC7DD796182"
+				"069FD86133D7D582"
+			]
+			description: ["电流上升了——现在每个超导体的电流为&e6A&r。"]
+			id: "4A96337843BAC13A"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "478E2D7B59664F86"
+				item: "gtceu:uranium_triplatinum_double_wire"
+				type: "item"
+			}]
+			title: "EV超导体"
+			x: 8.625d
+			y: 11.25d
+		}
+		{
+			dependencies: [
+				"4024C831C77101CA"
+				"16B735F9C391D260"
+			]
+			description: [
+				"&a末影流体链接罩&r是&d格雷科技&r对&r&3末影水箱&r的回答。"
+				""
+				"每个罩通过一个由&68位十六进制数字&r（0-9，然后每个数字的A-F）定义的频率发送其流体。这给你&64.29十亿&r个频道可以使用！只要它们所在的区块被加载，末影流体链接罩就可以工作-无论距离或维度如何。"
+				""
+				"它们不便宜，所以考虑建立一种方式来种植&3末影珍珠&r。{@pagebreak"
+				"将模式设置为导入将&c&opull&r从它所附着的世界位置中提取流体，而将模式设置为导出将&o&9&opush&r流体到世界中。你必须将I/O设置为启用才能开始工作。每个通道都有一个&d64个桶&r的缓冲区。"
+				""
+				"我们建议你建立一个系统来组织所有这些通道。我们还建议在所有情况下不要使用默认通道（FFFFFFFF）。"
+			]
+			id: "23A7E6D95549B1F8"
+			shape: "rsquare"
+			tasks: [{
+				id: "5FBC61FAAD7AA1D8"
+				item: "gtceu:ender_fluid_link_cover"
+				type: "item"
+			}]
+			title: "末影流体链接"
+			x: 7.526785714285715d
+			y: 5.508928571428569d
+		}
+		{
+			dependencies: [
+				"16E3465CF94E2BDD"
+				"4024C831C77101CA"
+			]
+			description: [
+				"&a高级能量检测器&r是用于能量控制的RS锁存器。"
+				""
+				"将其安装在&3电池缓冲器&r上，将最小EU设置为接近0，将最大EU设置为最大容量。"
+				""
+				"该罩将输出&4红石&r信号，直到达到高阈值，然后等待低阈值再次输出红石。"
+				""
+				"这是自动化惯性发电机（如锅炉）或更重要的&3大型涡轮机&r的必备工具。"
+			]
+			id: "7F2FE3AF6F0C1190"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "节省红石装置"
+			tasks: [{
+				id: "305731DA47087165"
+				item: "gtceu:advanced_energy_detector_cover"
+				type: "item"
+			}]
+			title: "高级能量检测器"
+			x: 7.145833333333336d
+			y: 4.294642857142854d
+		}
+		{
+			dependencies: [
+				"73E8283634E5E33A"
+				"45F9AAE4ABE32033"
+			]
+			description: [
+				"如果你想移动基地，可以远程扩展你的AE2网络。"
+				""
+				"&3量子隧道&r不是易于制作的，因此如果你想要它，就需要努力工作！"
+			]
+			icon: "ae2:quantum_link"
+			id: "46C7E1D5E37B1ED2"
+			size: 0.75d
+			tasks: [
+				{
+					count: 2L
+					id: "4C598D3CF4500DB0"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5C8C12569B770B97"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "625E95960F92A2F6"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			title: "量子隧道"
+			x: 5.25d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"41D32C5178760F47"
+				"42FB276AB16258D9"
+			]
+			description: [
+				"&a铀&r在&2GTCEu&r中现在几乎没有用途，因为我们还没有实现&3核反应堆&r（计划中！）。"
+				""
+				"从&a铀矿石&r制作&d铀六氟化物&r。这将使你能够分离U238和U235之间的同位素。"
+				""
+				"&9氟&r在反应中完全回收，但你可能需要大约40个桶来引导。"
+				""
+				"&9氢&r被消耗，因此你需要很多。使用几个&3LV电解槽&r电解大量水以获得最佳能源效率，或回收任何未使用的&d碳氢化合物&r，例如甲烷。"
+				""
+				"&9提示：&r你可以通过使用一个单独的&3离心机&r并将&6流体调节器&r设置为&d供应精确1,000&r来使此设置紧凑。"
+			]
+			icon: "gtceu:uranium_dust"
+			id: "06B4AAC7DD796182"
+			size: 0.75d
+			subtitle: "希望这个任务不会让你上黑名单"
+			tasks: [
+				{
+					count: 3L
+					id: "1BE01DA0E8A143FB"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:dusts/uraninite"
+						}
+					}
+					optional_task: true
+					title: "Any #forge:dusts/uraninite"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:uranium_hexafluoride"
+					id: "59D6B7142C0174BA"
+					optional_task: true
+					type: "fluid"
+				}
+				{
+					id: "39E343FCB7B1646D"
+					item: "gtceu:uranium_dust"
+					type: "item"
+				}
+			]
+			title: "铀精炼"
+			x: 5.25d
+			y: 11.25d
+		}
+		{
+			dependencies: [
+				"06B4AAC7DD796182"
+				"528CE69DA4358B2E"
+			]
+			description: [
+				"别担心，这跟运行EBF相比算不了什么。"
+				""
+				"希望对你来说，JEI中的&3LCR&r配方对于如何设置&a氡&r应该是不言自明的。"
+				""
+				"输入一些&a铀&r，用&3电炉&r回路回收&d钚&r，然后让魔法发生。"
+				""
+				"&b传说:&r 这个被诅咒但迷人的\"链”是从格雷科技 5继承而来的。钚239作为矿石存在是一种占位符，以避免通过复杂的手段获得它。"
+			]
+			icon: "gtceu:radon_bucket"
+			id: "73E8283634E5E33A"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "200秒？！什么？！"
+			tasks: [
+				{
+					count: 8L
+					id: "767C47FF351DAE3B"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/plutonium"
+						}
+					}
+					title: "Any #forge:ingots/plutonium"
+					type: "item"
+				}
+				{
+					amount: 1000L
+					fluid: "gtceu:radon"
+					id: "1C084B65DE6E73E8"
+					type: "fluid"
+				}
+			]
+			title: "氡"
+			x: 4.125d
+			y: 10.125d
+		}
+		{
+			dependencies: [
+				"390E59F05132FCB8"
+				"4CD9F6D1B4CC7D81"
+				"1F571B9E1555DA04"
+				"40018C0546454CD9"
+			]
+			description: [
+				"&a环氧树脂&r是游戏中所有未来电路板的基础！"
+				""
+				"&9&l注意:&r 这个任务非常复杂，所以在尝试制作环氧树脂之前，请先处理其他所有事情。你需要尽可能多的帮助！"
+				"{@pagebreak"
+				"有几种方法可以获得制作&a环氧树脂&r所需的成分。"
+				""
+				"我们将忽略与甘油相关的配方，除非模组包开发人员调整了一些东西。&m提示，如果你正在制作自己的包！&r"
+				""
+				"你会想要尝试使用&3大型化学反应器&r来快捷制作配方。"
+				"{@pagebreak"
+				"&d氯气&r只有部分被回收，所以你需要不断补给。最初手动喂养即可。"
+				""
+				"涉及&d氢氧化钠&r的配方可以通过电解&9盐水&r副产品来回路循环。"
+				""
+				"你可能需要使用四重管道、泵盖、流体过滤器……或者使用AE2路由所有这些。"
+				""
+				"一般来说，封闭回路设置很好，可以防止过度生产或过度消耗，但你可以选择更有趣的方式。"
+			]
+			id: "117FBB18DEE6F08B"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "主要电路板材料"
+			tasks: [{
+				id: "35EAB019D81FD0A6"
+				item: "gtceu:epoxy_plate"
+				type: "item"
+			}]
+			title: "环氧树脂"
+			x: 2.625d
+			y: 7.875d
+		}
+		{
+			dependencies: ["390E59F05132FCB8"]
+			description: [
+				"选择&3LCR&r配方。"
+				""
+				"这需要&a丙烯&r，这意味着需要进行&d石油加工&r和&d燃料裂解&r。如果你一直在拖延，那就抱歉了……"
+				""
+				"我们强烈建议在朝这个方向前进之前先获得&3蒸馏塔&r。"
+				""
+				"如果你没有注意到，你可以循环使用&d盐水&r来制作&d氢氧化钠&r。"
+			]
+			id: "1F571B9E1555DA04"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:epichlorohydrin"
+				id: "6F7D0A5B17A27928"
+				type: "fluid"
+			}]
+			title: "环氧氯丙烷"
+			x: 1.125d
+			y: 7.875d
+		}
+		{
+			dependencies: ["390E59F05132FCB8"]
+			description: [
+				"从以下途径获取 &a苯酚&r："
+				""
+				"&91 -&r 从 &a木焦油&r 蒸馏中提取。"
+				"&92 -&r 通过 &d氯气&r 和 &d氢氧化钠&r（&3LCR&r，氯气循环使用）与 &a苯&r 反应。"
+				"&93 -&r 使用上述快捷配方，跳过使用 &d氢氧化钠&r，但会损失 &d氯气&r。"
+				"&94 -&r 使用少量 &4磷酸&r（通常是催化剂，但只需少量消耗）与 &a苯&r、&d丙烯&r 和 &d氧气&r 反应。这被称为库门法。"
+				"{@pagebreak"
+				"如果你在这些选项之间犹豫不决，以下是每个途径适合你的原因："
+				""
+				"&91 -&r 如果你有 &3热解&r + &3蒸馏塔&r 组合，则非常适合。"
+				"&92 -&r 我们的首选！你可以使用 &d盐&r 制作 &d盐水&r 并将其电解为循环使用。"
+				"&93 -&r 如果你有无限供应的 &d氯气&r（感谢 &3盐水流体钻机&r）。"
+				"&94 -&r &4磷酸&r 生产困难，在 GTCEu 中没有其他用途。考虑使用这种方法是疯狂的。"
+				"{@pagebreak"
+				"&b背景故事:&r 苯 + 氧气配方是作为 GTCE 的化学修复的一部分添加的，因为大型化学反应器不存在。现在有更现实的选择，该配方可能会被删除。"
+			]
+			id: "4CD9F6D1B4CC7D81"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:phenol"
+				id: "6255085946669894"
+				type: "fluid"
+			}]
+			title: "苯酚"
+			x: 1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["390E59F05132FCB8"]
+			description: [
+				"虽然蒸馏 &a木醋液&r 可以得到 &a丙酮&r，但产量很低，可能无法满足你的需求。"
+				""
+				"你可以使用直接的 &3LCR&r 配方从 &a醋酸&r 中获得 &a丙酮&r。"
+				""
+				"如果你想要更高级的方法，你还可以使用老式的 &a醋酸&r -> &d溶解的醋酸钙&r -> &a丙酮&r 循环，这不需要 &3LCR&r，但仍然完美回收钙化合物。"
+				"{@pagebreak"
+				"我们一直在谈论醋酸，但我们还没有告诉你如何获得它。那不是很好吗？"
+				""
+				"&a醋酸&r 可以在 &3化学反应器&r 中合成。我们最喜欢的配方是使用 &d乙烯&r。"
+			]
+			id: "40018C0546454CD9"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:acetone"
+				id: "1E3E5800E5C37353"
+				type: "fluid"
+			}]
+			title: "丙酮"
+			x: -0.375d
+			y: 9.0d
+		}
+		{
+			dependencies: ["390E59F05132FCB8"]
+			description: [
+				"硅橡胶在电缆绝缘、传送带配方等方面有用途。"
+				""
+				"我们建议暂时不要使用，因为它是相当大的 &d氯气&r 消耗品。"
+				""
+				"收集以下任何一种橡胶以完成此任务。"
+				"{@pagebreak}"
+				"&9注意:&r 橡胶必须被替换为 &a&a硅橡胶&r 或 &a苯乙烯-丁二烯橡胶&r 以制作 &1IV&r 电缆。"
+				""
+				"在 &dLuV&r 中，&a硅橡胶&r 和 &a苯乙烯-丁二烯橡胶&r 都将被需要。"
+			]
+			icon: "gtceu:silicone_rubber_plate"
+			id: "1A4AD56965407DC5"
+			size: 0.66d
+			subtitle: "另一种橡胶"
+			tasks: [
+				{
+					amount: 1296L
+					fluid: "gtceu:silicone_rubber"
+					id: "3C29253DA5DAF778"
+					type: "fluid"
+				}
+				{
+					id: "3E2FBCED1C782E7C"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/rubber/silicone"
+						}
+					}
+					title: "硅橡胶条"
+					type: "item"
+				}
+				{
+					id: "3CF87D26761354C4"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/rubber/silicon"
+						}
+					}
+					title: "硅橡胶板"
+					type: "item"
+				}
+			]
+			title: "硅橡胶"
+			x: 0.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["390E59F05132FCB8"]
+			description: [
+				"&7苯乙烯-丁二烯橡胶（SBR）&r是一种增强型橡胶。"
+				""
+				"它可以替代大多数橡胶在配方中使用，并且在&a绝缘导线&r方面比橡胶高效&6四倍&r。对于某些高级配方，它也是必需的。"
+				""
+				"在你获得&3蒸馏塔&r之前，这并不值得制作，但最终会随着&d燃油裂化&r变得更加出色。"
+				""
+				"收集&e任何&r这些橡胶形式以完成此任务。"
+				"{@pagebreak}"
+				"&9注意:&r对于&1IV&r电缆，橡胶必须被&a&a硅橡胶&r或&a苯乙烯-丁二烯橡胶&r替换。"
+				""
+				"在&dLuV&r中，&a硅橡胶&r和&a苯乙烯-丁二烯橡胶&r都是必需的。"
+			]
+			id: "77070668969E31BF"
+			size: 0.66d
+			tasks: [{
+				id: "7D952AF37FC51956"
+				item: "gtceu:styrene_butadiene_rubber_plate"
+				type: "item"
+			}]
+			title: "苯乙烯-丁二烯橡胶"
+			x: -1.125d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"40018C0546454CD9"
+				"48141DBA683F6B5A"
+			]
+			description: [
+				"&a汽油&r是一种极其强大的燃烧燃料。它的能量密度比&d柴油&r高&63倍&r！"
+				""
+				"&9注意:&r这种燃烧燃料仅存在于你想要挑战的情况下。"
+				""
+				"这是完全&d可选的&r，所以我们将让你自己想办法获得它，没有进一步的提示。"
+			]
+			id: "00E2BAEDB8199E4E"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:gasoline"
+				id: "020DE8D27206C260"
+				type: "fluid"
+			}]
+			title: "汽油"
+			x: -0.75d
+			y: 10.125d
+		}
+		{
+			dependencies: ["00E2BAEDB8199E4E"]
+			description: [
+				"&6将能量密度乘以2&r，你就有了&a高辛烷值汽油&r。"
+				""
+				"&9注意:&r自动化这需要大量的&3蒸馏塔&r！你的基地的很大一部分将被用于不断生产这个，而没有任何瓶颈。"
+				""
+				"如果你的基地成功运行在&aHOG&r上，请随时在我们的&8Discord&r上炫耀并分享一些截图。"
+			]
+			id: "046B4A0B2639B16A"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:high_octane_gasoline"
+				id: "19A221C5CEFBFBFD"
+				type: "fluid"
+			}]
+			title: "高辛烷值汽油"
+			x: 0.0d
+			y: 10.875d
+		}
+		{
+			dependencies: [
+				"4AFD3073C731A1E4"
+				"16A6AE5C770DB83A"
+			]
+			description: [
+				"&3蒸馏塔&r是一个多方块结构，可以帮助你从流体中提取最多的物质。在&3蒸馏器&r中，你只能选择一个产品进行输出。而蒸馏塔可以&6一次性输出所有物质&r！"
+				""
+				"&9请注意特殊的放置规则：&r能量、物品和流体输入只能放置在底层。维护部件可以放置在任何位置。流体输出只能从第二个垂直层开始放置，并且每层只允许放置一个。"
+				"{@pagebreak"
+				"&3蒸馏塔&r可以在高度为&c3&r到&c13&r块的任何位置形成，可以有2到12个流体输出。流体将始终在与&2JEI&r中的配方对应的层上输出。"
+				""
+				"&3蒸馏塔&r还有一个&9特殊规则&r。你可以故意建造得太短，它会&c丢弃&r应该输出在被移除的顶层的任何流体。在某些非常特殊的情况下，这可能会很有用。"
+				""
+				"最好使用&3超级储罐&r作为每层的输出。"
+				"{@pagebreak"
+				"&c注意：&r使用&3蒸馏塔&r将油转化为燃料和柴油是&c不值得&r的！你会花费更多的能量来超频多方块结构，而得到的产品却比你花费的更少。最好等到你能制造&3加工阵列&r（&1IV&r）进行大规模柴油生产。"
+				""
+				"然而，在提取裂解燃料和热解产物时，&3蒸馏塔&r非常有价值。"
+			]
+			id: "48141DBA683F6B5A"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "是时候建造真正的炼油厂了！"
+			tasks: [{
+				id: "53541406691632A9"
+				item: "gtceu:distillation_tower"
+				type: "item"
+			}]
+			title: "蒸馏塔"
+			x: 1.125d
+			y: 9.75d
+		}
+		{
+			dependencies: [
+				"6D12CE80F92FC485"
+				"48141DBA683F6B5A"
+			]
+			description: [
+				"&a液态空气&r是获得大量氮和氧的好方法，但需要比&3低压离心机&r更多的能量。"
+				""
+				"然而，这也会给你&6氦&r和&6氩&r，这对于提高&3电动高炉&r的冶炼效率非常有帮助。"
+				""
+				"&c注意：&r你需要至少&3HV输入+输出舱口&r才能运行这个配方。"
+			]
+			icon: "gtceu:air_bucket"
+			id: "1030A9F4AAC685ED"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [
+				{
+					amount: 1000000L
+					fluid: "gtceu:oxygen"
+					id: "1EE14254AE07512F"
+					type: "fluid"
+				}
+				{
+					amount: 1000000L
+					fluid: "gtceu:nitrogen"
+					id: "5B8A8FE5DEFE0671"
+					type: "fluid"
+				}
+				{
+					amount: 64000L
+					fluid: "gtceu:helium"
+					id: "3ED5E362F1E5D701"
+					type: "fluid"
+				}
+				{
+					amount: 32000L
+					fluid: "gtceu:argon"
+					id: "67F58B2FC8210270"
+					type: "fluid"
+				}
+			]
+			title: "真正的蒸馏：空气"
+			x: 2.25d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6958029B5514D4EC"]
+			description: [
+				"一些特定的流体是&d低温流体&r，对于普通的管道来说太冷了。"
+				""
+				"因此...你需要选择正确的管道来完成工作！"
+				""
+				"不多的管道支持低温流体，所以你可以尝试使用&a不锈钢&r或&a铱&r。等到你到达那里时，你可以使用&a纳米合金&r或大多数的聚变材料。"
+				""
+				"&c警告：&r在错误的管道中使用低温流体会导致&c丢失&r、&c管道冻结&r和高死亡率！请小心！"
+				"{@pagebreak"
+				"&b传说：&r这是格雷科技首次引入低温机制，是GTCEu的原创特性！"
+			]
+			icon: "gtceu:stainless_steel_large_fluid_pipe"
+			id: "6D12CE80F92FC485"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5C8340E344B1EA59"
+				type: "checkmark"
+			}]
+			title: "这不是冷却剂！"
+			x: 3.375d
+			y: 9.375d
+		}
+		{
+			dependencies: ["48141DBA683F6B5A"]
+			description: [
+				"这里是从蒸馏蒸汽裂解燃料中获得的四种最相关的&d烃类&r。"
+				""
+				"在前往&1IV&r时代之前，你将需要设置这个&l。"
+				""
+				"&a蒸汽裂解轻质燃料&r作为输入可能是最有利的，但你可以自由尝试。"
+				""
+				""
+				"我们知道你在想什么——大致上是这样的\"&7&o碳输出太令人恼火了！它破坏了我的自动化！&r\"。"
+				""
+				"如果你不想建立输出总线，请在控制器GUI中启用物品虚空（Item Voiding）。"
+			]
+			icon: "gtceu:oil_bucket"
+			id: "46367A76755866D9"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [
+				{
+					amount: 40000L
+					fluid: "gtceu:benzene"
+					id: "6584A238101E369D"
+					type: "fluid"
+				}
+				{
+					amount: 10000L
+					fluid: "gtceu:butadiene"
+					id: "1698E9791C31C10E"
+					type: "fluid"
+				}
+				{
+					amount: 64000L
+					fluid: "gtceu:ethylene"
+					id: "4274E80169CCBDE5"
+					type: "fluid"
+				}
+				{
+					amount: 64000L
+					fluid: "gtceu:methane"
+					id: "3CB67401C15B84A7"
+					type: "fluid"
+				}
+			]
+			title: "真正的蒸馏：燃料"
+			x: 2.25d
+			y: 10.125d
+		}
+		{
+			dependencies: ["48141DBA683F6B5A"]
+			description: [
+				"这个任务需要&3热解炉&r，是&d可选的&r，但很方便。"
+				""
+				"上部分是&awood ta&rr蒸馏的重要产品："
+				"&9-&r酚：用于环氧树脂和PBI"
+				"&9-&r苯：一种重要的烃类"
+				"&9-&r甲苯：用于TNT"
+				"&9-&r二甲基苯：用于PBI"
+				""
+				"与石油不同，将&awood ta&rr放入&3蒸馏塔&r以获得副产品，并使用&d硝基苯&r作为动力源，这可能是值得的。"
+				""
+				""
+				"下部分是从&awood vinega&rr蒸馏中获得的重要产品："
+				"&9-&r乙酸：用于制造更多的丙酮"
+				"&9-&r甲醇：一种适度重要的烃类"
+				"&9-&r丙酮：用于环氧树脂和汽油"
+				""
+				"完成&eeithe&rr任务以验证此任务。"
+				""
+				""
+				"也可以选择4个&3DTs&r的完整组合。一个作为整个输入的&acharcoal byproducts&r，分裂成&awood ta&rr、&awood gas&r和&awood vinega&rr。"
+				"虽然成本效益比不是最高的，但如果你对此感兴趣，这也是一个选择。"
+			]
+			icon: "gtceu:seed_oil_bucket"
+			id: "5742702B8021B1F5"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "672CC5BF6F0F6DAB"
+				type: "checkmark"
+			}]
+			title: "真正的蒸馏：有机物"
+			x: 1.875d
+			y: 10.875d
+		}
+		{
+			dependencies: ["48141DBA683F6B5A"]
+			description: [
+				"&3Cracke&rr是一个多方块，其唯一目的是裂解流体。它具有&3化学反应器&r裂解的所有配方，但是它是&6无损失的&r。"
+				""
+				"这是在长期节省大量燃料的好方法！"
+				""
+				"更高的线圈层提供小的能量折扣——使用最好的线圈可以折扣高达70%。"
+			]
+			id: "24866E83B280C9AB"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "欢迎来到Cracker Island"
+			tasks: [{
+				id: "4307AF60A80EE9FC"
+				item: "gtceu:cracker"
+				type: "item"
+			}]
+			title: "多方块裂解"
+			x: 1.125d
+			y: 11.25d
+		}
+		{
+			dependencies: ["39E7997F3080250A"]
+			description: [
+				"要将P2P隧道转换为&aGTEU P2P隧道&r，请在世界中使用&d电线&r或&d电缆&r右键单击它。"
+				""
+				"这在后期游戏情况下非常理想，可以避免你垃圾邮件电缆或变压器。你还可以与AE2量子桥梁一起使用它们，以为你的高级矿工和钻机提供动力。"
+				""
+				"P2P的输出端有&45%的电压税&r，导致5%的能量损失。"
+			]
+			icon: "ae2:me_p2p_tunnel"
+			id: "4793384CD9764AC6"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "EU和U：传输能量"
+			tasks: [{
+				id: "6EEAAFA1EAC9DEDA"
+				type: "checkmark"
+			}]
+			title: "GTEU P2P隧道"
+			x: 5.625d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39E7997F3080250A"]
+			description: [
+				"要将P2P隧道转换为&a物品P2P隧道&r，请在世界中使用&d普通箱子&r右键单击它。"
+				""
+				"物品P2P隧道在更抽象的方面上很有用，因此让我们从一个例子开始。"
+				"{@pagebreak}"
+				"&e例子：&r在&3装配机&r中制作&9HV机壳&r还需要一个&3提取器&r来提取流体。这是两台机器，因此有两个库存。"
+				""
+				"你可以通过被动方式填充装配机的聚乙烯，&l或者&r你也可以将其包含在&d模式&r中，以2个条形（锭）的形式。"
+				""
+				"现在，你可能认为下一步就是将物品倾倒到缓冲区并使用管道路由物品-然而，由于与AE2接口阻止模式不兼容，该系统最终将&4堵塞&r！哦不！"
+				"{@pagebreak}"
+				"这可以通过将&a物品P2P&r的输入放置在你的&3ME接口&r上，在&3提取器&r上放置一个输出，在&3装配机&r上放置另一个输出来解决。"
+				""
+				"然后，在输出连接的位置使用过滤器覆盖。&d物品标签过滤器&r更好，因为你可以将它们配置为&9锭&r。将它们放在&3提取器&r的&e白名单&r上，并在&3装配机&r的&e黑名单&r上（没有装配机配方需要锭，这是格雷科技中的有意设计决策）。"
+				""
+				"不要忘记在你的接口上使用&d阻止模式&r。"
+				""
+				"将聚合物（聚乙烯、聚四氟乙烯、聚苯并咪唑）存储为条形的另一个原因！"
+			]
+			icon: "ae2:me_p2p_tunnel"
+			id: "7EF57E379F736FBB"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "物品和P2P的入门"
+			tasks: [{
+				id: "3CF9C3527F11EDA1"
+				type: "checkmark"
+			}]
+			title: "物品P2P隧道"
+			x: 7.125d
+			y: 0.0d
+		}
+	]
+	subtitle: ["改善基础设施并并行设置"]
+	title: "&5EV&r - 极限电压"
+}
