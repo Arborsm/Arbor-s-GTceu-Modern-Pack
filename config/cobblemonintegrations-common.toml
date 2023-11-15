@@ -10,3 +10,10 @@
 		#Hide the Pokemon label/nametag completely.
 		hidePokemonLabel = false
 
+[enhancedcelestials]
+	#Use datapacks for LunarEvent configuration.
+	#Apply EXP/EV changes only in wild battles?
+	applyInPVP = false
+	#Allow Pokemon to spawn/evolve using the lunarEvent conditions? (setting to False will disable all lunar event variants)
+	allowLunarEventVariants = true
+

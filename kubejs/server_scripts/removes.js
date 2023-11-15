@@ -2,14 +2,16 @@ ServerEvents.recipes(event => {
   global.removes.forEach(function (remove) {
     event.remove({ output: remove })
   })
-  const replaces = ['gtceu:brass_plate', 'gtceu:zinc_block', 'gtceu:zinc_ingot', 'gtceu:zinc_nugget', 'gtceu:copper_plate', 'gtceu:iron_plate', 'gtceu:iron_plate', 'gtceu:gold_plate',
-    'gtceu:steel_plate', 'gtceu:steel_ingot', 'gtceu:steel_nugget', 'gtceu:obsidian_dust', 'gtceu:desh_plate', 'gtceu:ostrum_plate', 'gtceu:calorite_plate']
-  const replaceremoves = ['create:brass_sheet', 'create:zinc_block', 'create:zinc_ingot', 'create:zinc_nugget', 'create:copper_sheet', 'create:iron_sheet', 'ad_astra:iron_plate', 'create:golden_sheet',
-    'ad_astra:steel_plate', 'ad_astra:steel_ingot', 'ad_astra:steel_nugget', 'create:powdered_obsidian', 'ad_astra:desh_plate', 'ad_astra:ostrum_plate', 'ad_astra:calorite_plate']
-  replaceremoves.forEach(function (remove, index) {
-    const replace = replaces[index]
-    event.replaceInput({}, remove, replace)
-    event.replaceOutput({}, remove, replace)
+  const replacesMap = new Map([
+    ['gtceu:brass_plate', 'create:brass_sheet'], ['gtceu:zinc_block', 'create:zinc_block'], ['gtceu:zinc_ingot', 'create:zinc_ingot'],
+    ['gtceu:zinc_nugget', 'create:zinc_nugget'], ['gtceu:copper_plate', 'create:copper_sheet'], ['gtceu:iron_plate', 'create:iron_sheet'],
+    ['gtceu:iron_plate', 'ad_astra:iron_plate'], ['gtceu:gold_plate', 'create:golden_sheet'], ['gtceu:steel_plate', 'ad_astra:steel_plate'],
+    ['gtceu:steel_ingot', 'ad_astra:steel_ingot'], ['gtceu:steel_nugget', 'ad_astra:steel_nugget'], ['gtceu:obsidian_dust', 'create:powdered_obsidian'],
+    ['gtceu:desh_plate', 'ad_astra:desh_plate'], ['gtceu:ostrum_plate', 'ad_astra:ostrum_plate'], ['gtceu:calorite_plate', 'ad_astra:calorite_plate']
+  ])
+  replacesMap.forEach((replace, remove) => {
+    event.replaceInput({}, replace, remove)
+    event.replaceOutput({}, replace, remove)
   })
   event.remove({ id: 'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot' })
 })

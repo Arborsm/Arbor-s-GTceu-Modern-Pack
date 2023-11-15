@@ -29,11 +29,6 @@
 	#This will affect which BiDi algorithm to use during text layout.
 	#Allowed Values: FIRST_STRONG, ANY_RTL, LTR, RTL, LOCALE, FIRST_STRONG_LTR, FIRST_STRONG_RTL
 	textDirection = "FIRST_STRONG"
-	#Whether to use Google Noto Color Emoji, otherwise grayscale emoji (faster).
-	#See Unicode 15.0 specification for details on how this affects text layout.
-	useColorEmoji = true
-	#Allow Slack or Discord shortcodes to replace Unicode Emoji Sequences in chat.
-	emojiShortcodes = true
 	#Whether to use Modern UI text rendering pipeline in 3D world.
 	#Disabling this means that SDF text and rendering optimization are no longer effective.
 	#But text rendering can be compatible with OptiFine Shaders and Iris Shaders.
@@ -41,7 +36,7 @@
 	#This option only applies to TrueType fonts.
 	useTextShadersInWorld = true
 	#For DEFAULT_FONT and UNIFORM_FONT, should we keep some bitmap providers of them?
-	#Ignore All: Use selectedTypeface only.
+	#Ignore All: Equivalent to Force Unicode Font.
 	#Keep ASCII: Include minecraft:font/ascii.png, minecraft:font/accented.png, minecraft:font/nonlatin_european.png
 	#Keep Other: Include providers in minecraft:font/default.json other than Keep ASCII and Unicode font.
 	#Keep All: Include all except Unicode font.

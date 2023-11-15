@@ -172,7 +172,7 @@ machines:
 
   # Wether to add a "Bedrock Ore Miner" (also enables bedrock ore generation)
   # Default: false
-  doBedrockOres: false
+  doBedrockOres: true
 
   # What Kind of material should the bedrock ore miner output?
   # Default: "raw"
@@ -254,4 +254,8 @@ dev:
   # Dump all registered GT recipes?
   # Default: false
   dumpRecipes: false
+
+  # Dump all registered GT models/blockstates/etc?
+  # Default: false
+  dumpAssets: false
 

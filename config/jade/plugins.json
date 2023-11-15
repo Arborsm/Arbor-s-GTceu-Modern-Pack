@@ -75,6 +75,9 @@
   "touhou_little_maid": {
     "maid": true
   },
+  "twilightforest": {
+    "quest_ram_wool": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
@@ -94,11 +97,6 @@
     "goggles.detailed": false,
     "placard": true
   },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
   "ae2": {
     "part_icon": true,
     "charger": true,
@@ -110,5 +108,12 @@
     "power_storage": true,
     "crafting_monitor": true,
     "part_name": true
+  },
+  "productivebees": {
+    "solitary_nest": true,
+    "jar": true,
+    "canvas_beehive": true,
+    "bee_attributes": true,
+    "productive_bee": true
   }
 }

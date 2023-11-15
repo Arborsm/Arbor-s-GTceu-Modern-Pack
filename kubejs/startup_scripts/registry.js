@@ -7,31 +7,13 @@ StartupEvents.registry('item', event => {
   event.create('poke_flute').unstackable().rarity('uncommon').tooltip('§5右键后按H与宝可梦一起冒险吧！').displayName('宝可梦之笛')
 })
 
-/* GTCEuStartupEvents.registry('gtceu:tag_prefix', event => {
-  const Ignores = ['brass', 'desh', 'ostrum', 'calorite']
-  // 材料注册替换
-  TagPrefix.block.setIgnored('infinity')
-  TagPrefix.ingot.setIgnored('infinity')
-  TagPrefix.block.setIgnored('andesite_alloy')
-  TagPrefix.ingot.setIgnored('andesite_alloy')
-  TagPrefix.ingot.setIgnored('space_neutronium')
-  TagPrefix.nugget.setIgnored('space_neutronium')
-  TagPrefix.rawOre.setIgnored('desh')
-  TagPrefix.rawOre.setIgnored('ostrum')
-  TagPrefix.rawOre.setIgnored('calorite')
-  Ignores.forEach(e => {
-    TagPrefix.ingot.setIgnored(`${e}`)
-    TagPrefix.block.setIgnored(`${e}`)
-    TagPrefix.nugget.setIgnored(`${e}`)
-  })
-}) */
-
 GTCEuStartupEvents.registry('gtceu:material', event => {
   // 特殊注册
   event.create('sodium_pyrosulfate').dust(1).fluid().color(0xff9900).iconSet(GTMaterialIconSet.METALLIC).components('2x potassium', '2x sulfur', '7x oxygen').blastTemp(1123)
   event.create('sodium_sulfate').dust(1).color(0xF9F6CF).iconSet(GTMaterialIconSet.SAND).components('2x sodium', 'sulfur', '4x oxygen')
   event.create('zinc_sulfate').dust(1).color(0x533c1b).iconSet(GTMaterialIconSet.SAND).components('zinc', 'sulfur', '4x oxygen')
   event.create('wollastonite').dust(1).ore().color(0xc4cbcf).iconSet(GTMaterialIconSet.SAND).components('calcium', 'silicon', '3x oxygen')
+  event.create('arcane_crystal').dust(1).ore().gem().color(0x93AEFF).iconSet(GTMaterialIconSet.DIAMOND)
 
   // 粉末注册
   function Dust (dust, color, is, fluid, ore) {
