@@ -55,6 +55,377 @@ GTCEuServerEvents.oreVeins(event => {
         .layer(l => l.weight(1).mat(GTMaterials.get('andradite')).size(1, 1))
         .build()))
   })
+  // 暮色
+  // 方铅
+  event.add('galena_vein_tf', vein => {
+    vein.clusterSize(30)
+    vein.weight(40)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Galena).size(2, 4))
+        .layer(l => l.weight(3).mat(GTMaterials.Silver).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Lead).size(1, 1))
+        .build()))
+  })
+  // 蓝宝石
+  event.add('sapphire_vein_tf', vein => {
+    vein.clusterSize(25)
+    vein.weight(60)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Almandine).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.Pyrope).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Sapphire).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.GreenSapphire).size(1, 1))
+        .build()))
+  })
+  // 橄榄石
+  event.add('olivine_vein_tf', vein => {
+    vein.clusterSize(30)
+    vein.weight(20)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Bentonite).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.Magnetite).size(1, 1))
+        .layer(l => l.weight(2).mat(GTMaterials.Olivine).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.GlauconiteSand).size(1, 1))
+        .build()))
+  })
+  // 镍
+  event.add('nickel_vein_tf', vein => {
+    vein.clusterSize(30)
+    vein.weight(40)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Garnierite).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.Nickel).size(1, 1))
+        .layer(l => l.weight(2).mat(GTMaterials.Cobaltite).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Pentlandite).size(1, 1))
+        .build()))
+  })
+  // 钻石
+  event.add('diamond_vein_tf', vein => {
+    vein.clusterSize(30)
+    vein.weight(40)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Graphite).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.Diamond).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Coal).size(1, 1))
+        .build()))
+  })
+  // 青金石
+  event.add('lapis_vein_tf', vein => {
+    vein.clusterSize(40)
+    vein.weight(40)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Lazurite).size(1, 3))
+        .layer(l => l.weight(2).mat(GTMaterials.Sodalite).size(1, 2))
+        .layer(l => l.weight(2).mat(GTMaterials.Lapis).size(1, 2))
+        .layer(l => l.weight(1).mat(GTMaterials.Calcite).size(1, 1))
+        .build()))
+  })
+  // 钼
+  event.add('molybdenite_vein_tf', vein => {
+    vein.clusterSize(25)
+    vein.weight(5)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Wulfenite).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.Molybdenite).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Molybdenum).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Powellite).size(1, 1))
+        .build()))
+  })
+  // 煤
+  event.add('coal_vein_tf', vein => {
+    vein.clusterSize(35)
+    vein.weight(80)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Coal).size(2, 4))
+        .layer(l => l.weight(3).mat(GTMaterials.Coal).size(2, 4))
+        .build()))
+  })
+  // 皂石
+  event.add('lubricant_vein_tf', vein => {
+    vein.clusterSize(25)
+    vein.weight(40)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Soapstone).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.Talc).size(1, 1))
+        .layer(l => l.weight(2).mat(GTMaterials.GlauconiteSand).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Pentlandite).size(1, 1))
+        .build()))
+  })
+  // 金
+  event.add('gold_vein_tf', vein => {
+    vein.clusterSize(35)
+    vein.weight(80)
+    vein.layer('tf')
+    vein.density(0.15)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Magnetite).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.VanadiumMagnetite).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Gold).size(1, 1))
+        .build()))
+  })
+  // 铁
+  event.add('iron_vein_tf', vein => {
+    vein.clusterSize(36)
+    vein.weight(120)
+    vein.layer('tf')
+    vein.density(0.3)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(5).mat(GTMaterials.Goethite).size(1, 3))
+        .layer(l => l.weight(2).mat(GTMaterials.YellowLimonite).size(1, 2))
+        .layer(l => l.weight(2).mat(GTMaterials.Hematite).size(1, 2))
+        .layer(l => l.weight(1).mat(GTMaterials.Malachite).size(1, 2))
+        .build()))
+  })
+  // 磷灰石
+  event.add('apatite_vein_tf', vein => {
+    vein.clusterSize(30)
+    vein.weight(40)
+    vein.layer('tf')
+    vein.density(0.25)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Apatite).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.TricalciumPhosphate).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Pyrochlore).size(1, 1))
+        .build()))
+  })
+  // 盐
+  event.add('salts_vein_tf', vein => {
+    vein.clusterSize(30)
+    vein.weight(50)
+    vein.layer('tf')
+    vein.density(0.2)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.RockSalt).size(2, 4))
+        .layer(l => l.weight(2).mat(GTMaterials.Salt).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Lepidolite).size(1, 1))
+        .layer(l => l.weight(1).mat(GTMaterials.Spodumene).size(1, 1))
+        .build()))
+  })
+  // 锡
+  event.add('cassiterite_vein_tf', vein => {
+    vein.clusterSize(36)
+    vein.weight(50)
+    vein.layer('tf')
+    vein.density(0.4)
+    vein.addSpawnDimension('twilightforest:twilight_forest')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -30
+        },
+        max_inclusive: {
+          absolute: 0
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Tin).size(2, 3))
+        .layer(l => l.weight(1).mat(GTMaterials.Cassiterite).size(1, 2))
+        .build()))
+  })
   // moon
   // 独居石
   event.add('monazite_vein_n', vein => {
@@ -63,6 +434,8 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.2)
     vein.addSpawnDimension('ad_astra:moon')
+    vein.addSpawnDimension('ad_astra:venus')
+    vein.addSpawnDimension('ad_astra:glacio')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -144,11 +517,12 @@ GTCEuServerEvents.oreVeins(event => {
     vein.density(0.3)
     vein.addSpawnDimension('ad_astra:moon')
     vein.addSpawnDimension('ad_astra:mars')
+    vein.addSpawnDimension('ad_astra:venus')
     vein.heightRange({
       height: {
         type: 'uniform',
         min_inclusive: {
-          absolute: 40
+          absolute: 30
         },
         max_inclusive: {
           absolute: 80
@@ -199,6 +573,8 @@ GTCEuServerEvents.oreVeins(event => {
     vein.density(0.25)
     vein.addSpawnDimension('ad_astra:moon')
     vein.addSpawnDimension('ad_astra:mars')
+    vein.addSpawnDimension('ad_astra:venus')
+    vein.addSpawnDimension('ad_astra:glacio')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -253,6 +629,7 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.4)
     vein.addSpawnDimension('ad_astra:moon')
+    vein.addSpawnDimension('ad_astra:venus')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -357,11 +734,12 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.2)
     vein.addSpawnDimension('ad_astra:mars')
+    vein.addSpawnDimension('ad_astra:venus')
     vein.heightRange({
       height: {
         type: 'uniform',
         min_inclusive: {
-          absolute: 30
+          absolute: 20
         },
         max_inclusive: {
           absolute: 60
@@ -408,6 +786,7 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.2)
     vein.addSpawnDimension('ad_astra:mars')
+    vein.addSpawnDimension('ad_astra:glacio')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -434,6 +813,7 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.2)
     vein.addSpawnDimension('ad_astra:mars')
+    vein.addSpawnDimension('ad_astra:venus')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -460,6 +840,7 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.2)
     vein.addSpawnDimension('ad_astra:mars')
+    vein.addSpawnDimension('ad_astra:venus')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -486,6 +867,8 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.25)
     vein.addSpawnDimension('ad_astra:mars')
+    vein.addSpawnDimension('ad_astra:venus')
+    vein.addSpawnDimension('ad_astra:glacio')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -514,6 +897,7 @@ GTCEuServerEvents.oreVeins(event => {
     vein.density(0.15)
     vein.addSpawnDimension('ad_astra:mars')
     vein.addSpawnDimension('ad_astra:mercury')
+    vein.addSpawnDimension('ad_astra:glacio')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -569,6 +953,7 @@ GTCEuServerEvents.oreVeins(event => {
     vein.density(0.2)
     vein.addSpawnDimension('ad_astra:mars')
     vein.addSpawnDimension('ad_astra:mercury')
+    vein.addSpawnDimension('ad_astra:venus')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -595,6 +980,7 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.3)
     vein.addSpawnDimension('ad_astra:mars')
+    vein.addSpawnDimension('ad_astra:venus')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -639,6 +1025,31 @@ GTCEuServerEvents.oreVeins(event => {
         .layer(l => l.weight(2).mat(GTMaterials.Salt).size(1, 1))
         .layer(l => l.weight(1).mat(GTMaterials.Lepidolite).size(1, 1))
         .layer(l => l.weight(1).mat(GTMaterials.Spodumene).size(1, 1))
+        .build()))
+  })
+  // 硅岩火星
+  event.add('naquadah_vein_ad_mars', vein => {
+    vein.clusterSize(48)
+    vein.weight(5)
+    vein.layer('ad')
+    vein.density(0.4)
+    vein.addSpawnDimension('ad_astra:mars')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: 10
+        },
+        max_inclusive: {
+          absolute: 90
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Naquadah).size(2, 4))
+        .layer(l => l.weight(1).mat(GTMaterials.get('enriched_naquadah')).size(1, 2))
         .build()))
   })
   // 水星
@@ -809,6 +1220,7 @@ GTCEuServerEvents.oreVeins(event => {
     vein.layer('ad')
     vein.density(0.2)
     vein.addSpawnDimension('ad_astra:mercury')
+    vein.addSpawnDimension('ad_astra:glacio')
     vein.heightRange({
       height: {
         type: 'uniform',
@@ -988,6 +1400,137 @@ GTCEuServerEvents.oreVeins(event => {
         .layer(l => l.weight(2).mat(GTMaterials.Apatite).size(1, 2))
         .layer(l => l.weight(2).mat(GTMaterials.Tantalite).size(1, 2))
         .layer(l => l.weight(1).mat(GTMaterials.Pyrochlore).size(1, 1))
+        .build()))
+  })
+  // 硅岩
+  event.add('naquadah_vein_ad', vein => {
+    vein.clusterSize(48)
+    vein.weight(30)
+    vein.layer('ad')
+    vein.density(0.4)
+    vein.addSpawnDimension('ad_astra:venus')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: 10
+        },
+        max_inclusive: {
+          absolute: 90
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Naquadah).size(2, 3))
+        .layer(l => l.weight(1).mat(GTMaterials.get('enriched_naquadah')).size(1, 2))
+        .build()))
+  })
+  // Glacio
+  // 锇
+  event.add('osmium_vein_ad', vein => {
+    vein.clusterSize(24)
+    vein.weight(10)
+    vein.layer('ad')
+    vein.density(0.2)
+    vein.addSpawnDimension('ad_astra:glacio')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -5
+        },
+        max_inclusive: {
+          absolute: 30
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(3).mat(GTMaterials.Nickel).size(2, 3))
+        .layer(l => l.weight(2).mat(GTMaterials.Osmium).size(1, 2))
+        .layer(l => l.weight(1).mat(GTMaterials.Iridium).size(1, 1))
+        .build()))
+  })
+  // 中子素
+  event.add('neutronium_vein_ad', vein => {
+    vein.clusterSize(24)
+    vein.weight(10)
+    vein.layer('ad')
+    vein.density(0.2)
+    vein.addSpawnDimension('ad_astra:glacio')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -50
+        },
+        max_inclusive: {
+          absolute: -10
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(2).mat(GTMaterials.Neutronium).size(1, 2))
+        .layer(l => l.weight(1).mat(GTMaterials.get('infinity_catalyst')).size(1, 2))
+        .layer(l => l.weight(1).mat(GTMaterials.Naquadah).size(1, 2))
+        .layer(l => l.weight(1).mat(GTMaterials.Titanium).size(1, 2))
+        .build()))
+  })
+  // 铌
+  event.add('niobium_vein_ad', vein => {
+    vein.clusterSize(36)
+    vein.weight(60)
+    vein.layer('ad')
+    vein.density(0.2)
+    vein.addSpawnDimension('ad_astra:glacio')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -50
+        },
+        max_inclusive: {
+          absolute: -10
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(2).mat(GTMaterials.Niobium).size(1, 2))
+        .layer(l => l.weight(2).mat(GTMaterials.Iridium).size(1, 2))
+        .layer(l => l.weight(1).mat(GTMaterials.Gallium).size(1, 1))
+        .build()))
+  })
+  // 钍
+  event.add('niobium_vein_ad', vein => {
+    vein.clusterSize(36)
+    vein.weight(60)
+    vein.layer('ad')
+    vein.density(0.2)
+    vein.addSpawnDimension('ad_astra:glacio')
+    vein.heightRange({
+      height: {
+        type: 'uniform',
+        min_inclusive: {
+          absolute: -10
+        },
+        max_inclusive: {
+          absolute: 30
+        }
+      }
+    })
+    vein.discardChanceOnAirExposure(0)
+    vein.generator(vein.generatorBuilder('gtceu:layer')
+      .withLayerPattern(() => GTLayerPattern.builder(GTOres.OVERWORLD_RULES)
+        .layer(l => l.weight(2).mat(GTMaterials.Thorium).size(1, 2))
+        .layer(l => l.weight(2).mat(GTMaterials.Uranium235).size(1, 2))
+        .layer(l => l.weight(2).mat(GTMaterials.Plutonium241).size(1, 2))
         .build()))
   })
 })

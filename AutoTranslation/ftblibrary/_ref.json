@@ -1,0 +1,6 @@
+{
+  "ftblibrary.gui.listSize1": "1 item",
+  "ftblibrary.gui.listSize": "%s items",
+  "ftblibrary.select_image.rescan": "Rescan Images",
+  "ftblibrary.select_image.scanning": "Scanning for images: this could take a few seconds..."
+}

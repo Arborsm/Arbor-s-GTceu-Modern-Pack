@@ -1,0 +1,149 @@
+
+[light_sources]
+	water_sensitive_check = true
+	block_entities = true
+	entities = true
+	self = true
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				chicken = true
+				bee = true
+				axolotl = true
+				egg = true
+				cow = true
+				chest_minecart = true
+				tropical_fish = true
+				fox = true
+				pig = true
+				slime = true
+				allay = true
+				skeleton = true
+				bat = true
+				zombie = true
+				drowned = true
+				sheep = true
+				experience_orb = true
+				player = true
+				dolphin = true
+				item = true
+				turtle = true
+				wolf = true
+				salmon = true
+				zombie_villager = true
+				elder_guardian = true
+				item_frame = true
+				phantom = true
+				glow_squid = true
+				witch = true
+				cod = true
+				squid = true
+				spider = true
+				creeper = true
+				lightning_bolt = true
+				enderman = true
+
+			[light_sources.settings.entities.cloudstorage]
+				balloon = true
+				balloon_tie = true
+
+			[light_sources.settings.entities.alexsmobs]
+				seal = true
+				murmur_head = true
+				skelewag = true
+				blue_jay = true
+				cachalot_echo = true
+				catfish = true
+				tasmanian_devil = true
+				centipede_tail = true
+				underminer = true
+				skunk = true
+				terrapin = true
+				flying_fish = true
+				cockroach = true
+				murmur = true
+				lobster = true
+				grizzly_bear = true
+				centipede_body = true
+				centipede_head = true
+				seagull = true
+				raccoon = true
+				fly = true
+				flutter = true
+				cachalot_whale = true
+				orca = true
+				crow = true
+				banana_slug = true
+
+			[light_sources.settings.entities.touhou_little_maid]
+				power_point = true
+				fairy = true
+
+			[light_sources.settings.entities.cataclysm]
+				lionfish = true
+				deepling = true
+				deepling_brute = true
+				amethyst_crab = true
+				deepling_angler = true
+
+			[light_sources.settings.entities.twilightforest]
+				deer = true
+				skeleton_druid = true
+				carminite_ghastguard = true
+				kobold = true
+				slime_beetle = true
+				redcap_sapper = true
+				boar = true
+				carminite_ghastling = true
+				mist_wolf = true
+				swarm_spider = true
+				blockchain_goblin = true
+				carminite_broodling = true
+				dwarf_rabbit = true
+				raven = true
+				redcap = true
+				upper_goblin_knight = true
+				carminite_golem = true
+				helmet_crab = true
+				lower_goblin_knight = true
+				squirrel = true
+				king_spider = true
+				tiny_bird = true
+				bighorn_sheep = true
+				pinch_beetle = true
+
+			[light_sources.settings.entities.rats]
+				rat = true
+				plague_doctor = true
+				pied_piper = true
+
+			[light_sources.settings.entities.productivebees]
+				yellow_black_carpenter_bee = true
+				leafcutter_bee = true
+				ashy_mining_bee = true
+				reed_bee = true
+				chocolate_mining_bee = true
+				bumble_bee = true
+				green_carpenter_bee = true
+				resin_bee = true
+				configurable_bee = true
+
+			[light_sources.settings.entities.cobblemon]
+				pokemon = true
+
+			[light_sources.settings.entities.forbidden_arcanus]
+				lost_soul = true
+
+			[light_sources.settings.entities.ad_astra]
+				zombified_pygro = true
+				martian_raptor = true
+				sulfur_creeper = true
+				corrupted_lunarian = true
+				mogler = true
+				pygro = true
+				star_crawler = true
+				glacian_ram = true
+

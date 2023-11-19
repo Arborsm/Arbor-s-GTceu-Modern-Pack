@@ -7,6 +7,14 @@ ServerEvents.recipes(event => {
   event.shapeless('kubejs:poke_flute', ['supplementaries:flute', 'cobblemon:poke_ball'])
 })
 
+PlayerEvents.loggedIn(e => {
+  e.server.scheduleInTicks(100, callback => {
+    if (!e.player.getStages().getAll().contains('cobblemontrainer')) {
+      Utils.server.runCommandSilent('tp @e[type=cobblemon:pokemon] 0 -70 0')
+    }
+  })
+})
+
 EntityEvents.spawned(event => {
   const { entity } = event
   if (typeof (entity) !== null) {

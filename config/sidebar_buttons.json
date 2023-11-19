@@ -3,7 +3,7 @@
 		"my_team": false
 	},
 	"ftbquests": {
-		"quests": false
+		"quests": true
 	},
 	"ftblibrary": {
 		"toggle.gamemode": false,

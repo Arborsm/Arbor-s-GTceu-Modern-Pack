@@ -1,0 +1,16 @@
+{
+  "trim_material.cataclysm.ignitium": "点火材料",
+  "trim_material.cataclysm.witherite": "毒重石材料",
+  "item.cataclysm.ignitium_upgrade.applies_to.desc": "下界合金装备",
+  "death.attack.abyssal_burn": "%s 已离开此维度",
+  "block.cataclysm.sandstone_ignite_trap": "砂岩点燃陷阱",
+  "block.cataclysm.sandstone_falling_trap": "砂岩掉落陷阱",
+  "block.cataclysm.polished_sandstone": "抛光砂岩",
+  "item.cataclysm.ignitium_upgrade.ingredients.desc": "点火锭",
+  "block.cataclysm.sandstone_poison_dart_trap": "砂岩毒镖陷阱",
+  "death.attack.abyssal_burn.player": "%s 已离开此维度",
+  "item.cataclysm.ignitium_upgrade.desc": "点燃升级",
+  "entity.cataclysm.ancient_remnant": "远古遗迹",
+  "item.cataclysm.ignitium_upgrade_smithing_template": "Smithing_Template",
+  "item.cataclysm.ancient_remnant_spawn_egg": "远古遗迹刷怪蛋"
+}

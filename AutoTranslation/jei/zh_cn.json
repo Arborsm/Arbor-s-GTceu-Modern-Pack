@@ -1,0 +1,4 @@
+{
+  "config.jei.advanced.addBookmarksToFront": "添加新书签",
+  "config.jei.advanced.addBookmarksToFront.comment": "当 true 时，将新书签添加到书签列表的前面。当 false 时，将新书签添加到书签列表的末尾"
+}

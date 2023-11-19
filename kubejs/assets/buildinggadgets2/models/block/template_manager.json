@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
-	"parent": "buildinggadgets:block/orientable",
+	"parent": "buildinggadgets2:block/orientable",
 	"texture_size": [128, 128],
 	"textures": {
-		"0": "buildinggadgets:blocks/template_manager",
-		"particle": "buildinggadgets:blocks/template_manager"
+		"0": "buildinggadgets2:blocks/template_manager",
+		"particle": "buildinggadgets2:blocks/template_manager"
 	},
 	"elements": [
 		{

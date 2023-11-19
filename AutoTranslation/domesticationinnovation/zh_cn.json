@@ -1,0 +1,14 @@
+{
+  "enchantment.domesticationinnovation.healing_aura": "治疗光环",
+  "enchantment.domesticationinnovation.blazing_protection.desc": "每级有 2 根炽热棒保护宠物免受伤害，这些棒会击退攻击者并使攻击者着火。",
+  "enchantment.domesticationinnovation.rejuvenation": "复兴",
+  "entity.domesticationinnovation.psychic_wall": "心灵墙",
+  "enchantment.domesticationinnovation.muffled.desc": "宠物在移动时会保持安静并且不会发出振动。",
+  "enchantment.domesticationinnovation.blazing_protection": "炽热防护",
+  "domesticationinnovation.sound.subtitle.blazing_protection": "炽热条消失",
+  "enchantment.domesticationinnovation.rejuvenation.desc": "受伤时，宠物可以吸收经验球来治愈自己。",
+  "block.domesticationinnovation.wayward_lantern": "任性的灯笼",
+  "enchantment.domesticationinnovation.healing_aura.desc": "宠物偶尔会治疗主人及其周围的其他宠物，等级决定治疗效果的强弱。",
+  "enchantment.domesticationinnovation.muffled": "闷闷不乐",
+  "message.domesticationinnovation.wayward_lantern_return": "%s 已找到前往附近任意灯笼的路"
+}

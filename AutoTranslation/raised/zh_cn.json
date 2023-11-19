@@ -1,0 +1,22 @@
+{
+  "key.raised.options": "打开提出的选项",
+  "commands.raised.value.chat.set": "聊天高度现在设置为：%s",
+  "key.categories.raised": "提高",
+  "options.raised.title": "提出选项",
+  "options.raised.sync.tooltip": "启用 HUD/聊天同步。\n将聊天高度同步到 HUD 高度。",
+  "commands.raised.config.reload": "重新加载提升的配置",
+  "options.raised.hud.tooltip": "控制 HUD 高度。\n最大值是当前缩放屏幕高度的一半。",
+  "commands.raised.value.chat.query": "聊天高度当前设置为：%s",
+  "commands.raised.value.hud.query": "HUD 高度当前设置为：%s",
+  "commands.raised.value.hud.set": "HUD 高度现在设置为：%s",
+  "commands.raised.toggle.sync.query": "HUD/聊天同步当前设置为：%s",
+  "commands.raised.config.reset": "将配置重置为默认值",
+  "commands.raised.toggle.sync.set": "HUD/聊天同步现在设置为：%s",
+  "options.raised.sync": "同步",
+  "options.raised.support": "支持",
+  "options.raised.chat.tooltip": "控制聊天高度。\n最大值是当前缩放屏幕高度的一半。",
+  "options.raised.chat": "聊天",
+  "commands.raised.toggle.support.set": "扩展 mod 支持现在设置为：%s",
+  "options.raised.support.tooltip": "启用扩展 mod 支持。\n添加对与普通 HUD 元素无关的 mod 元素的支持。",
+  "commands.raised.toggle.support.query": "扩展 mod 支持当前设置为：%s"
+}

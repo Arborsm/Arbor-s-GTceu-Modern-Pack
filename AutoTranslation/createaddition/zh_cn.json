@@ -1,0 +1,13 @@
+{
+  "item.createaddition.gold_goblet": "华丽的高脚杯",
+  "item.createaddition.electrum_amulet.tooltip.summary": "当_life_让你沮丧时，将这个_护身符_放在口袋里会让你感觉你的_运气_即将改变。",
+  "item.createaddition.spool.tooltip.behaviour1": "将移除电线链接并返回已填充的_线轴_。",
+  "item.createaddition.spool.tooltip.condition1": "R-单击两个链接的连接器",
+  "item.createaddition.copper_goblet.tooltip.summary": "这个_goblet_非凡的传热能力将使您在最需要的时候保持凉爽。",
+  "item.createaddition.brass_figurine": "黄铜雕像",
+  "item.createaddition.gold_goblet.tooltip.summary": "用这个_高脚杯_喝水比任何普通瓶子更能满足。",
+  "createaddition.display_source.digital_adapter_source_digital_adapter": "数字适配器",
+  "item.createaddition.copper_goblet": "铜高脚杯",
+  "item.createaddition.electrum_amulet": "淡金护身符",
+  "itemGroup.createaddition.main": "创建工艺品\u0026添加"
+}

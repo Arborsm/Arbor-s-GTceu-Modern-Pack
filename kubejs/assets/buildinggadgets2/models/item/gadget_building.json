@@ -1,7 +1,7 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "buildinggadgets:items/gadget_building"
+		"0": "buildinggadgets2:items/gadget_building"
 	},
 	"elements": [
 		{

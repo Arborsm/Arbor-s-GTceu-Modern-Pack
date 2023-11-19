@@ -1,0 +1,4 @@
+{
+  "config.itemzoom.show.cooldown": "显示冷却时间",
+  "config.itemzoom.show.cooldown.comment": "缩放时显示物品的冷却动画。"
+}

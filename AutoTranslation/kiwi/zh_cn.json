@@ -1,0 +1,22 @@
+{
+  "cosmetic.snownee.2021q1": "电子",
+  "kiwi.config.debug.NBTTooltip.desc": "按住 Shift 时在高级工具提示 (F3+H) 中显示项目 NBT",
+  "kiwi.config.debug": "调试",
+  "kiwi.config.suppressExperimentalSettingsWarning": "抑制实验设置警告",
+  "kiwi.config.modules": "模块",
+  "kiwi.config.noMicrosoftTelemetry.desc": "禁用 Microsoft Mojang 添加的数据收集",
+  "kiwi.config.debug.NBTTooltip": "NBT 工具提示",
+  "modmenu.descriptionTranslation.kiwi": "我的世界模组库",
+  "kiwi.config.globalTooltip.desc": "启用全局添加项目工具提示的功能",
+  "item.kiwi.first_item.tip": "Lorem ipsum dolor sat amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut Labore et dolore magna aliqua。\n\nUt enim ad minim veniam, quis nostrud exeritation ullamco labouris nisi ut aliquip ex ea commodo consequat . Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n\nExcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labourum.",
+  "kiwi.config.globalTooltip": "全局工具提示",
+  "kiwi.config.debug.tagsTooltip.desc": "在高级工具提示中显示项目标签 (F3+H)",
+  "kiwi.config.common": "常见",
+  "kiwi.config.client": "客户端",
+  "kiwi.config.noMicrosoftTelemetry": "没有微软遥测",
+  "kiwi.config.suppressExperimentalSettingsWarning.desc": "加入世界时跳过实验设置警告屏幕",
+  "item.kiwi.first_item.tip.shift": "§2Curabitur pretiumtincidunt lacus。Nulla gravida orci a odio。\n\nNullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris。\n\nmauris eu nibh 中的整数怀孕了。",
+  "cosmetic.snownee.sunny_milk": "阳光牛奶",
+  "modmenu.nameTranslation.kiwi": "猕猴桃图书馆",
+  "kiwi.config.debug.tagsTooltip": "标签工具提示"
+}

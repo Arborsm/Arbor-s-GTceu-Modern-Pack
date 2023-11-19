@@ -6,4 +6,8 @@ GTCEuStartupEvents.registry('gtceu:world_gen_layer', event => {
     .addDimension('ad_astra:mars')
     .addDimension('ad_astra:mercury')
     .addDimension('ad_astra:glacio')
+
+  event.create('tf')
+    .target(['minecraft:stone'])
+    .addDimension('twilightforest:twilight_forest')
 })

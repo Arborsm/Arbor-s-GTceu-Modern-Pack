@@ -11,7 +11,7 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
   AddFluidExistMaterials(GTMaterials.OsmiumTetroxide)
   AddFluidExistMaterials(GTMaterials.AmmoniumChloride)
   AddFluidExistMaterials(GTMaterials.CalciumChloride)
-  const addores = ['neutronium', 'perlite', 'uvarovite', 'andradite', 'arsenic', 'bismuth', 'antimony', 'uranium', 'uranium_235', 'plutonium_241', 'gallium', 'niobium', 'vanadium', 'osmium', 'iridium', 'titanium', 'manganese', 'rutile', 'tungsten', 'chromium']
+  const addores = ['neutronium', 'perlite', 'uvarovite', 'andradite', 'arsenic', 'bismuth', 'antimony', 'uranium', 'uranium_235', 'plutonium_241', 'gallium', 'niobium', 'vanadium', 'osmium', 'iridium', 'titanium', 'manganese', 'rutile', 'tungsten', 'chromium', 'enriched_naquadah']
   addores.forEach(element => {
     GTMaterials.get(element).setProperty($PropertyKey.ORE, new $OreProperty())
   })

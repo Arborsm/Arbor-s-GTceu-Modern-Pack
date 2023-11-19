@@ -1,0 +1,23 @@
+{
+  "text.configuration.value.revert.default": "使用默认配置",
+  "text.configuration.error.character_value_empty": "字符字段不能为空！",
+  "text.configuration.value.revert.default.dialog": "您确定要将配置重置回默认值吗？",
+  "text.configuration.value.edit": "编辑",
+  "text.configuration.value.true": "正确",
+  "text.configuration.screen.color.red": "红色：%s",
+  "text.configuration.screen.dialog.confirm": "确认",
+  "text.configuration.screen.dialog.cancel": "取消",
+  "text.configuration.error.num_bounds": "值 \u0027%s\u0027 不是来自区间 \u003c%s;%s\u003e!",
+  "text.configuration.value.revert.changes": "回滚更改",
+  "text.configuration.error.nan": "值 \u0027%s\u0027 不是有效数字！",
+  "text.configuration.value.false": "假",
+  "text.configuration.screen.color.green": "绿色：%s",
+  "text.configuration.value.back": "返回",
+  "text.configuration.value.revert.changes.dialog": "您确定要放弃当前所做的更改吗？",
+  "text.configuration.screen.color.blue": "蓝色：%s",
+  "text.configuration.screen.select_config": "选择配置",
+  "text.configuration.error.pattern_mismatch": "值 \u0027%s\u0027 与模式 \\%s\\! 不匹配",
+  "text.configuration.value.add_element": "添加元素",
+  "text.configuration.screen.color.alpha": "阿尔法：%s",
+  "text.configuration.screen.color_dialog": "选择颜色"
+}

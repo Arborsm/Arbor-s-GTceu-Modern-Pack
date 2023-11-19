@@ -1,0 +1,8 @@
+{
+  "block.functionalstorage.framed_simple_compacting_drawer": "Framed Simple Compacting Drawer",
+  "configurationtool.configmode.indicator": "Swap indicator modes",
+  "configurationtool.configmode.indicator.mode_3": "Show progress bar only when full without background",
+  "configurationtool.configmode.indicator.mode_2": "Show progress bar only when full",
+  "configurationtool.configmode.indicator.mode_1": "Show progress bar",
+  "configurationtool.configmode.indicator.mode_0": "Hidden"
+}

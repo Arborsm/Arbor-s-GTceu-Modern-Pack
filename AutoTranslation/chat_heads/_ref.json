@@ -1,0 +1,4 @@
+{
+  "text.autoconfig.chat_heads.option.handleSystemMessages.@Tooltip": "Whether heads can be added to \"pure\" server messages.\nNote that many servers (e.g. running the FreedomChat plugin)\nturn player messages into server messages!\nOnly disable this option if you know what you are doing!",
+  "text.autoconfig.chat_heads.option.handleSystemMessages": "Handle system messages"
+}

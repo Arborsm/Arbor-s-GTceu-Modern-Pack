@@ -1,0 +1,5 @@
+{
+  "itemfilters.help_text.filter": "Filter (Right-Click to clear)",
+  "itemfilters.help_text.variants": "Tab, Scroll Wheel, Cursor Up/Down: adjust highlight\nEnter: select highlighted",
+  "itemfilters.variants": "Variants [%s]"
+}

@@ -1,0 +1,8 @@
+{
+  "block.functionalstorage.framed_simple_compacting_drawer": "框架简单压缩抽屉",
+  "configurationtool.configmode.indicator": "交换指示器模式",
+  "configurationtool.configmode.indicator.mode_3": "仅在无背景的情况下显示进度条",
+  "configurationtool.configmode.indicator.mode_2": "仅在满时显示进度条",
+  "configurationtool.configmode.indicator.mode_1": "显示进度条",
+  "configurationtool.configmode.indicator.mode_0": "隐藏"
+}

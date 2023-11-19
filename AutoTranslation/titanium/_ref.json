@@ -1,0 +1,19 @@
+{
+  "tooltip.titanium.tank.can_fill_from_item": "Can fill from item",
+  "block.titanium.block_asset_test": "Test Block: (Asset)",
+  "tooltip.titanium.tank.fluid": "Fluid: ",
+  "block.titanium.block_test": "Test Block: (Base)",
+  "tooltip.titanium.tank.empty": "Empty ",
+  "tooltip.titanium.tank.can_drain_from_item": "Can drain from item",
+  "tooltip.titanium.unlocks": "Unlocks:",
+  "tooltip.titanium.locks": "Locks:",
+  "tooltip.titanium.tank.action_drain": "\u003cRight-Click to drain from item\u003e",
+  "tooltip.titanium.tank.action_fill": "\u003cLeft-Click to fill from item\u003e",
+  "tooltip.titanium.tank.amount": "Amount: ",
+  "tooltip.titanium.tank.no_tank": "\u003cNot hovering with a tank\u003e",
+  "tooltip.titanium.facing_handler.fluid": "Fluid Tank",
+  "tooltip.titanium.progressbar.progress": "Progress: ",
+  "tooltip.titanium.tank.no_action": "Can\u0027t fill or drain from item",
+  "block.titanium.machine_test": "Test Block: (Machine)",
+  "block.titanium.block_twenty_four_test": "Test Block: (Twenty-Four Rotation)"
+}

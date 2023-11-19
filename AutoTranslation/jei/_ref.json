@@ -1,0 +1,4 @@
+{
+  "config.jei.advanced.addBookmarksToFront": "Prepend New Bookmarks",
+  "config.jei.advanced.addBookmarksToFront.comment": "When true, adds new bookmarks to the front of the bookmark list. When false, adds new bookmarks to the end of the bookmark list"
+}

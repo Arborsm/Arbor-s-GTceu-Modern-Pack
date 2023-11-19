@@ -1,0 +1,16 @@
+{
+  "trim_material.cataclysm.ignitium": "Ignitium Material",
+  "trim_material.cataclysm.witherite": "Witherite Material",
+  "item.cataclysm.ignitium_upgrade.applies_to.desc": "Netherite Equipment",
+  "death.attack.abyssal_burn": "%s has left this dimension",
+  "block.cataclysm.sandstone_ignite_trap": "Sandstone Ignite Trap",
+  "block.cataclysm.sandstone_falling_trap": "Sandstone falling Trap",
+  "block.cataclysm.polished_sandstone": "Polished Sandstone",
+  "item.cataclysm.ignitium_upgrade.ingredients.desc": "Ignitium Ingot",
+  "block.cataclysm.sandstone_poison_dart_trap": "Sandstone Poison Dart Trap",
+  "death.attack.abyssal_burn.player": "%s has left this dimension",
+  "item.cataclysm.ignitium_upgrade.desc": "Ignitium Upgrade",
+  "entity.cataclysm.ancient_remnant": "Ancient Remnant",
+  "item.cataclysm.ignitium_upgrade_smithing_template": "Smithing_Template",
+  "item.cataclysm.ancient_remnant_spawn_egg": "Ancient Remnant Spawn Egg"
+}

@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Arborsm",
+      "uniqueId": "d3341578-4367-48f4-95f7-33d93dd60d05"
+    },
+    "time": 1700132393999,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/xImUArPt6d"
+    }
+  }
+]

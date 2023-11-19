@@ -1,0 +1,18 @@
+{
+  "text.owo.config.button.exit_minecraft": "Exit Minecraft",
+  "text.owo.configure_hot_reload.title": "Configure Hot Reload",
+  "text.owo.config.button.ignore_restart": "Restart later",
+  "text.owo.config.search.matches": "%s of %s",
+  "text.owo.configure_hot_reload.choose_file": "Choose file",
+  "text.owo.config.must_restart": "Some changes you made require a restart to apply",
+  "text.owo.config.button.range.edit_with_slider": "Edit with slider",
+  "text.owo.config.search": "Search...",
+  "text.owo.config.list.add_entry": "Add entry",
+  "text.owo.configure_hot_reload.save": "Save",
+  "text.owo.config.search.no_matches": "No matches",
+  "text.owo.config.button.range.edit_as_text": "Edit as text",
+  "text.owo.configure_hot_reload.reload_from.unset": "Unset",
+  "text.owo.config.button.done": "Done",
+  "text.owo.configure_hot_reload.choose_ui_model_source": "Choose UI Model source",
+  "text.owo.config.button.reload": "Reload"
+}

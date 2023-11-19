@@ -1,0 +1,5 @@
+{
+  "item.patchouli:pamphlet.name": "Test Pamphlet",
+  "item.patchouli:pamphlet.landing": "A test pamphlet, which is a book with only one category.",
+  "patchouli.gui.lexicon.button.toggle_mock_header": "Toggle Mock Header"
+}
