@@ -12,10 +12,10 @@
   "tooltip.enigmaticlegacy.theJudgement1": "§5受到攻击时，对每个人造成伤害",
   "tooltip.enigmaticlegacy.theJudgement2": "半径为 §6%s§6 方块§5 内的§5生物",
   "tooltip.enigmaticlegacy.blessedOnesOnly1": "仅限建筑师选择的",
-  "tooltip.enigmaticlegacy.blessedOnesOnly2": "拥有获取和使用该物品的权力。",
+  "tooltip.enigmaticlegacy.blessedOnesOnly2": "拥有获得和使用该物品的权力。",
   "tooltip.enigmaticlegacy.cosmicScroll14": "§5 攻击将它们点燃。",
   "tooltip.enigmaticlegacy.cosmicScroll13": "§5未被选中的玩家，以及你的混战",
-  "tooltip.enigmaticlegacy.cosmicScroll10": "§5恢复到§650%§5并且应用了强大的增益。",
+  "tooltip.enigmaticlegacy.cosmicScroll10": "§5恢复到§650%§5并应用了强大的增益效果。",
   "tooltip.enigmaticlegacy.cosmicScroll12": "§5你对 §6+%1$s §d伤害§5 和 §6+%2$s §d击退§5 造成",
   "tooltip.enigmaticlegacy.cosmicScroll11": "§5此能力有 §6%1$s §6秒§5 冷却时间。",
   "item.enigmaticlegacy.cosmic_scroll": "建筑师的青睐",
@@ -34,7 +34,7 @@
   "tooltip.enigmaticlegacy.cosmicScroll6": "§5大多数法术石的主动技能冷却时间为",
   "tooltip.enigmaticlegacy.cosmicScroll7": "§5 大幅减少。",
   "tooltip.enigmaticlegacy.cosmicScroll8": "§6以太坊工具§5矿井面积增加。",
-  "tooltip.enigmaticlegacy.cosmicScroll9": "§5当你受到致命伤害时，你的健康状况是",
+  "tooltip.enigmaticlegacy.cosmicScroll9": "§5当你受到致命伤害时，你的生命值会降低",
   "tooltip.enigmaticlegacy.cosmicScroll1": "§6+1 §dLuck",
   "tooltip.enigmaticlegacy.cosmicScrollCooldown": "§d剩余冷却时间：§6%1$s §6秒"
 }

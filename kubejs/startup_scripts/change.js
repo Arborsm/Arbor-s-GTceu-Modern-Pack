@@ -16,6 +16,10 @@ GTCEuStartupEvents.registry('gtceu:material', event => {
     GTMaterials.get(element).setProperty($PropertyKey.ORE, new $OreProperty())
   })
   GTMaterials.get('andesite_alloy').addFlags(GTMaterialFlags.GENERATE_PLATE, GTMaterialFlags.GENERATE_GEAR, GTMaterialFlags.GENERATE_SMALL_GEAR, GTMaterialFlags.GENERATE_ROD, GTMaterialFlags.GENERATE_ROTOR, GTMaterialFlags.GENERATE_SPRING)
+  GTMaterials.get('brass').addFlags(GTMaterialFlags.GENERATE_DENSE)
+  GTMaterials.get('aluminium').addFlags(GTMaterialFlags.GENERATE_DENSE)
+  GTMaterials.get('steel').addFlags(GTMaterialFlags.GENERATE_DENSE)
+  // GTMaterials.Oxygen.getProperty($PropertyKey.FLUID).getStorage().store($FluidStorageKeys.GAS, Fluid.of('ad_astra:oxygen'))
 })
 
 StartupEvents.postInit(event => {

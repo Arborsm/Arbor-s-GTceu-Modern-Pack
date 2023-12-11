@@ -1481,7 +1481,7 @@
 			tasks: [
 				{
 					amount: 1000000L
-					fluid: "gtceu:oxygen"
+					fluid: "minecraft:water"
 					id: "1EE14254AE07512F"
 					type: "fluid"
 				}

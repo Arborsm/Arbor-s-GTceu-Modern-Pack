@@ -4,7 +4,7 @@ global.removes = ['create:brass_sheet', 'create:zinc_block', 'create:zinc_ingot'
   'create:copper_nugget', 'create:sturdy_sheet', 'gtceu:sodium_pyrosulfate_block', 'gtceu:sodium_pyrosulfate_nugget', 'gtceu:sodium_pyrosulfate_ingot', 'gtceu:sodium_pyrosulfate',
   'gtceu:sodium_pyrosulfate_bucket', 'ad_astra:desh_plate', 'ad_astra:ostrum_plate', 'ad_astra:calorite_plate', 'create:raw_zinc', 'create:crushed_raw_zinc', 'create:raw_zinc_block',
   'create:deepslate_zinc_ore', 'create:zinc_ore', 'forbidden_arcanus:arcane_crystal_ore', 'forbidden_arcanus:deepslate_arcane_crystal_ore', 'ad_astra:steel_block', 'createaddition:zinc_sheet',
-  'ae2:ender_dust'
+  'ae2:ender_dust', 'ad_astra:oxygen_loader', 'ad_astra:engine_frame'
 ]
 
 global.debug = true

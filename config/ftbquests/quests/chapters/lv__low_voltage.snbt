@@ -1646,7 +1646,7 @@
 			subtitle: "实际上，它是二氧化氢..."
 			tasks: [{
 				amount: 1000L
-				fluid: "gtceu:oxygen"
+				fluid: "minecraft:water"
 				id: "70F00C67C9698A78"
 				type: "fluid"
 			}]

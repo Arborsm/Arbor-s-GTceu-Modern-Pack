@@ -14,7 +14,7 @@ ServerEvents.recipes(event => {
   // remove
   const removeInput = ['gtceu:osmium_tetroxide_dust', 'gtceu:ruthenium_tetroxide_dust', 'gtceu:iridium_chloride_dust', 'gtceu:inert_metal_mixture_dust', 'gtceu:platinum_group_sludge_dust', 'gtceu:platinum_raw_dust',
     'gtceu:palladium_raw_dust', 'gtceu:rarest_metal_mixture_dust', 'gtceu:iridium_metal_residue_dust']
-  const removeOutput = ['gtceu:osmium_tetroxide_dust', 'gtceu:rhodium_dust', 'gtceu:platinum_ingot', 'gtceu:platinum_group_sludge_dust']
+  const removeOutput = ['gtceu:osmium_tetroxide_dust', 'gtceu:rhodium_dust', 'gtceu:platinum_ingot', 'gtceu:platinum_group_sludge_dust', 'gtceu:sodium_pyrosulfate']
   removeInput.forEach(element => { event.remove({ not: { type: 'minecraft:crafting_shaped' }, input: element }) })
   removeOutput.forEach(element => { event.remove({ not: { type: 'minecraft:crafting_shaped' }, output: element }) })
   event.remove({ id: 'gtceu:alloy_blast_smelter/sodium_pyrosulfate' })
@@ -190,7 +190,7 @@ ServerEvents.recipes(event => {
   // 提取
   function addEXTRecipe (name, itemInputs, fluidOutputs, eut, time) {
     const dur = time * 20
-    const recipe = event.recipes.gtceu.electric_blast_furnace(name + '_ext').duration(dur).EUt(eut)
+    const recipe = event.recipes.gtceu.extractor(name + '_ext').duration(dur).EUt(eut)
     recipe.itemInputs(itemInputs)
     recipe.outputFluids(fluidOutputs)
   }

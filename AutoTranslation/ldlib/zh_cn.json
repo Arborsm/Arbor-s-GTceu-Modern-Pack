@@ -27,7 +27,7 @@
   "ldlib.gui.compass.mode.link": "链接",
   "ldlib.gui.compass.add_node": "添加节点",
   "ldlib.gui.compass.mode.link.tooltip": "- 拖动以连接两个节点。\n- 选择链接并右键单击将其删除",
-  "ldlib.gui.compass.section.edit_mode.tooltip": "右键单击该部分打开编辑菜单",
+  "ldlib.gui.compass.section.edit_mode.tooltip": "右键单击该部分以打开编辑菜单",
   "ldlib.gui.compass.refresh": "刷新",
   "ldlib.gui.compass.set_hover_background": "设置悬停背景",
   "ldlib.gui.compass.attach_items": "附加项目"

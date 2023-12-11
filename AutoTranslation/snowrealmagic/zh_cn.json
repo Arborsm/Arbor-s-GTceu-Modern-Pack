@@ -10,7 +10,7 @@
   "gamerule.snowrealmagic:blizzardStrength.description": "雪块将从天而降。1~8层设置最大层数。由雪添加！真正的魔法！",
   "snowrealmagic.config.snow-cover.placeNaturally.desc": "雪不仅可以由玩家放置在某些方块上，还可以来自降雪和世界生成",
   "snowrealmagic.config.accumulation.accumulatesDuringSnowstorm.desc": "只有打雷的时候雪才会积起来",
-  "snowrealmagic.config.accumulation.snowAndIceMeltInWarmBiomes.desc": "冰雪会在温暖的生物群系中融化\n如果安装了 Fabric Seasons mod，则始终如此",
+  "snowrealmagic.config.accumulation.snowAndIceMeltInWarmBiomes.desc": "冰雪会在温暖的生物群落中融化\n如果安装了 Fabric Seasons mod，则始终如此",
   "snowrealmagic.config.sneakSnowball.desc": "通过蹲下并右键单击雪获得雪球",
   "snowrealmagic.config.accumulation.maxLayers.desc": "可以积累的最大雪层数。9层无限制",
   "snowrealmagic.config.snowVariants.desc": "一些被雪覆盖的树叶将会以不同的方式渲染",

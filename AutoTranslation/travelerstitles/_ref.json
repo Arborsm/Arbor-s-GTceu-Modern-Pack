@@ -109,10 +109,5 @@
   "text.autoconfig.travelerstitles-fabric-1_20.option.dimensions.centerText.@Tooltip[2]": "to the center of the screen if this is enabled.",
   "text.autoconfig.travelerstitles-fabric-1_20.option.dimensions.textFadeInTime.@Tooltip[0]": "How long the fade-in text effect lasts, in ticks.",
   "text.autoconfig.travelerstitles-fabric-1_20.option.biomes.textXOffset.@Tooltip[1]": "If Horizontally Center Title is enabled, this number is relative to the center of the screen.",
-  "text.autoconfig.travelerstitles-fabric-1_20.option.dimensions.centerText.@Tooltip[0]": "Whether or not the dimension text should be centered on the screen.",
-  "travelerstitles.blue_skies.everbright.color": "006fb0",
-  "travelerstitles.blue_skies.everdawn.color": "db6e2a",
-  "travelerstitles.twilightforest.twilight_forest": "Twilight Forest",
-  "travelerstitles.the_afterlight.the_afterlight.color": "0fd3d6",
-  "travelerstitles.the_bumblezone.the_bumblezone.color": "d1bd0d"
+  "text.autoconfig.travelerstitles-fabric-1_20.option.dimensions.centerText.@Tooltip[0]": "Whether or not the dimension text should be centered on the screen."
 }

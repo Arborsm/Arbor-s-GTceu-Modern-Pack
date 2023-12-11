@@ -7,7 +7,8 @@ ServerEvents.recipes(event => {
     ['gtceu:zinc_nugget', 'create:zinc_nugget'], ['gtceu:copper_plate', 'create:copper_sheet'], ['gtceu:iron_plate', 'create:iron_sheet'],
     ['gtceu:iron_plate', 'ad_astra:iron_plate'], ['gtceu:gold_plate', 'create:golden_sheet'], ['gtceu:steel_plate', 'ad_astra:steel_plate'],
     ['gtceu:steel_ingot', 'ad_astra:steel_ingot'], ['gtceu:steel_nugget', 'ad_astra:steel_nugget'], ['gtceu:obsidian_dust', 'create:powdered_obsidian'],
-    ['gtceu:desh_plate', 'ad_astra:desh_plate'], ['gtceu:ostrum_plate', 'ad_astra:ostrum_plate'], ['gtceu:calorite_plate', 'ad_astra:calorite_plate']
+    ['gtceu:desh_plate', 'ad_astra:desh_plate'], ['gtceu:ostrum_plate', 'ad_astra:ostrum_plate'], ['gtceu:calorite_plate', 'ad_astra:calorite_plate'],
+    ['gtceu:molten_cerrobase_140', 'gtceu:cerrobase_140']
   ])
   replacesMap.forEach((replace, remove) => {
     event.replaceInput({}, replace, remove)
@@ -26,6 +27,10 @@ ServerEvents.tags('item', event => {
   event.add('forge:blocks/andesite_alloy', 'create:andesite_alloy_block')
   event.add('forge:steel_ingots', 'gtceu:steel_ingot')
   event.add('forge:calorite_ingots', 'gtceu:calorite_ingot')
+})
+
+ServerEvents.tags('fluid', event => {
+  event.remove('forge:oxygen', 'ad_astra:oxygen')
 })
 
 const Allremoves = global.removes

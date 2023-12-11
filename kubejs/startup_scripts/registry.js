@@ -2,18 +2,32 @@
 const [luoshuan, zhimi, xian, bo, kuangjia, chilun, changgan, ban, quan, gan, zhuanzi, gunzhu, xiaochilun, tanhuang, xiaotanhuang] =
 ['boltScrew', 'dense', 'fineWire', 'foil', 'frame', 'gear', 'longRod', 'plate', 'ring', 'rod', 'rotor', 'round', 'smallGear', 'spring', 'smallSpring']
 const ALL = [luoshuan, zhimi, xian, bo, kuangjia, chilun, changgan, ban, quan, gan, zhuanzi, gunzhu, xiaochilun, tanhuang, xiaotanhuang]
+
 StartupEvents.registry('item', event => {
-  event.create('greg_icon')
   event.create('poke_flute').unstackable().rarity('uncommon').tooltip('§5右键后按H与宝可梦一起冒险吧！').displayName('宝可梦之笛')
+  event.create('heavy_ingot_t1').rarity('uncommon').displayName('T1重型锭').tooltip('§7用于制作T1重型合金板')
+  event.create('heavy_ingot_t2').rarity('uncommon').displayName('T2重型锭').tooltip('§7用于制作T2重型合金板')
+  event.create('heavy_ingot_t3').rarity('rare').displayName('T3重型锭').tooltip('§7用于制作T3重型合金板')
+  event.create('heavy_ingot_t4').rarity('epic').displayName('T4重型锭').tooltip('§7用于制作T4重型合金板')
+  event.create('heavy_plate_t1').rarity('uncommon').displayName('T1重型合金板').tooltip('§71阶')
+  event.create('heavy_plate_t2').rarity('uncommon').displayName('T2重型合金板').tooltip('§72阶')
+  event.create('heavy_plate_t3').rarity('rare').displayName('T3重型合金板').tooltip('§73阶')
+  event.create('heavy_plate_t4').rarity('epic').displayName('T4重型合金板').tooltip('§74阶')
+  event.create('t1_chip').rarity('uncommon').displayName('T1火箭控制芯片').tooltip('§7§o用于制作1阶火箭')
+  event.create('t2_chip').rarity('uncommon').displayName('T2火箭控制芯片').tooltip('§7§o用于制作2阶火箭')
+  event.create('t3_chip').rarity('rare').displayName('T3火箭控制芯片').tooltip('§7§o用于制作3阶火箭')
+  event.create('t4_chip').rarity('epic').displayName('T4火箭控制芯片').tooltip('§7§o用于制作4阶火箭')
 })
 
 GTCEuStartupEvents.registry('gtceu:material', event => {
   // 特殊注册
+  event.create('cerrobase_140').dust(1).fluid().color(0x9e9e9e).iconSet(GTMaterialIconSet.METALLIC).components('47x bismuth', '25x lead', '13x tin', '10x cadmium', '5x indium').blastTemp(1230)
   event.create('sodium_pyrosulfate').dust(1).fluid().color(0xff9900).iconSet(GTMaterialIconSet.METALLIC).components('2x potassium', '2x sulfur', '7x oxygen').blastTemp(1123)
   event.create('sodium_sulfate').dust(1).color(0xF9F6CF).iconSet(GTMaterialIconSet.SAND).components('2x sodium', 'sulfur', '4x oxygen')
   event.create('zinc_sulfate').dust(1).color(0x533c1b).iconSet(GTMaterialIconSet.SAND).components('zinc', 'sulfur', '4x oxygen')
   event.create('wollastonite').dust(1).ore().color(0xc4cbcf).iconSet(GTMaterialIconSet.SAND).components('calcium', 'silicon', '3x oxygen')
   event.create('arcane_crystal').dust(1).ore().gem().color(0x93AEFF).iconSet(GTMaterialIconSet.DIAMOND)
+  event.create('medicinal_brew').fluid().color(0x2DBAA0)
 
   // 粉末注册
   function Dust (dust, color, is, fluid, ore) {

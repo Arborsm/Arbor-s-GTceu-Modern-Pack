@@ -44,6 +44,7 @@
   "gui.computercraft.config.term_sizes.pocket_computer": "Pocket Computer",
   "gui.computercraft.config.floppy_space_limit.tooltip": "The disk space limit for floppy disks, in bytes.",
   "gui.computercraft.config.term_sizes.pocket_computer.width.tooltip": "Range: 1 ~ 255",
+  "tracking_field.computercraft.java_allocation.name": "Java Allocations",
   "commands.computercraft.dump.open_path": "View this computer\u0027s files",
   "gui.computercraft.config.maximum_open_files.tooltip": "Set how many files a computer can have open at the same time. Set to 0 for unlimited.\nRange: \u003e 0",
   "gui.computercraft.config.http.enabled.tooltip": "Enable the \"http\" API on Computers. Disabling this also disables the \"pastebin\" and\n\"wget\" programs, that many users rely on. It\u0027s recommended to leave this on and use\nthe \"rules\" config option to impose more fine-grained control.",
@@ -100,6 +101,5 @@
   "gui.computercraft.config.peripheral.monitor_bandwidth.tooltip": "The limit to how much monitor data can be sent *per tick*. Note:\n - Bandwidth is measured before compression, so the data sent to the client is\n   smaller.\n - This ignores the number of players a packet is sent to. Updating a monitor for\n   one player consumes the same bandwidth limit as sending to 20.\n - A full sized monitor sends ~25kb of data. So the default (1MB) allows for ~40\n   monitors to be updated in a single tick.\nSet to 0 to disable.\nRange: \u003e 0",
   "gui.computercraft.upload.failed.too_many_files": "Cannot upload this many files.",
   "gui.computercraft.config.http.proxy.tooltip": "Tunnels HTTP and websocket requests through a proxy server. Only affects HTTP\nrules with \"use_proxy\" set to true (off by default).\nIf authentication is required for the proxy, create a \"computercraft-proxy.pw\"\nfile in the same directory as \"computercraft-server.toml\", containing the\nusername and password separated by a colon, e.g. \"myuser:mypassword\". For\nSOCKS4 proxies only the username is required.",
-  "gui.computercraft.config.term_sizes.computer.tooltip": "Terminal size of computers.",
-  "tracking_field.computercraft.java_allocation.name": "Java Allocations"
+  "gui.computercraft.config.term_sizes.computer.tooltip": "Terminal size of computers."
 }

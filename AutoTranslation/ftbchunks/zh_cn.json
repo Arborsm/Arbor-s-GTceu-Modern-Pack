@@ -8,7 +8,7 @@
   "ftbchunks.gui.teleport": "传送",
   "ftbchunks.no_wilderness.tooltip": "如果为 true，则必须先声明块，然后才能对其进行构建",
   "ftbteamsconfig.ftbchunks.entity_interact_mode": "实体交互模式",
-  "ftbteamsconfig.ftbchunks.allow_explosions.tooltip": "爆炸是否应该能够损坏已声明区域内的方块？",
+  "ftbteamsconfig.ftbchunks.allow_explosions.tooltip": "爆炸应该能够损坏已声明区域内的方块吗？",
   "ftbchunks.max_claimed_chunks": "每个玩家最大声明块数",
   "ftbchunks.max_idle_days_before_unclaim.tooltip": "如果这么多天没有团队成员登录，团队的声明将被释放。\n将此设置为 0 将禁用自动取消声明。",
   "ftbchunks.claim_result.already_claimed": "块已被认领",
@@ -17,9 +17,6 @@
   "ftbteamsconfig.ftbchunks": "FTB 块属性",
   "ftbteamsconfig.ftbchunks.claim_visibility.tooltip": "控制谁可以在地图或小地图上看到您的声明",
   "ftbteamsconfig.ftbchunks.entity_interact_mode.tooltip": "右键单击实体时使用",
-  "ftbchunks.waypoints.waypoint_focus_scale": "聚焦航点缩放",
-  "$.00138": "在地图上显示已声明的区块",
-  "$.00241": "在地图上显示已声明的区块",
-  "$.00240": "达到块限制",
+  "ftbchunks.waypoints.waypoint_focus_scale": "聚焦航路点缩放",
   "$.00135": "在地图上显示已声明的区块"
 }
