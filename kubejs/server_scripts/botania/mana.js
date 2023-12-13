@@ -1,4 +1,8 @@
 ServerEvents.recipes(event => {
+<<<<<<< HEAD
+  event.remove({ output: 'botania:runic_altar' })
+=======
+>>>>>>> ceac4ab15073c2c8f1d4079f3f819a8c71656009
   event.remove({ output: 'botania:apothecary_default' })
   event.shaped('botania:apothecary_default', ['ABA', 'CDC', 'EFE'], { A: 'gtceu:steel_plate', B: '#botania:petals', C: 'gtceu:steel_screw', D: 'minecraft:cauldron', E: '#forge:stone', F: 'gtceu:silver_block' })
   event.remove({ output: 'botania:apothecary_forest' })
@@ -23,4 +27,21 @@ ServerEvents.recipes(event => {
   event.shaped('botania:apothecary_mesa', ['AAA', 'ABA', 'AAA'], { A: 'botania:metamorphic_mesa_cobblestone', B: 'botania:apothecary_default' })
   event.remove({ output: 'botania:apothecary_desert' })
   event.shaped('botania:apothecary_desert', ['AAA', 'ABA', 'AAA'], { A: 'botania:metamorphic_desert_cobblestone', B: 'botania:apothecary_default' })
+<<<<<<< HEAD
+  event.remove({ output: 'botania:mana_spreader' })
+  event.shaped('botania:mana_spreader', ['AAA', 'ABC', 'AAA'], { A: 'botania:livingwood_slab', B: '#botania:petals', C: 'gtceu:gold_ring' })
+  event.remove({ output: 'botania:redstone_spreader' })
+  event.shaped('botania:redstone_spreader', ['AB ', 'C  ', '   '], { A: 'botania:mana_spreader', B: 'botania:redstone_root', C: 'minecraft:repeater' })
+  event.remove({ output: 'botania:elven_spreader' })
+  event.shaped('botania:elven_spreader', ['AAA', 'BCD', 'AAA'], { A: 'botania:dreamwood_slab', B: 'botania:mana_spreader', C: '#botania:petals', D: 'gtceu:emerald_lens' })
+  event.remove({ output: 'botania:gaia_spreader' })
+  event.shaped('botania:gaia_spreader', ['AAA', 'BCD', 'AAA'], { A: 'botania:dreamwood_slab', B: 'botania:elven_spreader', C: 'botania:gaia_ingot', D: 'gtceu:opal_gem' })
+  event.remove({ output: 'botania:mana_pool' })
+  event.shaped('botania:mana_pool', ['ABA', 'ACA', 'AAA'], { A: 'botania:livingrock_slab', B: 'gtceu:manasteel_plate', C: 'minecraft:cauldron' })
+  event.remove({ output: 'botania:diluted_pool' })
+  event.shaped('botania:diluted_pool', ['   ', 'A A', 'BBB'], { A: 'botania:polished_livingrock_slab', B: 'botania:livingrock_slab' })
+  event.remove({ output: 'botania:fabulous_pool' })
+  event.shaped('botania:fabulous_pool', ['ABA', 'ACA', 'AAA'], { A: 'botania:shimmerrock_slab', B: 'gtceu:manasteel_dense_plate', C: 'minecraft:cauldron' })
+=======
+>>>>>>> ceac4ab15073c2c8f1d4079f3f819a8c71656009
 })

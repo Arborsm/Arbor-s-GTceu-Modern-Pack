@@ -1,0 +1,74 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:maledictus_pact"
+    ],
+    "forge_tier": 3
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 1000,
+    "experience": 0,
+    "souls": 3
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "aquamirae:abyssal_amethyst"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "gtceu:naquadah_double_plate"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dragon_scale"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "aquamirae:abyssal_amethyst"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "gtceu:naquadah_double_plate"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:dragonstone"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "forbidden_arcanus:dragon_scale"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "botania:natura_pylon"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "botania:gaia_pylon"
+    }
+  }
+}

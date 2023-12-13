@@ -1,12 +1,6 @@
 ServerEvents.recipes(event => {
   event.remove({ type: 'create:blasting' })
   event.remove({ output: 'create:encased_fan' })
-  // event.remove({type:'create:basin'})
-  // event.remove({type:'create:compacting'})
-  // event.remove({type:'create:conversion'})
-  // event.remove({type:'create:crushing'})
-  // event.remove({type:'create:cutting'})
-  // event.remove({type:"create:mixing"})
   event.remove({ id: /create:(.*)_seat/ })
   event.remove({ output: 'create:andesite_alloy' })
   event.remove({ output: 'create:steam_engine' })
@@ -960,24 +954,24 @@ ServerEvents.recipes(event => {
       E: 'create:large_cogwheel'
     })
   event.shaped(
-    Item.of('create:empty_blaze_burner', 1), // 输出 输出量
+    Item.of('create:empty_blaze_burner', 1),
     [
       'ACA',
-      'ABA', // 配方样子 用代号写
+      'ABA',
       'DDD'
     ],
     {
       A: 'minecraft:iron_bars',
       B: 'minecraft:netherrack',
       C: '#forge:tools/hammers',
-      D: 'gtceu:steel_plate' // 代号指定
+      D: 'gtceu:steel_plate'
     }
   )
   event.shaped(
-    Item.of('create:basin', 1), // 输出 输出量
+    Item.of('create:basin', 1),
     [
       'A A',
-      'ACA', // 配方样子 用代号写
+      'ACA',
       'AAA'
     ],
     {
