@@ -1,4 +1,0 @@
-{
-  "text.autoconfig.chat_heads.option.handleSystemMessages.@Tooltip": "是否可以将头部添加到“纯”服务器消息中。\n请注意，许多服务器（例如运行 FreedomChat 插件）\n将玩家消息转换为服务器消息！\n只有在您知道什么情况下才禁用此选项你在做什么！",
-  "text.autoconfig.chat_heads.option.handleSystemMessages": "处理系统消息"
-}

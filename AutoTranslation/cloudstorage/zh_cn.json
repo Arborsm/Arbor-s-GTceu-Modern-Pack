@@ -1,6 +1,0 @@
-{
-  "commands.retrieveballoons.failure": "%s 气球颜色绑定到 %s",
-  "commands.retrievestaticballoons.success": "已检索 %s 个静态气球颜色",
-  "commands.retrievestaticballoons.failure": "找到 %s 个静态气球颜色",
-  "commands.retrieveballoons.success": "已检索 %s 的 %s 气球颜色"
-}
