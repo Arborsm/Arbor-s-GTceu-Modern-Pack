@@ -1,0 +1,186 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_cleanroom"
+	group: "719BFF182E0820D1"
+	icon: "gtceu:cleanroom"
+	id: "0BAC8DF374B76B5B"
+	order_index: 2
+	quest_links: [
+		{
+			id: "5210A5C3BA01CF5E"
+			linked_quest: "3568BC9742092FC5"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "03B35F98E6C63D52"
+			linked_quest: "690E013DFCB060ED"
+			shape: "square"
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	quests: [
+		{
+			dependencies: ["3568BC9742092FC5"]
+			description: [
+				"一定要检查&9工具提示&r（里面有很多信息！）。"
+				""
+				"不要忘记&3维护舱口&r。"
+				""
+				"如果结构无法形成，请旋转或更换控制器，有时会有点棘手。"
+				""
+				"它不一定要是一个立方体。"
+			]
+			icon: "gtceu:cleanroom_glass"
+			id: "6177B1FCB7B40394"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "5EE7BD66449FD7E0"
+				type: "checkmark"
+			}]
+			title: "结构"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3568BC9742092FC5"]
+			description: [
+				"使用&3机器方块&r或&3二极管&r传输EU。"
+				""
+				"使用&3通行仓&r进行物品和流体传输。"
+				""
+				"&3机器方块&r可以作为&6ME电缆&r来扩展你的干净室内的ME网络。"
+				""
+				"&d门&r可以保持开放（不太现实，但很方便）。"
+			]
+			icon: "gtceu:hv_machine_hull"
+			id: "2BF9C20DA4E90CBD"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "02853DDB6A2695D7"
+				type: "checkmark"
+			}]
+			title: "进出物品"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3568BC9742092FC5"]
+			description: [
+				"干净室开始&4受污染&r。在受污染时，机器将无法运行。"
+				""
+				"干净室将排放30EU/t并缓慢提高清洁度。"
+				""
+				"&9注意&r：到了时候，多方块也必须放入干净室中才能运行干净室配方！&5"
+			]
+			icon: "gtceu:enriched_naquadah_waste_bucket"
+			id: "18CD802C3969DB32"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "408CB4A735CE5C75"
+				type: "checkmark"
+			}]
+			title: "污染"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3568BC9742092FC5"]
+			description: ["&9&e配置：&r如果你不喜欢超净间机制，可以在配置文件中切换关闭，使用&5\\\\\"B:enableCleanroom\\\\\"&r。多方块可以被制成忽略干净室要求的状态，使用&5\\\\\"B:cleanMultiblocks\\\\\"&r。我们鼓励你在决定之前先尝试一下。"]
+			icon: "gtceu:steel_gear"
+			id: "0F1D3BA47B60D6BC"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "78DFE2BB7633A4DF"
+				type: "checkmark"
+			}]
+			title: "讨厌超净间？"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["18CD802C3969DB32"]
+			description: [
+				"一旦&9干净&r，配方就可以运行。此时它只会吸取4EU/t。始终保持供电，否则它会再次变脏！"
+				""
+				"干净室越大，变干净所需的时间就越长。"
+			]
+			icon: "gtceu:empty_spray_can"
+			id: "165E801D13F0B4EF"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "425E0C8681F149A8"
+				type: "checkmark"
+			}]
+			title: "让干净室保持干净"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6177B1FCB7B40394"]
+			description: [
+				"控制器必须始终位于中心。其余顶层必须是&d过滤器外壳&r。"
+				""
+				"所有边缘必须是&dPlascrete&r，侧面可以是&d干净室玻璃&r。"
+			]
+			icon: "gtceu:plascrete"
+			id: "3B486F6488B4A0D9"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "1A794CA8C97A8CF7"
+				type: "checkmark"
+			}]
+			title: "建筑材料"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6177B1FCB7B40394"]
+			description: ["不允许在内部放置&3发电机&r或&3消音器&r。干净室将解体。"]
+			icon: "minecraft:barrier"
+			id: "5A3AC1DD5EC6E4C3"
+			shape: "rsquare"
+			size: 0.75d
+			tasks: [{
+				id: "2BC9545B0432B74C"
+				title: "No-nos"
+				type: "checkmark"
+			}]
+			title: "禁止噪音"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3568BC9742092FC5"]
+			description: [
+				"超净间是一个良好隔离的房间，可以保持非常低的灰尘和空气颗粒浓度。它们通常用于科学研究和现实半导体制造。超净间专门设计用于尽可能排除空气中的颗粒物。"
+				"{@pagebreak}"
+				"超净间有时也用于防止材料泄漏！这通常是制药、核工作和危险生物学等领域的主要目标。"
+				""
+				"你知道的太多！"
+			]
+			icon: "gtceu:stem_cells"
+			id: "5C02D6C42B3D3C7F"
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "一点现实科学"
+			tasks: [{
+				id: "61882D46EB1E5F4F"
+				type: "checkmark"
+			}]
+			title: "什么是超净间？"
+			x: 1.5d
+			y: 1.5d
+		}
+	]
+	subtitle: ["干净？我曾经很干净。"]
+	title: "洁净室"
+}

@@ -1,0 +1,15 @@
+ServerEvents.recipes(event => {
+  event.recipes.gtceu.distillery('gtceu:ethanol')
+    .inputFluids('gtceu:biomass 500')
+    .outputFluids('gtceu:ethanol 300')
+    .duration(32)
+    .EUt(100)
+    .circuit(1)
+
+  event.recipes.gtceu.distillery('gtceu:sulfuric_acid')
+    .inputFluids('gtceu:diluted_sulfuric_acid 60')
+    .outputFluids('gtceu:sulfuric_acid 40')
+    .duration(32)
+    .EUt(100)
+    .circuit(1)
+})

@@ -1,0 +1,1915 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "lv__low_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:lv_electric_motor"
+	id: "7D50771C3FE033D7"
+	order_index: 1
+	quest_links: [{
+		id: "376725077649D2CC"
+		linked_quest: "5A8F0124E07D5025"
+		shape: "gear"
+		size: 1.5d
+		x: 1.875d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["2F7617C0C4B330DE"]
+			description: [
+				"&a流体调节器&r类似于流体的&9机械臂&r。"
+				""
+				"它可以传输流体，但有两种有用的模式："
+				"&9-&r &d精确供应&r将在可用时每个tick传输指定的流体量。不多不少。"
+				"&9-&r &d精确保持&r将确保附加机器中的确切流体量被保持。"
+			]
+			id: "47D4545452F05E37"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "一个盖子！"
+			tasks: [{
+				id: "5E8D784C83A4F672"
+				item: "gtceu:lv_fluid_regulator"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38993B4697B0E16C"]
+			description: [
+				"当放置在机器上时，机器臂是传送带模块的更可配置版本。它们允许你以特定批次、特定速率传输物品，或保持一定数量的物品库存。"
+				""
+				"机器臂的实际用途将在未来的任务中作为教程进行解释。"
+				""
+				"&9注意:&r 机器臂提供的功能仅在需要执行操作时才起作用。"
+				"{@pagebreak}"
+				"&b传说:&r 格雷科技 5拥有缓冲器、过滤器和类型过滤器等块，以允许对物品进行精细控制。在GTCE中，它们都被万能机器臂和各种过滤器覆盖物所取代。更加紧凑！"
+			]
+			id: "3DE7A2B91CFF48F6"
+			rewards: [{
+				id: "372D894C29C4513C"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "你会讨厌制作这些"
+			tasks: [{
+				id: "7D7A9CBE1E368E53"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			x: -2.1d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A8F0124E07D5025"]
+			description: [
+				"作为组件不太常见，但在许多关键机器中使用。"
+				""
+				"当放置在机器上时，传送带模块将传输物品。你可以配置它们进行导入或导出。"
+				""
+				"它们还可以接受各种&9物品过滤器&r。"
+			]
+			id: "288CE4AA4C5AA8BF"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "一个制作组件，也是一个覆盖物！"
+			tasks: [{
+				id: "064169E7E2772387"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			x: -1.2d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A8F0124E07D5025"]
+			description: [
+				"当放置在机器上时，泵将传输流体。你可以配置它们进行导入或导出。"
+				""
+				"它可以接受&9流体过滤器&r。"
+			]
+			id: "2F7617C0C4B330DE"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "一个制作组件，也是一个覆盖物！"
+			tasks: [{
+				id: "7A37B370D2D40E6A"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			x: -0.3d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A8F0124E07D5025"]
+			description: [
+				"制作某些机器所需的专用电机。"
+				""
+				"作为更为复杂的制作组件之一，它是使用电机制作的。"
+			]
+			id: "38993B4697B0E16C"
+			rewards: [{
+				count: 4
+				id: "05D8932AEED073F8"
+				item: "gtceu:steel_small_gear"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "一个制作组件-你期望有什么更花哨的吗？"
+			tasks: [{
+				id: "70FEF63FB9A58B02"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			x: 0.6d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"4B979482EF026BFF"
+				"5A8F0124E07D5025"
+			]
+			description: [
+				"&3蒸汽涡轮机&r是你在LV时代唯一可以实际使用的发电机。&2稍后，你将解锁更有趣的电力选项&r，例如天然气或汽油。"
+				""
+				"当提供蒸汽时，涡轮机将以&d2蒸汽=1EU&r的比率输出EU！"
+				""
+				"&6此任务将在&l技巧和窍门&r&6选项卡中解锁新的教程-查看它以了解更多信息！&r"
+				"{@pagebreak}"
+				"如果你只使用单个&3蒸汽涡轮机&r，则只需要使用&a1个锡电缆&r。另一方面，如果你升级到&32个蒸汽涡轮机&r，则应使用&a2个锡电缆&r-否则它们可能会&c烧毁&r。"
+				""
+				"这是由于&9电流&r机制...但稍后将进行解释，以便你可以享受游戏。别担心！"
+			]
+			id: "6E186F9C57155BFA"
+			size: 0.9d
+			subtitle: "你必须建造更多涡轮机"
+			tasks: [{
+				id: "155BC745245BCBAF"
+				item: "gtceu:lv_steam_turbine"
+				type: "item"
+			}]
+			title: "发电"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6431381FBE07D6EF"]
+			description: [
+				"这个任务线作为一个快速指南介绍了&9格雷科技电流&r。至于&d电压&r机制，那将在你达到&bMV&r时解释。"
+				""
+				"&6&lTL;DR:&r 为了安全起见，将电缆的电流限制与发电机提供的最大电流匹配。"
+				""
+				"&6这个任务解锁了&l技巧和窍门&r&6选项卡中的新教程——去看看学习更多！&r"
+			]
+			id: "7B0FF43022F6C2EC"
+			shape: "rsquare"
+			size: 0.9d
+			subtitle: "安培和你：一个如何做的指南"
+			tasks: [{
+				count: 4L
+				id: "1C81FD3C54CC2274"
+				item: "gtceu:tin_quadruple_cable"
+				type: "item"
+			}]
+			title: "但是什么是电流？"
+			x: 6.375d
+			y: 1.125d
+		}
+		{
+			dependencies: [
+				"1E9BE8D3F8A602DC"
+				"45B71324028F6E68"
+			]
+			description: [
+				"那么，你做了MV电路了吗？"
+				""
+				"&a铝&r是&bMV&r机械的主要成分。如果你还没有获得任何&a铝粉尘&r，请查看&2蓝宝石任务&r的另一侧。"
+				""
+				"一旦你设置了一个&3MV电解槽&r，你可以通过许多其他矿石获得&a铝&r。这个任务的所有奖励都带有&a铝&r，所以在采矿时要注意它们。"
+				""
+				"用离心机离心&3气体收集器&r中的&9空气&r可以将铝的冶炼过程缩短约三分之一，从而获得&9氮气&r。"
+				""
+				"&6你仍然需要MV电路才能制造MV机器！&r"
+			]
+			id: "7567E885B7166603"
+			rewards: [{
+				count: 8
+				id: "19987707822BC176"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "我们现在基本上已经进入了MV阶段，对吧？"
+			tasks: [{
+				id: "161B5813936E5E42"
+				item: "gtceu:aluminium_ingot"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B979482EF026BFF"]
+			description: [
+				"制造一些电池合金，用于电池外壳。"
+				""
+				"&c下界&r中可以找到锑矿石，所以不要忘记检查它的矿石选项卡。"
+				""
+				"&9注意:&r 这个任务&l不&r包含功能性电池——前往下一个任务获取它们！"
+			]
+			icon: "gtceu:battery_alloy_ingot"
+			id: "6D9D54FAB21EC086"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "电池很棒！"
+			tasks: [
+				{
+					count: 2L
+					id: "02A2F0C2179EB4E3"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/battery_alloy"
+						}
+					}
+					title: "Any #forge:ingots/battery_alloy"
+					type: "item"
+				}
+				{
+					id: "7B4585B39907E2EA"
+					item: "gtceu:lv_battery_hull"
+					type: "item"
+				}
+			]
+			title: "电池准备！"
+			x: 5.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1C767009F505A813"]
+			description: [
+				"理论上，储物箱是箱子的平面升级。一个单一的块空间可以存储更多的物品——你还能要求什么？"
+				""
+				"不幸的是，有一个小小的缺点——储物箱不支持物品移动快捷方式。我们计划在长期内解决这个问题。"
+				""
+				"然而，它们的亮点在于它们&6接受覆盖物&r，使它们成为自动化缓冲区的完美候选。"
+			]
+			id: "7CCC1BDDE0C67F16"
+			rewards: [{
+				id: "1CADDD995C2DD509"
+				item: "ae2:sky_stone_chest"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "早期缓冲"
+			tasks: [{
+				id: "6FE87ED832BF40D1"
+				item: "gtceu:steel_crate"
+				type: "item"
+			}]
+			title: "格雷科技储存"
+			x: -2.1d
+			y: 0.8999999999999999d
+		}
+		{
+			dependencies: [
+				"288CE4AA4C5AA8BF"
+				"3DE7A2B91CFF48F6"
+				"2F7617C0C4B330DE"
+			]
+			description: [
+				"通过右键单击机器的一个面来放置覆盖物，使用 &5Crowba&rr（或挖掘机器，但速度较慢）来移除覆盖物。"
+				""
+				"几乎所有格雷科技瓷砖实体都可以接受覆盖物，即使它们不提供任何功能。"
+				""
+				"通过使用空手按住Shift并右键单击覆盖物来打开它。你也可以使用 &5Screwdrive&rr 右键单击或使用网格在另一个面上按住Shift并右键单击。"
+				"{@pagebreak"
+				"对于传输物品/流体的覆盖物，你将有一个按钮来启用/禁用覆盖物的其他传输形式："
+				""
+				"&9- &r禁用：只允许覆盖物在此机器侧面上进行传输。"
+				""
+				"&9- &r允许过滤（仅与过滤器相关）：只有与过滤器匹配的其他传输才会被启用。"
+				""
+				"&9- &r允许未过滤：任何其他传输都允许在此机器侧面上进行。"
+				""
+				"在机器上放置低电压等级的覆盖物是 &9安全&r 的。"
+			]
+			icon: "gtceu:crafting_table_cover"
+			id: "1C767009F505A813"
+			rewards: [{
+				id: "05BAD11184608890"
+				item: "gtceu:crafting_table_cover"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "在不占用方块空间的情况下提供额外的实用功能！"
+			tasks: [{
+				id: "7C7A8A26D3FF0E96"
+				title: "I'm an expert on Covers now, don't you worry."
+				type: "checkmark"
+			}]
+			title: "覆盖行为"
+			x: -1.2d
+			y: 0.8999999999999999d
+		}
+		{
+			dependencies: ["32EA7E81885C8E87"]
+			description: [
+				"所有机器通常都有一个 &7前面&r 和一个 &9输出面&r。"
+				""
+				"&7前面&r 应该很明显。&9输出面&r 是带有点或孔的面。默认情况下，这是你放置机器时的后面。"
+				""
+				"机器可以通过其输出面进行 &a自动输出&r。要启用自动输出，请在GUI中单击相应的按钮。流体和物品自动输出可以分别切换。可以通过 &d过滤器&r 和 &d覆盖板&r 进一步控制自动输出，这些在此任务左上方的任务中进行了解释。"
+				"{@pagebreak}"
+				"使用 &5扳手&r 右键单击机器可更改输出面，使用Shift并右键单击可更改前面。请记住，前面 &c不能&r 作为输出面！"
+				""
+				"默认情况下，无法通过输出面插入物品和流体，但可以使用 &5螺丝刀&r 切换此选项。直接右键单击输出面，或在与输出面相对应的网格上按住Shift并右键单击。"
+				""
+				"有些独特的机器不会处理配方，例如 &3泵&r、&3矿机&r、&3钓鱼机&r、&3物品收集器&r 等。这些机器将在其 &7前面&r（仍标有点）输出。"
+			]
+			icon: "minecraft:hopper"
+			id: "64E1E87B8AF72968"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "让我们学习吧。"
+			tasks: [{
+				id: "6A4DFF7493955B8D"
+				title: "Hmm, how interesting!"
+				type: "checkmark"
+			}]
+			title: "机器自动输出行为"
+			x: 0.75d
+			y: 1.125d
+		}
+		{
+			dependencies: [
+				"4B979482EF026BFF"
+				"5A8F0124E07D5025"
+			]
+			description: [
+				"你可以制作任何其他LV机器，但从最有用的机器开始可能是最容易的。我知道，我知道...选择自由，但相信我们，这是最好的起点。"
+				""
+				"这台机器可以让你从一个锭中制作出&6两根电线&r。这应该比你现在做的要便宜三倍！"
+				""
+				"在这个任务的右边，还有更重要的机器，它们将为你提供更便宜的中间产品。"
+				"{@pagebreak}"
+				"&9注意：&r &3LV机器&r内的配方最多使用&a32 EU/t (LV)&r。任何比这更高的都需要MV或更好的机器。不用说，我们还没有那个水平。"
+				""
+				"你需要一个&d编程电路&r来制作配方。我相信你不想浪费一个宝贵的电路来制作一个，所以&6阅读专门任务的重要细节&r。"
+				""
+				"有了这台机器，欢迎来到电力时代！"
+			]
+			id: "32EA7E81885C8E87"
+			rewards: [{
+				count: 4
+				id: "2B736C4992CDC8D1"
+				item: "gtceu:copper_single_wire"
+				type: "item"
+			}]
+			size: 0.9d
+			subtitle: "不再痛苦的电线！"
+			tasks: [{
+				id: "2B5BF6F3ED693B9E"
+				item: "gtceu:lv_wiremill"
+				type: "item"
+			}]
+			title: "基础电线机"
+			x: 1.875d
+			y: 1.125d
+		}
+		{
+			dependencies: ["32EA7E81885C8E87"]
+			description: [
+				"可以说是第二好的LV机器，但选择权在你手中！"
+				""
+				"这将解锁将一个&6锭转换成一个板&r的能力，这比锻锤更好。"
+			]
+			id: "10ECB471A77F5136"
+			rewards: [{
+				count: 4
+				id: "6DF60970CB48982D"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
+			size: 0.9d
+			subtitle: "弯管机弯曲！"
+			tasks: [{
+				id: "3AC3A8728EE60E4C"
+				item: "gtceu:lv_bender"
+				type: "item"
+			}]
+			title: "基础弯管机"
+			x: 4.125d
+			y: 1.125d
+		}
+		{
+			dependencies: ["32EA7E81885C8E87"]
+			description: [
+				"车床是一个帮助塑造金属的重要机器。由于它，你可以将&6一个锭变成两个杆&r，将&6一个螺栓变成一个螺丝&r。这比手工制作的效率提高了一倍。"
+				"{@pagebreak}"
+				"&b传说：&r 格雷科技 5车床每个锭可以产生一个杆和2小堆粉末。我们在GTCEu中也有一个设置，但默认情况下它是关闭的。"
+				""
+				"格雷科技 6车床的作用类似于GT5的，但将螺栓车床成一个螺丝和一个1/72堆粉末。恶心！"
+			]
+			id: "07E7678095258EDB"
+			rewards: [{
+				count: 4
+				id: "09FC4530E70B9105"
+				item: "gtceu:steel_rod"
+				type: "item"
+			}]
+			size: 0.9d
+			subtitle: "车床车削！"
+			tasks: [{
+				id: "6781D0241D0564A5"
+				item: "gtceu:lv_lathe"
+				type: "item"
+			}]
+			title: "基础车床"
+			x: 3.0d
+			y: 1.125d
+		}
+		{
+			dependencies: ["32EA7E81885C8E87"]
+			description: ["这是最便宜的-如果不是最便宜的-&7LV&r机器之一。使用它制作&6无红石磁铁杆&r，用于你的电机。如果你正在批量制作电机，这台机器将为你节省大量的红石。"]
+			id: "29379C91D6E00436"
+			rewards: [{
+				count: 16
+				id: "47F3A37E7A315A1D"
+				item: "minecraft:redstone"
+				random_bonus: 16
+				type: "item"
+			}]
+			size: 0.9d
+			subtitle: "极化机极化！"
+			tasks: [{
+				id: "5EC42A72DEC6F9FC"
+				item: "gtceu:lv_polarizer"
+				type: "item"
+			}]
+			title: "基础极化机"
+			x: 5.25d
+			y: 1.125d
+		}
+		{
+			dependencies: ["3E6DC423FE4A99F7"]
+			description: ["魔法（"]
+			id: "3ECD9C9B909CCCCC"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "为什么我挖的物品不能进入我的库存？！"
+			tasks: [{
+				id: "2F5FB2546075FFE0"
+				item: "botania:magnet_ring"
+				type: "item"
+			}]
+			title: "磁铁"
+			x: 4.125d
+			y: 2.25d
+		}
+		{
+			dependencies: ["6431381FBE07D6EF"]
+			description: [
+				"&o大型锅炉&r是小型锅炉的&6可选&r大型变体。它可以使用固体或液体燃料运行。"
+				""
+				"如果你想要蒸汽发电，这将是你的首选。其他电力选项列在&bMV&r章节中。"
+				""
+				"&c重要提示:&r 这个锅炉也可能像普通锅炉一样&c爆炸&r！通常，爆炸可能相当毁灭性...但它被配置为不会在这个模组中损坏方块或实体。"
+				"{@pagebreak"
+				"&c水供应是&l至关重要&r&r。在与锅炉相同的区块中，使用带有LV输出舱口的&3原始泵&r。任何生物群系都足以提供足够的水。"
+				""
+				"一旦完全加热，&3LBB&r每个刻钟产生800蒸汽，经过转换后为&d400EU/t&r，或12.5个基本蒸汽涡轮机！这种（相对！）巨大的功率的代价是&l大量&r的可燃燃料。"
+				"{@pagebreak"
+				"&5&l考虑到这一点&r，GUI可以让你将锅炉调节到25%的功率，每个刻钟200蒸汽。这是&d100EU/t&r，或略高于3个基本蒸汽涡轮机。"
+				""
+				"&9注意:&r在你获得&3电动高炉&r之后，将会有一个关于多方块的深入教程。我建议你先去完成那个任务。"
+			]
+			id: "33263404ED38C6D2"
+			rewards: [{
+				id: "1BEF1D97E033F1B1"
+				item: "gtceu:steam_bucket"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			subtitle: "轰隆隆，轰隆隆"
+			tasks: [{
+				id: "560D4D0D6BECE006"
+				item: "gtceu:bronze_large_boiler"
+				type: "item"
+			}]
+			x: 6.375d
+			y: 2.25d
+		}
+		{
+			dependencies: ["1E9BE8D3F8A602DC"]
+			description: [
+				"&6超导体&r是每个电压等级都有的特殊电线。它们没有任何电缆对应物，但这并不必要，因为它们绝对&6没有电缆损失&r！当你触摸它们时，它们也不会伤害你。如果不考虑价格，它们是布线的最佳选择。"
+				""
+				"1x变体也覆盖了2A！这不是很好吗？"
+				""
+				"现在是更换你的烂&a锡电缆&r的好时机。在&3打包机&r中回收用于制作它们的锡和橡胶。"
+				"{@pagebreak}"
+				"&b传说:&r在之前，没有任何版本的LV超导体，直到Gregicality和GTCEu，尽管一些模组有无损电缆。"
+			]
+			id: "46AD7A6F3B6775F5"
+			shape: "rsquare"
+			size: 0.6d
+			tasks: [{
+				id: "4477AB06651827D6"
+				item: "gtceu:manganese_phosphide_single_wire"
+				type: "item"
+			}]
+			title: "LV超导体"
+			x: 7.5d
+			y: 2.625d
+		}
+		{
+			dependencies: ["1E9BE8D3F8A602DC"]
+			description: [
+				"多方块在尝试制作时不会考虑配方的电压。相反，它们只是检查是否提供了足够的电力。"
+				""
+				"&9注意:&r要注意电缆&c损失&r会将实际功率输入降低到配方要求以下！我&l强烈&r建议将&3电池仓&r放置在&3能量仓&r旁边以获得最小的电缆长度，或者在这个任务书中寻找更好的电缆替代方案。"
+				""
+				"&6这个任务解锁了&l技巧和窍门&r&6选项卡中的新教程-去看看学习更多！&r"
+			]
+			id: "38BDF7CF00C0F79B"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "能量舱口是你的朋友"
+			tasks: [{
+				count: 2L
+				id: "2E5499C59AEB39B9"
+				item: "gtceu:lv_energy_input_hatch"
+				type: "item"
+			}]
+			title: "多方块的电力供应"
+			x: 9.0d
+			y: 2.625d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: [
+				"&3热离心机&r是矿石处理机器中最耗能的机器。它可以从&a碎矿石&r或&a纯净矿石&r中获得不同的&6副产品&r，但速度相同。"
+				"{@pagebreak}"
+				"&b传说:&r GT5热离心机需要48EU/t才能运行。是的，这可能超过了32EU/t，但GT5有&d特殊机制&r，某些机器（如这个）可以接受超过1a的电流。"
+				""
+				"在GTCE中，热离心机只能在MV下使用60EU/t的配方。让我们完全诚实地告诉你...这是&4完全浪费时间&r！从来不值得。幸运的是，我们已经增强了这台机器。"
+			]
+			id: "772F7CD63D31966A"
+			size: 0.6d
+			tasks: [{
+				id: "10AB20A316EA688F"
+				item: "gtceu:lv_thermal_centrifuge"
+				type: "item"
+			}]
+			title: "基础热离心机"
+			x: -1.125d
+			y: 2.625d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: ["筛子可以筛选&d宝石类型&r的&a纯净矿石&r，以找到&a精美的&r和&a无瑕疵的&r宝石，这些宝石可以切割成普通的宝石。它还可以找到该宝石的&a纯净粉尘&r。总体而言，这比其他方法产量&6更高&r。\\\\n\\\\n在MV时代，需要少量的&d无瑕绿宝石&r，而在&3筛选机&r中运行矿石就是获得它们的方法。\\\\n\\\\n每个更高级别的&3筛子&r增加了所有宝石类型被发现的几率，但代价是更多的能量。\\\\n\\\\n&9注意:&r如果你粉碎宝石矿石（如钻石），那么使用这台机器恢复实际的宝石非常重要。然而，这是一个相当缓慢的过程，所以有时你可能想直接将这种类型的矿石熔炼成宝石。"]
+			id: "7A64425597F58015"
+			size: 0.6d
+			tasks: [{
+				id: "2D87ADACFE1EF8E5"
+				item: "gtceu:lv_sifter"
+				type: "item"
+			}]
+			x: 0.375d
+			y: 5.625d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: [
+				"&l除了矿石处理之外:&r"
+				""
+				"你可以用木头制作&6纸&r，这样你就不再依赖&a甘蔗&r&9*&r了。你可能已经厌倦了它们，特别是如果你之前玩过全能工厂。"
+				""
+				"还有一些其他不太重要的配方，比如将各种物品和方块涂上颜色或漂白它们。"
+				""
+				"&9*&r&a糖&r仍然是&cTNT&r在&6HV&r时代生产的要求，所以不要完全放弃你的设置！"
+				"{@pagebreak}"
+				"&l对于矿石处理:&r"
+				""
+				"一些&a碎矿石&r在洗成&a纯净矿石&r时有其他路线，涉及浸泡在&d汞&r或&a过硫酸钠&r中。这一步并不是很重要，除非你真的想要那个特殊的&6副产品&r。这可以是一个不错的黄金替代来源（暗示，暗示！）。"
+			]
+			id: "330BDB559A7BAB35"
+			size: 0.6d
+			subtitle: "化学浴缸沐浴..."
+			tasks: [{
+				id: "526A5FF9B5DBB129"
+				item: "gtceu:lv_chemical_bath"
+				type: "item"
+			}]
+			title: "基础化学浴缸"
+			x: 0.8999999999999999d
+			y: 3.3d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: [
+				"这台机器结合了简单自动化的洗涤，还有高级和精确的副产品洗涤。"
+				""
+				"洗涤&aCrushed Ore&r将授予&aPurified Ore&r，可以进一步提炼，一些无用的石头，更重要的是，第一个&6副产品&r！"
+				""
+				"任何矿石通过洗涤都会给出至少2/3的这种副产品的Dust&r！最优先进行此步骤。"
+				""
+				"蒸馏水比水缩短了配方时间一半，但也更难制造。"
+			]
+			id: "58BA62A3A8A32C24"
+			size: 0.6d
+			tasks: [{
+				id: "1C03C5F3E5196342"
+				item: "gtceu:lv_ore_washer"
+				type: "item"
+			}]
+			title: "基础矿石洗涤厂"
+			x: 1.125d
+			y: 5.25d
+		}
+		{
+			dependencies: [
+				"32EA7E81885C8E87"
+				"10ECB471A77F5136"
+			]
+			description: [
+				"通过点击机器中的&6电路配置槽&r，你可以创建一个&b虚拟编程电路&r。"
+				""
+				"这是一个虚假电路，允许你选择给定的配方配置！不需要再花费电路来制作&b编程电路&r了。"
+				""
+				"&d电动机器&r和&d物品输入总线&r将有一个虚拟编程电路。"
+				"{@pagebreak}"
+				"&b传说&r：此功能最初来自GTNH！"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "59F0060B55307311"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "不想花费电路选择配方？"
+			tasks: [{
+				id: "7C04F3247B0C0BCB"
+				type: "checkmark"
+			}]
+			title: "编程电路"
+			x: 3.0d
+			y: 2.1d
+		}
+		{
+			dependencies: ["648BCF486E16CCB2"]
+			description: ["只有当你觉得是时候投资电池时，才制造这台机器。"]
+			id: "37307A46E70011D3"
+			rewards: [{
+				count: 2
+				id: "25A57A151B7E8FEB"
+				item: "gtceu:lithium_dust"
+				type: "item"
+			}]
+			size: 0.6d
+			subtitle: "这台机器没有什么激动人心的功能"
+			tasks: [{
+				id: "5521E4E26119E152"
+				item: "gtceu:lv_canner"
+				type: "item"
+			}]
+			title: "基础罐头机"
+			x: 3.0d
+			y: 3.375d
+		}
+		{
+			dependencies: [
+				"37307A46E70011D3"
+				"6D9D54FAB21EC086"
+			]
+			description: [
+				"&a电池&r可以放入机器GUI底部中间的能量槽，或放入&3电池缓冲区&r中。"
+				""
+				"当在你的库存中时，它们可以通过潜行右键单击来&d充电&r你的EU物品。"
+				""
+				"&7LV&r，&bMV&r和&6HV&r电池有三种形式，让你根据你拥有的材料选择最好的电池。&d锂&r具有最佳容量，其次是&d镉&r，然后是&d钠&r。"
+				""
+				"我们的建议是：找到一个盐矿脉，要么&a电解盐&r获取&d钠&r，要么&a洗涤粉碎的锂云母&r获取&d锂&r。"
+				""
+				"获得&e任意&r&a电池&r以完成此任务。"
+			]
+			id: "3E6DC423FE4A99F7"
+			size: 0.6d
+			subtitle: "用于储存能量的电池！"
+			tasks: [{
+				icon: "gtceu:lv_sodium_battery"
+				id: "47D0D12A26963702"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:batteries/lv"
+					}
+				}
+				title: "Any #forge:batteries/lv"
+				type: "item"
+			}]
+			title: "电池！"
+			x: 5.25d
+			y: 3.375d
+		}
+		{
+			dependencies: ["3E6DC423FE4A99F7"]
+			description: [
+				"电池箱本身没有任何作用。但是，如果你将电池放入其内部存储器中，它将作为电源。"
+				""
+				"&3电池箱&r按每个电池&92A输入&r和&91A输出&r。输出端有点，其他所有端口都用作输入。"
+				""
+				"&6它还可以给&r内部的电力工具充电。"
+				""
+				"如果你没有无限的电力，这是必备的。获取任何&r LV电池缓冲器以完成任务。然而，在这个阶段，16个插槽可能过度了。"
+				"{@pagebreak}"
+				"&9注意:&r不要将你的有损电缆回路连接到电池箱！如果你想一想，你只会浪费能量！"
+				""
+				"&b传说:&r坦率地说，GTCE电池缓冲器是...平庸的。在GTCEu中，它已经重新设计，提供了GT5和GTCE功能的混合体。能量现在均匀地分配到所有电池中！"
+			]
+			icon: "gtceu:lv_battery_buffer_4x"
+			id: "6431381FBE07D6EF"
+			size: 0.9d
+			tasks: [
+				{
+					id: "23FCFCA69488AA2B"
+					item: "gtceu:lv_battery_buffer_4x"
+					type: "item"
+				}
+				{
+					id: "2D59C65816F60CEF"
+					item: "gtceu:lv_battery_buffer_8x"
+					type: "item"
+				}
+				{
+					id: "679E89402D7ECE10"
+					item: "gtceu:lv_battery_buffer_16x"
+					type: "item"
+				}
+			]
+			title: "电池箱"
+			x: 6.375d
+			y: 3.375d
+		}
+		{
+			dependencies: [
+				"1646BF9194100E57"
+				"6431381FBE07D6EF"
+			]
+			description: [
+				"这个任务解释了&3电动高炉&r的核心机制，而周围的任务将探索你还需要的多方块部件的机制。一定要参考它们！"
+				""
+				"无论如何，&3EBF&r是你的&e第一个电力多方块机器&r！恭喜。它用于在高温下加工材料。"
+				""
+				"你将熟悉EBF，制造&a铝&r并进入&d&bMV时代&r。它还可以比PBF更快地制造&7钢&r。"
+				"{@pagebreak}"
+				"重要的是要记住，EBF是一个强大的家伙。运行一个配方的最小功率成本为&9120 EU/t&r！这略低于4个&7LV&r发电机。这就是为什么它被锁在电池任务后面的原因。你可能需要考虑建立一个单独的电力线路，用单独的发电机和电池缓冲器来运行它。"
+				""
+				"&b传说:&r&m我们有一个配置&o\"casingsActiveEmissiveTextures\"&r&m，当EBF运行时，它会在线圈上启用泛光。如果你不喜欢，可以随时禁用它，无需重新启动游戏。（没做"
+			]
+			id: "1E9BE8D3F8A602DC"
+			rewards: [{
+				count: 16
+				id: "0DBE03823EE6616B"
+				item: "gtceu:invar_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "一个重要的里程碑！"
+			tasks: [{
+				id: "10F6305A7E5D186D"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 8.25d
+			y: 3.75d
+		}
+		{
+			dependencies: ["1E9BE8D3F8A602DC"]
+			description: [
+				"在构建多方块时，有两个非常重要的因素需要知道。"
+				""
+				"&6这个任务解锁了&l技巧和诀窍&r&6选项卡中的新教程-查看它以了解更多！&r"
+			]
+			icon: "gtceu:heatproof_machine_casing"
+			id: "5508FD87F3EDFC43"
+			shape: "circle"
+			size: 0.6d
+			subtitle: "在这里帮助你形成多方块"
+			tasks: [{
+				id: "07327C56D34ED0D7"
+				type: "checkmark"
+			}]
+			title: "形成多方块"
+			x: 9.299999999999999d
+			y: 3.3d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: [
+				"高压釜通常是宝石加工的最后一步。它用于将少量&a宝石粉尘&r转化回普通宝石。"
+				""
+				"它非常缓慢 - 因此，通常不建议完全粉碎宝石矿石，因为回收过程太昂贵。"
+				""
+				"&9注意:&r 在这个模组包中，高压釜是制作在AE2中的福鲁伊克斯水晶所必需的。抱歉！"
+			]
+			id: "22A1A629AF754066"
+			size: 0.6d
+			tasks: [{
+				id: "30C94122AD446D9B"
+				item: "gtceu:lv_autoclave"
+				type: "item"
+			}]
+			title: "基础高压灭菌器"
+			x: -1.5d
+			y: 3.375d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: ["一个很少使用的机器。它利用磁性分离一些磁性矿石，并获得其他&6副产品&r，否则你将无法获得。"]
+			id: "24B4D9608718EE27"
+			size: 0.6d
+			tasks: [{
+				id: "3162F3E3D12E00FB"
+				item: "gtceu:lv_electromagnetic_separator"
+				type: "item"
+			}]
+			title: "基础电磁分离器"
+			x: 0.375d
+			y: 2.625d
+		}
+		{
+			dependencies: ["648BCF486E16CCB2"]
+			description: [
+				"这个任务是轻松地查看&d常规矿石加工的全貌&r。你可能会问为什么是\"常规”？好吧...有些矿石需要特殊处理，但那是一个更晚的话题。哦不，我们已经开始走神了！"
+				""
+				"与此相关的每个任务都会提供一个不同的机器，它在矿石加工中有一些参与。"
+				""
+				"&c注意:&r 不要在矿石加工上过于走神！这个阶段非常缓慢，而且有些耗电。大约90%的矿石不重要到需要特别去获取它们的副产品。顺便说一下，这是一个合法的统计数据！"
+			]
+			icon: "gtceu:sulfur_crushed_ore"
+			id: "701BCADAE5CF6CA5"
+			shape: "circle"
+			size: 0.6d
+			subtitle: "嘿，别跑开！"
+			tasks: [{
+				id: "3A7506F2C9145157"
+				title: "I agree to lose my sanity"
+				type: "checkmark"
+			}]
+			title: "这是什么乱七八糟的东西？：第二部分"
+			x: -0.375d
+			y: 4.125d
+		}
+		{
+			dependencies: ["32EA7E81885C8E87"]
+			description: [
+				"&7LV&r时代将需要你制作许多不同的机器！如果你在设定目标方面遇到困难，这里有一个友好的提示：选择一个后面任务中的物品，然后从那里开始倒退。"
+				""
+				"有了这个想法...为什么不从一个稍微容易的目标开始，比如&5聚变控制器&r？算了，有点太雄心勃勃了 - 让我们选择一个更接近的目标。啊，是的 - &3电力高炉&r，&7LV&r时代的主要终极目标 - 应该是一个不错的目标。"
+				""
+				"EBF是&a昂贵的&r，这就是为什么你应该最初专注于制造组件和材料更便宜的机器。我们的任务将尝试引导你朝着正确的方向前进。"
+				""
+				"其他重要的目标是制作&3LV组装机&r和制作你的第一个&aMV电路&r。"
+			]
+			id: "648BCF486E16CCB2"
+			shape: "circle"
+			size: 0.6d
+			subtitle: "选择太多，时间太少！"
+			tasks: [{
+				id: "07CE2766ECA4B0D8"
+				title: "I... might have some sense of direction now"
+				type: "checkmark"
+			}]
+			title: "LV时代进展"
+			x: 1.875d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3D98819A799D2E64"]
+			description: [
+				"在你的&3化学反应器&r旁边建造这台机器，自动将橡胶凝固成&a橡胶板&r。"
+				""
+				"如果你用扳手扳动你的&3化学反应器&r的一侧并启用流体&9自动输出&r，你可以使你的化学反应器自动输出。"
+				""
+				"还有更多的流体需要凝固，所以当你不制作橡胶时，你可以重新用你的&3流体固化机&r - 或者制作第二个！"
+			]
+			id: "581CDF545E1EA1FD"
+			rewards: [{
+				id: "2B85DCFFF22770D8"
+				item: "gtceu:rubber_bucket"
+				type: "item"
+			}]
+			size: 0.9d
+			subtitle: "流体固化机可以固化..."
+			tasks: [{
+				id: "20B1CA4DB2750E84"
+				item: "gtceu:lv_fluid_solidifier"
+				type: "item"
+			}]
+			title: "基础流体固化机"
+			x: 4.125d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3E6DC423FE4A99F7"]
+			description: [
+				"探矿者是一个惊人的工具，可以找到矿脉。"
+				""
+				"它的GUI是交互式的，可以让你扫描矿石。"
+				""
+				"&b传说:&r &o在我的时代，便携式探矿者被锁定在&d&oLuV&r&o上！这些年轻人真是太容易了！"
+			]
+			id: "2E36E5755B2F551C"
+			shape: "rsquare"
+			size: 0.6d
+			tasks: [{
+				id: "1AC97E61EF4958C8"
+				item: "gtceu:prospector.lv"
+				type: "item"
+			}]
+			title: "这就是黑客"
+			x: 5.25d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"5B2696206205CB2E"
+				"70432F650591353C"
+			]
+			description: [
+				"准备&a128个白铜锭&r、&a32个青铜锭&r和&a16个锡铁合金&r来制作你的第一个电动高炉所需的加热线圈。"
+				""
+				"这仍然不到整个EBF原材料成本的一半（！）。你还需要大约一组殷钢，所以开始挖掘吧！"
+				""
+				"白铜线圈将使EBF能够执行高达&d1,800K&r（忽略电压奖励）的配方。如果你问我这个温度怎么样，那就是相当热了。"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:cupronickel_coil_block"
+				tag: {
+					active: 1b
+				}
+			}
+			id: "1646BF9194100E57"
+			rewards: [
+				{
+					count: 8
+					id: "2DF635DEFA2D4DCD"
+					item: "gtceu:nickel_ore"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "35B63F2E0C108D08"
+					item: "minecraft:copper_ore"
+					type: "item"
+				}
+			]
+			size: 0.9d
+			subtitle: "宝宝的第一个加热线圈"
+			tasks: [{
+				count: 16L
+				id: "4F19FBED1E1766AC"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			title: "白铜线圈"
+			x: 6.375d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1E9BE8D3F8A602DC"]
+			description: [
+				"格雷科技中的维护并不像你想象的那么糟糕（保证！），而且带有这个舱口的多方块结构看起来非常流畅！"
+				""
+				"&6这个任务在&l技巧和窍门&r&6选项卡中解锁了一个新的教程-去看看学习更多！&r"
+				"{@pagebreak}"
+				"&b传说:&r 维护可以追溯到Minecraft 1.5.2的格雷科技 3。那是很久以前的事了！"
+				""
+				"维护问题增加了功率使用而不是持续时间。这导致了各种有趣的问题。啊，好时光！"
+			]
+			id: "5935E382FB8440A1"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "忘记你所知道的！"
+			tasks: [{
+				id: "4A60B3762FF5DE36"
+				item: "gtceu:maintenance_hatch"
+				type: "item"
+			}]
+			title: "维护也不可怕！"
+			x: 8.25d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1E9BE8D3F8A602DC"]
+			description: [
+				"&3电动高炉&r需要一个&3消音器仓&r才能运行。这个仓口必须是&c不受阻碍的&r，这样它才能输出美丽的烟雾粒子。"
+				""
+				"&6这个任务在&l技巧和窍门&r&6选项卡中解锁了一个新的教程-去看看学习更多！&r"
+				"{@pagebreak}"
+				"&b传说:&r 在格雷科技 5中，污染的多方块结构有消音器舱口。仓口的等级越高，污染输出越低。"
+				""
+				"污染有...&o有趣的&r...效果，比如把草和泥土变成沙子。"
+			]
+			id: "6A8AA847FF086063"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "我们发誓我们已经改变了！"
+			tasks: [{
+				id: "4046E4E9D09C4FB1"
+				item: "gtceu:lv_muffler_hatch"
+				type: "item"
+			}]
+			title: "消音器也不可怕！"
+			x: 8.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: [
+				"&5玩家:&r &o够了，我要卸载这个包！这个包太傻了！我们才刚进入&7LV&r&o，你就要我制作一个HV机器！？&r"
+				""
+				"是的！这确实还没有完成，这也是为什么这个任务出现在&6HV&r章节中的原因。"
+				"{@pagebreak}"
+				"还记得你不能用磨粉机获得副产品的失望吗？嗯...这种失望会一直伴随着你，直到你达到HV。"
+				""
+				"&6磨粉机将在HV时解锁其第二和第三个槽&r。相信我们，这对矿石加工非常有用。事实上，一个副产品绝对被锁在这里（在热离心机步骤之后）。"
+				""
+				"&c注意:&r 与GTCE不同，GTCEu中的&bMV&r磨粉机没有第二个槽！"
+				""
+				"&5作者:&r &o当你变得更强大时，再回到我这里，年轻人。&r"
+			]
+			id: "1DA54DA70E12F499"
+			size: 0.6d
+			subtitle: "什么？为什么？！"
+			tasks: [{
+				id: "5580AE2868E0E451"
+				item: "gtceu:hv_macerator"
+				type: "item"
+			}]
+			title: "通用磨粉机"
+			x: -0.375d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3A8D7FC6F316C38C"]
+			description: [
+				"气体收集器收集空气，然后可以离心成&a氧气&r和&aN2气&r。"
+				""
+				"&b传说:&r 格雷科技 5玩家还记得他们曾经不得不使用带有IC2电池的压缩机来获得压缩空气...在这里，电池化学不再存在。"
+			]
+			id: "15928F50AE80A5CF"
+			shape: "rsquare"
+			size: 0.6d
+			tasks: [{
+				id: "5710E0C2A7441809"
+				item: "gtceu:lv_gas_collector"
+				type: "item"
+			}]
+			title: "基础气体收集器"
+			x: 0.75d
+			y: 6.75d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: [
+				"&3打包机&r将&a小一撮粉末粉尘&r和&a小堆粉尘&r压缩成&a粉尘&r，可以进一步压缩成锭。"
+				""
+				"它还可以反向工作，改变电线的尺寸等等..."
+				""
+				"将电缆解包回电线和橡胶将在你重新布线能源网络时非常有用。"
+				"{@pagebreak}"
+				"&o是的...&r 3x3压缩配方听起来并不有用，因为人们可以使用制作台。我们敦促你考虑使用这台机器进行&9自动化&r。"
+				""
+				"对于一个&9自动化的&r粉尘设置，将&a微小粉尘&r路由到一个缓冲库存（一个箱子就可以）放在你的&3打包机&r旁边。"
+				""
+				"接下来放置一个&3机器臂&r并将其配置为\"&d导入&r=”，和\"&d提供精确的9&r=”。最后，使用机器自动输出在另一侧。"
+				""
+				"&b传说&r：在GTCE中，反向操作需要一个单独的机器，即解包机。"
+			]
+			id: "3F123950216DF93B"
+			size: 0.6d
+			tasks: [{
+				id: "33AEA84A406741FF"
+				item: "gtceu:lv_packer"
+				type: "item"
+			}]
+			title: "基础打包机"
+			x: -1.5d
+			y: 4.2d
+		}
+		{
+			dependencies: ["648BCF486E16CCB2"]
+			description: [
+				"&3化学反应器&r将在许多配方中需要。"
+				""
+				"让我们试试吧——为什么不使用你新制作的化学反应器来解锁一个新的、&6更好的橡胶配方&r呢？橡胶作为液体是&d无法使用&r的，所以你需要制造另一台机器来进一步处理它。"
+				"{@pagebreak"
+				"你不能仅仅使用化学反应器来制造橡胶，所以这里有一些&a其他机器&r你可能想要瞄准："
+				""
+				"&3固化机&r可以将你的橡胶直接固化成&a橡胶板&r。你将需要这些东西。"
+				""
+				"然后你可以使用&3组装机&r来使用你的熔化橡胶制作&a电缆&r。这对于锡电缆来说并不重要，但更好的电缆将需要在组装机中制作。"
+				""
+				"&e注意:&r将流体提交到你的库存中的&l任何&r储罐中。一个桶是最完美的候选者。"
+			]
+			icon: "gtceu:lv_chemical_reactor"
+			id: "3D98819A799D2E64"
+			size: 0.9d
+			subtitle: "化学入门"
+			tasks: [
+				{
+					id: "108424445D0F748A"
+					item: "gtceu:lv_chemical_reactor"
+					type: "item"
+				}
+				{
+					amount: 1296L
+					fluid: "gtceu:rubber"
+					id: "75DD10F659BA5406"
+					type: "fluid"
+				}
+			]
+			title: "基础化学反应器"
+			x: 3.0d
+			y: 5.625d
+		}
+		{
+			dependencies: ["3D98819A799D2E64"]
+			description: [
+				"单元是一种替代的流体储存形式。所有具有相同类型和相同数量的流体的单元&6堆叠&r。它们可以通过&3装罐机&r自动填充。"
+				""
+				"单元可以容纳&d一个桶&r的流体。"
+				"{@pagebreak}"
+				"通用单元可以容纳&d一个桶&r，但也可以存储&9分数&r的桶。如果你想存储剩余的流体而不制作整个桶，它们特别理想。"
+				""
+				"由更高级材料制成的单元可以容纳更多的流体，但到那时，&9GT桶&r和&9超级罐&r将容纳更多的流体。"
+				""
+				"像GT桶一样，单元可以放入制作网格中清除它们的内容。"
+			]
+			icon: "gtceu:fluid_cell"
+			id: "292938760AB9A12B"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "GTCE杀死了单元化学... GTCE杀死了细胞！"
+			tasks: [
+				{
+					id: "48507FA04651418B"
+					item: "gtceu:fluid_cell"
+					type: "item"
+				}
+				{
+					id: "012C90A73EC79E11"
+					item: "gtceu:universal_fluid_cell"
+					type: "item"
+				}
+			]
+			title: "死亡细胞(单元"
+			x: 4.125d
+			y: 5.625d
+		}
+		{
+			dependencies: [
+				"581CDF545E1EA1FD"
+				"5B2696206205CB2E"
+			]
+			description: [
+				"使用你的两台新机器将材料转化为流体，然后将其固化回转子！这种组合使制作转子变得更加容易——每个转子只需要&6四个锭&r。"
+				""
+				"你也可以对&6齿轮&r和&6小齿轮&r做同样的事情，当你制造&3MV挤压机&r时，它们将被取代。"
+				""
+				"&9注意:&r一些金属需要比LV更高的电压进行流体提取，所以请确保在REI中注意配方层级。"
+			]
+			icon: "gtceu:rotor_casting_mold"
+			id: "115C4226F6473F0C"
+			rewards: [{
+				count: 2
+				id: "7162E47A4FB3EDB1"
+				item: "gtceu:empty_mold"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "结束手工制作转子的痛苦的时候到了！"
+			tasks: [
+				{
+					id: "4A68C6BC78CB07E2"
+					item: "gtceu:rotor_casting_mold"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "7EF3EDA1698AFB7F"
+					item: "gtceu:tin_rotor"
+					type: "item"
+				}
+			]
+			title: "组合！"
+			x: 5.25d
+			y: 5.625d
+		}
+		{
+			dependencies: ["199361B5FEC959EA"]
+			description: [
+				"&a焊锡&r仅用作&9流体&r，在大多数情况下，它可以作为比锡更便宜的替代品在电路配方中&d互换使用&r。"
+				""
+				"选择权在你手中。节省更多材料？制作焊锡。花费更少的时间制作材料？锡是正确的选择。"
+			]
+			icon: "gtceu:soldering_alloy_ingot"
+			id: "713C8D6A20BF3A0E"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "我有灵魂，但我不是焊接"
+			tasks: [{
+				id: "67F9F84D66E32728"
+				item: "gtceu:soldering_alloy_dust"
+				type: "item"
+			}]
+			title: "焊锡"
+			x: 8.453826530612233d
+			y: 6.766751700680324d
+		}
+		{
+			dependencies: [
+				"32B08E6F414A00C0"
+				"4B979482EF026BFF"
+			]
+			description: [
+				"使用LV电力，获取&a铝粉&r的唯一方法是通过电解&9蓝宝石&r或&2绿宝石&r。铝是主要的&bMV&r材料，类似于钢在&7LV&r中的重要性，青铜在&6蒸汽时代&r中的重要性。"
+				""
+				"最好获取足够的蓝宝石电解成一整组&a铝粉&r - 它&l很快&r就会有用。此外，额外的氧气总是不错的。"
+			]
+			id: "2F1CCFEBAB71B1F3"
+			rewards: [{
+				count: 12
+				id: "6ED23A377745D74A"
+				item: "gtceu:green_sapphire_ore"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				count: 6L
+				id: "3B6DC3146DB686BF"
+				item: "gtceu:sapphire_dust"
+				type: "item"
+			}]
+			title: "蓝宝石"
+			x: -2.625d
+			y: 5.625d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: [
+				"&l除了矿石加工之外：&r"
+				""
+				"与离心机类似，这台机器可以做很多事情 - 我们无法列出所有！幸运的是，这是最便宜的&7LV&r机器之一，所以必须就得到它。"
+				"{@pagebreak}"
+				"&l用于矿石加工：&r"
+				""
+				"好吧，我们撒谎了。它不是&o确切地&r用于矿石加工，而是用于&adusts的分解&r。然而，大多数有用的电解配方都被锁定在&bMV&r。你可以在dust的工具提示中窥视&e分子式&r，以查看可以从电解中获得什么。"
+				"{@pagebreak}"
+				"&c小心！&r由于矿石的工作方式，直接将矿粉熔炼成锭可以获得更高的金属产量，而电解则意味着你会失去矿粉中的其他产品。你必须决定你是想优先考虑直接价值还是副产品数量。"
+			]
+			id: "32B08E6F414A00C0"
+			rewards: [{
+				count: 2
+				id: "63E578C8E82CB9DC"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "536874A8C35E1C86"
+				item: "gtceu:lv_electrolyzer"
+				type: "item"
+			}]
+			title: "基础电解槽"
+			x: -1.5d
+			y: 5.625d
+		}
+		{
+			dependencies: [
+				"5263F866638D875C"
+				"2F1CCFEBAB71B1F3"
+			]
+			description: [
+				"现在，你应该使用&9水&r来替代尝试获取润滑油的配方。"
+				""
+				"&3切割机&r还可以将&6棒材转换为四个螺栓。"
+				""
+				"这台机器是获得&d宝石板&r的唯一方法，这是制作过滤器所需的，进而是&3气体收集器&r的必需品。"
+			]
+			id: "3A8D7FC6F316C38C"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "切割机...切割..."
+			tasks: [{
+				id: "662DB818821C4EAE"
+				item: "gtceu:lv_cutter"
+				type: "item"
+			}]
+			title: "基础切割机"
+			x: -1.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["701BCADAE5CF6CA5"]
+			description: [
+				"&l除了矿石加工之外：&r"
+				""
+				"哦，这台机器还有什么不能做？分解配方，分离矿粉类型，分离空气，以及许多其他操作..."
+				""
+				"不列了！只能说&c你需要离心机&r。！"
+				"{@pagebreak}"
+				"&l用于矿石加工：&r"
+				""
+				"这将&a含杂矿粉&r或&a纯净矿粉&r转化为干净矿粉，再加上一个小撮粉末作为&6副产品&r。这是最便宜的矿石加工机器之一，适合小规模运行和设置。"
+				"{@pagebreak}"
+				"&b传说：&r在基本GTCE中，这是最强大的矿石加工机器，因为它很容易使用，并像矿石洗涤机或热离心机一样提供三个小撮粉末。我们为了多样性而调整了它。"
+			]
+			id: "5263F866638D875C"
+			rewards: [{
+				id: "525C65CA6AFD3C11"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "20EDB55B8D5CDAD6"
+				item: "gtceu:lv_centrifuge"
+				type: "item"
+			}]
+			title: "基础离心机"
+			x: -0.375d
+			y: 6.75d
+		}
+		{
+			dependencies: ["648BCF486E16CCB2"]
+			description: [
+				"建议你在进入&7LV&r时代之前，不要使用这个机器，除非你需要它来进行进度 - 如果你是新手，请到其他地方探索。"
+				""
+				"一些之前需要手工制作的合金也可以在混合器中制作，只是&ahigher yield&r。"
+			]
+			id: "257DB4B39B2A928E"
+			size: 0.6d
+			subtitle: "混合器混合..."
+			tasks: [{
+				id: "4A0B4A206ED30212"
+				item: "gtceu:lv_mixer"
+				type: "item"
+			}]
+			title: "基础混合器"
+			x: 1.875d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"63CD0236B337EAAD"
+				"37307A46E70011D3"
+				"3D98819A799D2E64"
+			]
+			description: [
+				"不幸的是，这只是一个&l空&r喷雾罐，在使用前你必须将其填满化学染料。"
+				""
+				"&a喷雾罐&r没有涉及机器的任何功能，但可以非常&b视觉上吸引人和有用&r！"
+				""
+				"任何（或几乎任何）格雷科技实体（机器、管道、电缆...）都可以&6涂&r成你选择的16种颜色之一。这对于截图或在多人基地中方便地区分不同的设置非常有用。它们还有助于区分管道和电缆。"
+				""
+				"将&a喷雾罐&r握在副手中，会自动涂上你放置的任何方块。"
+			]
+			id: "5AD9884E7BFB2510"
+			size: 0.6d
+			subtitle: "时间来参加服务器标签战争"
+			tasks: [{
+				id: "28CFFA0F7A33E02F"
+				item: "gtceu:empty_spray_can"
+				type: "item"
+			}]
+			title: "喷雾罐"
+			x: 3.0d
+			y: 6.75d
+		}
+		{
+			dependencies: ["648BCF486E16CCB2"]
+			description: [
+				"虽然这是一个非常&9重要&r的机器，但它&9&l不会立即帮助你&r，因为它非常&c昂贵&r。你想要追求的大多数配方需要&c流体&r。在匆忙之前，先建立一些基础设施。"
+				""
+				"&3组装机&r对于游戏进度至关重要。把它看作与工作台一样重要，只是...嗯，它是一台机器。"
+				""
+				"我们作为\"模组包开发者\"也喜欢使用它来包含各种自定义配方 - 说到自定义配方，现在解锁了&d应用能源2&r！"
+				"{@pagebreak}"
+				"一旦你有足够的基础设施，你就可以使用更好的配方："
+				""
+				"&9-&r &6真空管&r，提供超过以前的两倍产量"
+				""
+				"&9-&r &6电阻&r，每次制作可获得4个电阻！"
+				""
+				"&9-&r &6电路板&r，大大减少了使用的铜量"
+				""
+				"哇呼！"
+				""
+				"&bLore:&r 回到格雷科技 2的时代，组装机只有两个插槽，只用于备用电路和船体配方。"
+			]
+			id: "63CD0236B337EAAD"
+			rewards: [
+				{
+					count: 4
+					id: "15CB6A60C5C891BB"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "3AF49D4A68D17C1A"
+					item: "gtceu:lv_machine_hull"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "6B5537B80EB05B30"
+				item: "gtceu:lv_assembler"
+				type: "item"
+			}]
+			x: 4.125d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"63CD0236B337EAAD"
+				"5B2696206205CB2E"
+			]
+			description: [
+				"&3销毁覆盖板&r可以附加到格雷科技机器、箱子或GT桶上。它们将会清除你不想要的物品。多么高级啊！"
+				""
+				"对于机器来说，它只会清除输出槽中的物品。输入槽会被忽略。"
+				""
+				"你可以附加一个&a过滤器&r以进行更精确的清除。"
+				"{@pagebreak}"
+				"还有一个高级版本，需要一个&d MV电路&r。它可以在设定的阈值以上进行清除，非常适合溢出控制。"
+				""
+				"&9注意:&r它们默认关闭，以防止意外清除。使用&5软木槌&r右键单击它们以激活它们。"
+				""
+				"获得&e任何&r销毁覆盖板将完成此任务。"
+			]
+			icon: "gtceu:item_voiding_cover"
+			id: "249B9E104CAF5FE6"
+			rewards: [{
+				count: 32
+				id: "7B4720913F7D4D6E"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "最好的机制-让物品或流体消失！"
+			tasks: [
+				{
+					id: "69BC88293080C522"
+					item: "gtceu:item_voiding_cover"
+					type: "item"
+				}
+				{
+					id: "4787AD5F61E1914E"
+					item: "gtceu:fluid_voiding_cover"
+					type: "item"
+				}
+			]
+			title: "销毁覆盖板"
+			x: 5.25d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"63CD0236B337EAAD"
+				"581CDF545E1EA1FD"
+			]
+			description: [
+				"嗯...我们不是已经开过这个玩笑了吗？"
+				""
+				"我们没有提供&7LV&r版本的&6蒸汽&r机器的原因是因为它们&4不需要&r！你可能不想投资于一个几乎没有作用的升级。除了 &o此&r 之外，因为它是&6蒸汽时代&r的一个重大改进。"
+				""
+				"&3基本提取器&r获得了流体功能，使得&a流体提取&r成为可能。使用它来融化你之前固化的橡胶，&d熔化焊接合金&r用于电路，以及&d熔化红合金&r用于&6最佳真空管配方&r在&3组装机&r中！"
+				"{@pagebreak}"
+				"&b传说:&r你注意到这个机器既是提取器又是流体提取器了吗？它们在格雷科技的早期版本中是两个独立的机器。"
+			]
+			id: "5B2696206205CB2E"
+			size: 0.9d
+			subtitle: "蒸汽提取器提取......"
+			tasks: [{
+				id: "5CD363C839475426"
+				item: "gtceu:lv_extractor"
+				type: "item"
+			}]
+			x: 6.375d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"0DBC148D92A9F69F"
+				"5B2696206205CB2E"
+			]
+			description: [
+				"从现在开始，所有电路都应该在&3电路组装机&r中制作。现在使用它来制作&6成本更低的LV和MV电路&r。"
+				""
+				"每次升级到新的&3电路组装机&r级别时，你将能够制作更&d高级的电路主题&r。这些将使用&c复杂&r和&m有时&r不熟悉的成分，但总体上制作效率更高。"
+				""
+				"&b传说:&r电路组装机在格雷科技版本中出现过多次。GT5没有它，它在GT5非官方版中重新实现。GTCE决定不进行移植，而在GTCEu中的包含则成为了一场拉锯战。"
+			]
+			id: "199361B5FEC959EA"
+			rewards: [{
+				id: "0418E257FEDA52B7"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			size: 0.9d
+			subtitle: "希望你的第一个MV电路开支"
+			tasks: [{
+				id: "6287E8A7C254ECA7"
+				item: "gtceu:lv_circuit_assembler"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["1A77CA35F054F988"]
+			description: [
+				"&3电弧炉&r使用少量&9氧气&r以不同于熔炉的方式熔炼物品。"
+				""
+				"你可以用它来制作更容易的&a锻铁&r，加倍你的&a玻璃&r，并获得&a退火铜&r的访问权限。"
+				""
+				"它还可以将各种组件和机器回收到它们的原始材料中。"
+				"{@pagebreak}"
+				"&b传说:&r 早期版本中有电弧炉和&b等离子电弧炉&r。在这种情况下，为什么不使用一个机器呢？好吧，这正是我们想的 - 但我们最终决定删除其中的&b等离子&r配方。然后又出现另外一个&b等离子&r配方。"
+				""
+				"简而言之，&b等离子电弧炉&r已经&4消失&r。安息。"
+			]
+			id: "63256ED95F17B242"
+			rewards: [{
+				id: "2DF03194A80B3F4B"
+				item: "gtceu:oxygen_bucket"
+				type: "item"
+			}]
+			size: 0.9d
+			tasks: [{
+				id: "2374C06C5E1EFC24"
+				item: "gtceu:lv_arc_furnace"
+				type: "item"
+			}]
+			x: -2.625d
+			y: 7.875d
+		}
+		{
+			dependencies: ["3A8D7FC6F316C38C"]
+			description: [
+				"一个时髦的工具，可帮助基地建设。该小工具有不同的模式，你可以通过按住相关热键来查看 - 默认为&eG&r。"
+				""
+				"一定要查看&3破坏小工具&r和&3复制粘贴小工具&r。"
+				""
+				"在任何格雷科技机器的充电插槽中充电。"
+			]
+			id: "0DAD0A6360448B39"
+			rewards: [{
+				count: 64
+				id: "754F6E206D20BC31"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "在Greg的土地上熟悉的面孔"
+			tasks: [{
+				id: "6B70AAED241FD9E6"
+				item: {
+					Count: 1b
+					id: "buildinggadgets:gadget_building"
+					tag: {
+						state: {
+							data: { }
+							serializer: "buildinggadgets:dummy_serializer"
+							state: {
+								Name: "minecraft:air"
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.625d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"5263F866638D875C"
+				"32B08E6F414A00C0"
+			]
+			description: [
+				"你可以在REI中浪费&o&e你生命中宝贵的岁月&r来寻找最优的氧气配方，因为有许多获得它的方法。各种矿物质在电解时会产生它。"
+				""
+				"如果任务书有更多信息就好了！"
+				"{@pagebreak}"
+				"&6哒啦啦！&r"
+				"根据我们的意见，最好的来源是制作&d气体收集器&r后&a离心空气&r，但你可能还不能制作它。这个配方还会给出&a氮气&r，这很方便，因为它可以加速某些&3电动高炉&r的配方。"
+				""
+				"根据我们的意见，第二好的来源是&a电解二氧化硅&r。二氧化硅可以从各种来源获得，例如玻璃粉尘、花岗岩粉尘和黑色花岗岩粉尘。"
+				"{@pagebreak}"
+				"根据我们的意见，第三好的来源是&a电解水&r。实际上，由于更高的能量成本，水的电解更适合&a氢气生产&r。"
+				""
+				"根据我们的意见，第四好的来源是永远！&a不要销毁&r 它！从任何来源获得的氧气都是有价值的，应该存储在储罐中。"
+				""
+				"&e注意:&r 通过将其存储在你的库存中的&l任何&r储罐中提交流体。一个桶也可以。"
+			]
+			icon: "gtceu:oxygen_bucket"
+			id: "1A77CA35F054F988"
+			shape: "rsquare"
+			size: 0.6d
+			subtitle: "实际上，它是二氧化氢..."
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:water"
+				id: "70F00C67C9698A78"
+				type: "fluid"
+			}]
+			title: "清新氧气之息"
+			x: -1.5d
+			y: 7.875d
+		}
+		{
+			dependencies: ["5263F866638D875C"]
+			description: [
+				"现在你可以用&3离心机&r离心&a树脂&r，仍然会得到原始橡胶，但这次还会得到&a胶水&r（以及不太有用的植物球）。"
+				""
+				"给自己一个头开始生产胶水。你可以用它来制作&6更便宜的电阻器&r，以及在&3组装机&r中制作&6更便宜的电路板&r（在&o在不久的将来&r中特别有用）。"
+				""
+				"&e注意:&r通过将流体存储在你的库存中的&l任何&r储罐中提交流体。一个桶也可以。"
+			]
+			icon: "gtceu:glue_bucket"
+			id: "0EAC071414AEC07E"
+			rewards: [{
+				count: 4
+				id: "3134ECF63472A855"
+				item: "gtceu:rubber_log"
+				type: "item"
+			}]
+			size: 0.6d
+			subtitle: "萃取器？我几乎不认识她！"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:glue"
+				id: "3DD156ECA99FFA11"
+				type: "fluid"
+			}]
+			title: "胶水"
+			x: -0.375d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"5263F866638D875C"
+				"257DB4B39B2A928E"
+			]
+			description: [
+				"许多材料在未来不能直接从任何矿石中熔炼！它们是通过处理其他矿石获得的副产品。镓和砷是&4其中之一&r。"
+				""
+				"对于&d镓&r，你可以从最差到最好（妥协难度和产量）："
+				""
+				"&9- &3电解&a闪锌矿&r，有很小的粉末几率。请注意，你会失去直接冶炼价值。"
+				""
+				"&9-&r将&a碎铝土矿&r放入&3化学浴缸&r中。请注意，这需要&9过硫酸钠&r。"
+				""
+				"&9-&r在&3热离心机&r或&3离心机&r中通过&a闪锌矿&r矿石处理获得。"
+				""
+				"对于&d砷&r，你将不得不挖掘和&3离心机&r&a雄黄&r。"
+			]
+			id: "4073577B7EF9B593"
+			size: 0.6d
+			subtitle: "我讨厌副产品，它们很棒"
+			tasks: [{
+				id: "0FDC60275B1959C3"
+				item: "gtceu:gallium_arsenide_dust"
+				type: "item"
+			}]
+			title: "砷化镓"
+			x: 0.75d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"63CD0236B337EAAD"
+				"0EAC071414AEC07E"
+			]
+			description: [
+				"这个电路板用于创建&dMV电路&r！"
+				""
+				"&9注意:&r制作酚醛印刷电路板时，你有&ltwo&r个选项。如果你使用&a过硫酸钠&r或&a氯化铁III&r，则制作电路板只需要&6银的四分之一，而不是制作配方。"
+				""
+				"&l然而&r，考虑到 &o现在&r 你可能很难获得这些化学品，你可以通过挖掘大部分铅矿脉来使用更多的银..."
+				""
+				"&a过硫酸钠&r的任务在MV章节中，如果你有时间阅读一些轻松的内容。"
+				"{@pagebreak}"
+				"&bLore:&r在GTCEu 1.12.2中，这些电路板被称为\"&2更好的电路板&r”。不是一个恰当的名字，因为它们&4相当难以制作&r！"
+			]
+			id: "3647B1B964A15E4E"
+			rewards: [{
+				id: "2B815290D1F7D038"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			size: 0.6d
+			tasks: [{
+				id: "2DE7B75F25A4AB9E"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 7.875d
+		}
+		{
+			dependencies: ["63CD0236B337EAAD"]
+			description: [
+				"在这个时候进入应用能源学是可能的，但也有点复杂..."
+				""
+				"你需要制作相当多的&7LV&r机器，而一些AE2物品的&7LV级&r配方相对昂贵，如果没有更先进的技术，就很难制作。"
+				""
+				"在LV时代，你将能够制作："
+				""
+				"&6-&r能量接收器"
+				""
+				"&6-&rME终端"
+				""
+				"&6-&r1k ME存储组件"
+				""
+				"&6-&rME箱"
+				"{@pagebreak}"
+				"&9注意：&r这个包括&5福鲁伊克斯水晶&r，但它们是作为GT材料生成的，而不是默认的AE2福鲁伊克斯水晶。要获得它们，将&d福鲁伊克斯粉&r放入&a自动化压力釜&r中，该压力釜由&7赛特斯石英粉&r、&e下界石英粉&o&r和&c红石&r在&a搅拌机&r中制成。不需要给赛特斯石英充电。它在混合器中会被...充电...或者类似于这样的东西。"
+			]
+			id: "0E72017800A9766C"
+			rewards: [{
+				count: 16
+				id: "6511637BCAB0EC18"
+				item: "gtceu:certus_quartz_gem"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.9d
+			tasks: [{
+				id: "2080D5BB367332D3"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			title: "数字时代？已经到了吗！？"
+			x: 4.125d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"63CD0236B337EAAD"
+				"4073577B7EF9B593"
+			]
+			description: [
+				"不要被REI欺骗...现在只有一种可用的原始二极管配方。"
+				""
+				"二极管有一个臭名昭著的&4恶劣配方&r，但一旦你能够获得&e聚乙烯&r，它们将变得更便宜、更方便。"
+				""
+				"这是&dMV电路&r所必需的。"
+			]
+			id: "7BE7DE4C0109D788"
+			rewards: [{
+				count: 8
+				id: "7E08419FB2E4B575"
+				item: "gtceu:gallium_dust"
+				type: "item"
+			}]
+			size: 0.6d
+			subtitle: "不要被JEI所迷惑！"
+			tasks: [{
+				id: "0FE8CA1C2D212378"
+				item: "gtceu:diode"
+				type: "item"
+			}]
+			x: 5.25d
+			y: 7.875d
+		}
+		{
+			dependencies: [
+				"3647B1B964A15E4E"
+				"7BE7DE4C0109D788"
+				"4B979482EF026BFF"
+			]
+			description: [
+				"好了，你制作了铝锭了吗？"
+				""
+				"每个电气时代都有相应的电路。好的电子电路是你可以制作的&d第一个MV电路&r，它是MV电路的三个等级中的一个。"
+				""
+				"始终寻找制作电路的更便宜的方法——每次制作新的&2电路组装器&r等级时，都会有新的配方集可用。方便的是，这个电路等级现在解锁了一个！它的配方比手工制作电路要便宜得多。"
+				""
+				"&6拥有这个和铝将授予访问MV机器的权限。&r"
+			]
+			id: "0DBC148D92A9F69F"
+			rewards: [{
+				count: 4
+				id: "052E7DFC7E0B9EEF"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "这是否意味着我们已经到了MV？"
+			tasks: [{
+				id: "70313E1917121E14"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			title: "第一个MV电路！"
+			x: 7.5d
+			y: 7.875d
+		}
+		{
+			dependencies: ["1E9BE8D3F8A602DC"]
+			description: [
+				"与蒸汽多方块类似（我希望你已经制作了它们！），你需要&3总线&r来移动物品。"
+				""
+				"对于流体，你需要&3流体仓&r。更高级别的&3流体仓/总线&r有更多的插槽。"
+			]
+			icon: "gtceu:lv_output_hatch"
+			id: "148F44A0575A0874"
+			shape: "rsquare"
+			size: 0.6d
+			tasks: [
+				{
+					id: "233F7E2B406D621C"
+					item: "gtceu:lv_input_bus"
+					type: "item"
+				}
+				{
+					id: "224782FFB52AFDE7"
+					item: "gtceu:lv_output_bus"
+					type: "item"
+				}
+			]
+			title: "多方块IO"
+			x: 7.125d
+			y: 5.625d
+		}
+		{
+			dependencies: ["2F1CCFEBAB71B1F3"]
+			description: [
+				"如前一个任务中提到的，电解蓝宝石粉末以获得铝粉。"
+				""
+				"现在你只需要一个EBF！如果你还没有开始朝着这个方向努力，移动到这个任务页面的右边，你就会到达那里。"
+			]
+			hide_dependent_lines: true
+			id: "45B71324028F6E68"
+			size: 0.6d
+			tasks: [{
+				id: "144F4F8EF61BEEA5"
+				item: "gtceu:aluminium_dust"
+				type: "item"
+			}]
+			title: "铝粉"
+			x: -3.75d
+			y: 6.75d
+		}
+		{
+			dependencies: [
+				"1E9BE8D3F8A602DC"
+				"5508FD87F3EDFC43"
+			]
+			description: ["查看教程选项卡以获取更多信息！"]
+			icon: "gtceu:robust_machine_casing"
+			id: "04C5C1FA9E81534F"
+			shape: "circle"
+			size: 0.6d
+			subtitle: "在这里帮助你解决问题"
+			tasks: [{
+				id: "4A5FE8FFE17D4225"
+				type: "checkmark"
+			}]
+			title: "故障排除多方块"
+			x: 9.299999999999999d
+			y: 4.2d
+		}
+	]
+	subtitle: ["驯服电力并制造你的第一台机器"]
+	title: "&7LV&r - 低电压"
+}

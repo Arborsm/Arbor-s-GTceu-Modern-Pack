@@ -1,0 +1,1245 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "steam_age"
+	group: "693226878D58638A"
+	icon: "gtceu:bronze_brick_casing"
+	id: "3B89FB8839204148"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["40DE888E6025C646"]
+			description: [
+				"如果你还记得蒸汽信息任务，我们告诉过你普通蒸汽机有持续惩罚并且速度减半。"
+				""
+				"高压蒸汽机不再有任何配方持续惩罚，因此它们是目标升级。"
+				""
+				"制作&e一个&r建议的高压机器来完成这个任务。"
+			]
+			icon: "gtceu:hp_steam_compressor"
+			id: "5673089822BFCA70"
+			rewards: [{
+				count: 8
+				id: "24A6C74E123DDC99"
+				item: "gtceu:steel_plate"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "压力有时也是好的"
+			tasks: [
+				{
+					id: "20C11A6B5DBE5B77"
+					item: "gtceu:hp_steam_compressor"
+					type: "item"
+				}
+				{
+					id: "7820AEBD0933D67D"
+					item: "gtceu:hp_steam_alloy_smelter"
+					type: "item"
+				}
+				{
+					id: "5EABF396A3083ED0"
+					item: "gtceu:hp_steam_forge_hammer"
+					type: "item"
+				}
+			]
+			title: "不再有惩罚"
+			x: 0.0d
+			y: -2.625d
+		}
+		{
+			dependencies: ["40DE888E6025C646"]
+			description: [
+				"&3高压锅炉&r将成为为你的蒸汽机提供蒸汽的更好来源。"
+				""
+				"请记住，在LV时代，你仍将使用蒸汽来为你的电力机器提供能量转换的奇迹。"
+				""
+				"&c注意:&r 你将需要不止一把&3高压锅炉&r。你制作的越多，就越容易。"
+				"{@pagebreak}"
+				"&3固体锅炉&r燃烧固体燃料。它很简单 - 更好的燃料持续时间更长。"
+				""
+				"&3液体锅炉&r燃烧&d熔岩&r或&d煤油&r。"
+				""
+				"在寻找建议吗？说实话，两种锅炉在发电方面是等效的。制作最适合你喜欢的资源的锅炉。"
+				""
+				"获取&e任意&r一个建议的锅炉来完成这个任务。"
+			]
+			id: "2FD75E4BD95F6645"
+			rewards: [
+				{
+					count: 12
+					id: "22FCFB1342070EC5"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "195F3D02A2632E78"
+					item: "gtceu:wrought_iron_ingot"
+					type: "item"
+				}
+				{
+					count: 12
+					id: "5A949113167C4248"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					id: "3CE19962A88A55EE"
+					item: "gtceu:hp_steam_solid_boiler"
+					type: "item"
+				}
+				{
+					id: "3A8A8CF77675575A"
+					item: "gtceu:hp_steam_liquid_boiler"
+					type: "item"
+				}
+			]
+			title: "高压"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07415D6305C3B1D2"]
+			description: [
+				"&3原始高炉&r（简称&3PBF&r）是你在接下来的几个小时内会非常熟悉的多方块结构。在处理这个任务之前，重要的是你先获得一个&3破碎机&r - 如果你还没有一个，这个多方块结构将是&l四倍的代价&r。"
+				""
+				"使用&3破碎机&r，你将需要&d132个黏土&r，分成&d66个黏土粉&r和&d66个砖粉&r。"
+				""
+				"使用&4REI的多方块预览选项卡&r构建结构。"
+				"{@pagebreak}"
+				"钢将在整个游戏中&9至关重要&r，所以确保你让PBF运行！"
+				""
+				"钢还比格雷科技工具的普通铁具有&6双倍的耐久性&r。它还提供&6钻石采矿等级&r，速度更快！"
+			]
+			icon: "gtceu:primitive_blast_furnace"
+			id: "40DE888E6025C646"
+			rewards: [
+				{
+					count: 64
+					id: "4BA49D38A085D5CA"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6E244AE238636F71"
+					item: "minecraft:oak_log"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "你的第一个&m大&r项目！这是为了钢而做的！"
+			tasks: [
+				{
+					id: "7B33C92B976F5AB8"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "4EC38823292AF1E1"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+			]
+			title: "原始高炉"
+			x: 1.125d
+			y: -1.5d
+		}
+		{
+			dependencies: ["40DE888E6025C646"]
+			description: [
+				"钢铁中含有非常少的碳，比铁或锻铁更坚韧。"
+				""
+				"一台原始高炉不够用，这会让游戏变成闲置游戏。制作另一台可以减少等待钢铁的时间！"
+				""
+				"只是为了检查一下 - 你知道格雷科技多方块可以共享墙壁吗？这可以为你的第二个原始高炉节省12个原始砖块。"
+				"{@pagebreak}"
+				"你也可以升级到四个原始高炉。这取决于你想要花多少时间来收集资源，但更多的原始高炉总是不错的。我们不会强迫你制作它们，不用担心。"
+				""
+				"&9注意：&r原始高炉不能（合理地）自动化，但放置铁块和焦炭/木炭块可以保证它长时间运行而不需要看护。"
+				"{@pagebreak}"
+				"&b传说：&r在格雷科技 5中，使用煤或木炭，一块钢铁需要在原始高炉中烧制&d360秒&r！这对于整个堆栈来说超过&e6小时&r！当然，使用4个原始高炉，这将缩短到&3大约1.5小时&r。"
+				"污染也是一个臭名昭著的问题，所以四个这样的坏男孩将保证你的角色会定期获得负面效果，如缓慢、挖掘疲劳，甚至恶心和中毒。"
+			]
+			icon: "gtceu:steel_ingot"
+			id: "5D17DFCF6672404C"
+			rewards: [{
+				count: 64
+				id: "7843257BC8A81E96"
+				item: "gtceu:coke_gem"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "钢铁，薛定谔的合金"
+			tasks: [
+				{
+					count: 2L
+					id: "74C4EEA936A5EE4E"
+					item: "gtceu:primitive_blast_furnace"
+					type: "item"
+				}
+				{
+					count: 52L
+					id: "01198A1525737B75"
+					item: "gtceu:firebricks"
+					type: "item"
+				}
+				{
+					count: 32L
+					id: "2446080B788A8A19"
+					item: "gtceu:steel_ingot"
+					type: "item"
+				}
+			]
+			title: "我们需要更多的钢铁！"
+			x: 2.625d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D17DFCF6672404C"]
+			description: [
+				"现在你有了钢铁，你可以制作&3打火石&r！你现在可以进入&4地狱&r了。"
+				"&o你也可以使用更自然的方法点燃地狱传送门。你这个肮脏的作弊者...&r"
+				"&4地狱&r有更多的矿脉和新的矿石！查看矿石选项卡以获取地狱矿脉。"
+				"此外，&6地狱矿石价值为两个主世界矿石&r。"
+				"&4地狱&r矿脉需要更多的努力来找到 - 并且挖掘更危险 - 比&2主世界&r矿脉更难找到。继续使用路标！"
+				""
+				"&9注意：&r在这个包中，烈焰人、岩浆怪和末影人的战利品表已经更改为&5硫粉&r和&5末影珍珠粉&r，所以你不能只是冲向末地。"
+			]
+			icon: "minecraft:netherrack"
+			id: "7CAD6FF241A827F7"
+			rewards: [{
+				id: "235ABC3543BF8285"
+				item: {
+					Count: 1b
+					id: "gtceu:red_steel_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "为什么不用钢铁制作呢？"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "01DEABF7BF6C5413"
+				title: "Take a trip to the Nether"
+				type: "dimension"
+			}]
+			title: "前往地狱之旅"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CAD6FF241A827F7"]
+			description: [
+				"从地狱中开采一些&d硫磺&r。"
+				""
+				"在这个包中的一个特定调整中，&a火焰抗性药水&r是可以&6制作&r的！"
+				""
+				"&b传说:&r 在格雷科技 5矿脉中散布着&6小硫磺矿石&r，你可以决定在主世界中开采足够的硫磺，以免去访问地狱的必要。不过这需要一些专注。"
+			]
+			id: "236C886D50A99785"
+			rewards: [
+				{
+					id: "20B864DFB8F05D94"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37C361DDB9A55FF2"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:long_fire_resistance"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			subtitle: "探索一下从未伤害过任何人"
+			tasks: [{
+				count: 16L
+				id: "36D03210534D3226"
+				item: "gtceu:sulfur_dust"
+				type: "item"
+			}]
+			title: "S代表硫磺"
+			x: 5.625d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77EA56D16A9B3BFC"]
+			description: [
+				"随着你在模组包中的进展，我们将开始减少你需要提交的任务组件数量。记住，如果你忘记如何制作东西，&2REI是你的朋友&r！"
+				""
+				"制作六个&aLV电动机&r！这可能看起来很多，但这是到达LV时代中好东西的最低要求。"
+				""
+				"&6一旦你完成了这个任务和电子电路任务，你就准备好进入LV时代了。&r"
+			]
+			icon: "gtceu:lv_electric_motor"
+			id: "5A8F0124E07D5025"
+			rewards: [{
+				count: 3
+				id: "405DCE51B96EB09A"
+				item: "gtceu:steel_block"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "LV时代的一个门...你已经接近了。"
+			tasks: [{
+				count: 6L
+				icon: "gtceu:lv_electric_motor"
+				id: "6F01622979E6F332"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			title: "众多电机之首"
+			x: 7.125d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"获取纸张比原版更加困难且效率更低。感谢Greg。"
+				""
+				"你需要将&a甘蔗&r磨成&a纸浆&r，然后用槌和水将纸浆压碎。"
+				"{@pagebreak}"
+				"&9注1:&r 不用担心，我们不会残忍到让配方消耗桶。你可以在配方中使用其他流体容器，比如木桶，以使这个过程更容易。"
+				"{@pagebreak}"
+				"&9注2:&r 制作一个手动甘蔗农场。你也可以用观察者和活塞自动化。向任何&a全能工厂&r老手致敬。"
+				"{@pagebreak}"
+				"&9注4:&r 当你到达&7LV&r时代，你将能够用木头制作纸张。"
+				"{@pagebreak}"
+				"&9注5:&r 制作台使这个制作变得绝对&2轻松&r，但是没有！"
+				"{@pagebreak}"
+				"&9注6:&r 纸张将被用作即将到来的电阻器的劣质包装材料。"
+				"{@pagebreak}"
+				"&9注7:&r 和你一起分享这一时刻，我的Greg爱好者，真是太愉快了。"
+				"{@pagebreak}"
+				"&b传说:&r 在GTCEu 1.12.2中，纸浆被命名为查德，引发了这个任务充满了梗。"
+			]
+			id: "76B70EF552B35779"
+			rewards: [{
+				count: 32
+				id: "42FE9060BBF29DAF"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "#现实主义"
+			tasks: [{
+				count: 4L
+				id: "5DCE370285F5B2C6"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			title: "Greg又来了"
+			x: 8.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5DD49D500327A0E2"]
+			description: [
+				"&6格雷科技&r引入了大量的液体，可能会让你感到压力山大，因此你可能正在寻找一种存储它们的方法。"
+				""
+				"介绍一下... &aGT桶&r！它们有大的内部缓冲区，任何一个&aGT桶&r都可以被打破和拾起，并且会保留里面的&d液体&r。"
+				"{@pagebreak}"
+				"此外，机器的&b内部储液罐&r将与包含液体的物品互动。这对于手工制作非常有用 - 这意味着你可以使用GT桶代替多个桶进行制作。要&5清空GT桶&r中的液体，请将其单独放置在任何制作网格中。"
+				""
+				"&o&7嘘嘘：&r &o使用螺丝刀右键单击GT桶可以将其内容排放到放置在其下方的另一个容器中。这对于让液体锅炉燃料更长时间非常有用。"
+				"{@pagebreak}"
+				"&b传说：&r这些GT桶实际上是从格雷科技 6移植过来的！"
+			]
+			id: "2B74E56C9E138F18"
+			rewards: [{
+				id: "10D8ECE23B3C118B"
+				item: "gtceu:bronze_drum"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "开个玩笑，液体储罐"
+			tasks: [{
+				id: "5876092FAA1763E0"
+				item: "gtceu:bronze_drum"
+				type: "item"
+			}]
+			title: "装甲坦克"
+			x: -1.125d
+			y: -0.375d
+		}
+		{
+			dependencies: ["5DD49D500327A0E2"]
+			description: [
+				"&b原始水泵&r是自动产生锅炉用水的简单方法。它不会从世界中抽水，而是在内部&r产生水。因此，你不需要接近&3水源&r来使用它！"
+				""
+				"这是一个多方块结构，因此请&5查看REI&r以了解其结构。&m此外，如果你用空手潜行右键点击\"&a&o控制器&r&m\"块（在这种情况下，控制器块就是&b原始水泵&r&m本身）&r&4（没做）&r，多方块结构可以在世界中预览。它的功能在REI的描述页面中完全解释。"
+				""
+				"&6给你一个小提示：&r现在不需要担心你基地的生物群系，因为你的锅炉只需要很少的水就可以跟上。"
+				"{@pagebreak}"
+				"&c输出口&r是水将被产生的地方。你可以让它朝上或朝下，自动将水输出到你的管道中。"
+				""
+				"&2提醒：&r使用扳手旋转格雷科技方块（潜行右键）。"
+				""
+				"&b传说：&r这个多方块结构是从GT IMPACT移植过来的，这是一个1.7.10的格雷科技模组包。"
+			]
+			id: "13901DA3D4F5C5A6"
+			rewards: [{
+				count: 18
+				id: "027EB8CF05AAACF8"
+				item: "gtceu:wood_normal_fluid_pipe"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "没有免费的水！"
+			tasks: [{
+				id: "03501AB173BA60EE"
+				item: "gtceu:primitive_pump"
+				type: "item"
+			}]
+			title: "原始水泵"
+			x: 0.0d
+			y: -0.375d
+		}
+		{
+			dependencies: ["40DE888E6025C646"]
+			description: [
+				"制作列出的模具以备将来的合金冶炼。一定要制作模具而不是挤压器形状！"
+				""
+				"完成此任务的奖励将在制作齿轮时减轻很多痛苦。"
+			]
+			icon: "gtceu:ball_casting_mold"
+			id: "22997534983F6812"
+			rewards: [
+				{
+					id: "0F35BAFC22B1C82E"
+					item: "gtceu:small_gear_casting_mold"
+					type: "item"
+				}
+				{
+					id: "4CA581AFFDA18455"
+					item: "gtceu:gear_casting_mold"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 0.75d
+			subtitle: "通过成型减少崩溃"
+			tasks: [
+				{
+					id: "33DCDFE73740AF97"
+					item: "gtceu:plate_casting_mold"
+					type: "item"
+				}
+				{
+					id: "7E7A1A7FBBCA2C27"
+					item: "gtceu:ball_casting_mold"
+					type: "item"
+				}
+				{
+					id: "2AE408B2303C21EA"
+					item: "gtceu:block_casting_mold"
+					type: "item"
+				}
+			]
+			title: "崩溃"
+			x: 2.25d
+			y: -0.375d
+		}
+		{
+			dependencies: ["249374557D095913"]
+			description: [
+				"在&6蒸汽时代&r中，&3提取器&r并没有制造很多物品，但它用于制作&9橡胶&r，这是在制作钢之后需要的。"
+				""
+				"你还可以在提取器中加工泥土，得到&a骨头&r，这使得和平玩家更容易获得&a骨粉&r。"
+			]
+			id: "1436DB89E21264F3"
+			rewards: [{
+				count: 64
+				id: "4B856E1E30618E4D"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "蒸汽提取器提取……"
+			tasks: [{
+				id: "12A46916B1BC17EC"
+				item: "gtceu:lp_steam_extractor"
+				type: "item"
+			}]
+			title: "蒸汽提取器"
+			x: 4.5d
+			y: -0.375d
+		}
+		{
+			dependencies: ["0EAF2C5B5EB755C5"]
+			description: [
+				"种植&d橡胶树&r并砍伐它们，就可以得到&a粘性树脂&r。"
+				""
+				"如果你在除和平难度以外的难度上玩，可以从史莱姆球中获得粘性树脂。"
+			]
+			id: "3144DC68B266730C"
+			rewards: [{
+				count: 24
+				id: "606726568EBF1E4A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "你以为我们会强制你使用树龄计吗……？"
+			tasks: [{
+				count: 32L
+				id: "67D04A48C5473D10"
+				item: "gtceu:sticky_resin"
+				type: "item"
+			}]
+			title: "粘性树脂"
+			x: 6.0d
+			y: -0.375d
+		}
+		{
+			dependencies: [
+				"3144DC68B266730C"
+				"236C886D50A99785"
+				"1436DB89E21264F3"
+				"22997534983F6812"
+			]
+			description: [
+				"橡胶是一种优秀的绝缘材料，这正是GTCEu中它的用途。"
+				""
+				"你需要使用&3合金熔炉&r制作&a橡胶棒&r。配方中的比例一开始可能不太好，但在&7LV&r时代，制作橡胶棒将更加高效。"
+				"{@pagebreak}"
+				"&b传说:&r在基础格雷科技 5（以及基础GTCE）中，你需要获得绳子和黑色羊毛地毯作为你的第一个绝缘材料。&m显然那更有趣。&r"
+			]
+			icon: "gtceu:rubber_ingot"
+			id: "77EA56D16A9B3BFC"
+			rewards: [{
+				count: 8
+				id: "7190A812E045BE04"
+				item: "gtceu:rubber_plate"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "利用那些树脂！"
+			tasks: [
+				{
+					id: "04946F2F0923EFFE"
+					item: "gtceu:rubber_ingot"
+					type: "item"
+				}
+				{
+					id: "5B1CDCDC598717C5"
+					item: "gtceu:rubber_plate"
+					type: "item"
+				}
+			]
+			title: "橡胶制品"
+			x: 7.125d
+			y: -0.375d
+		}
+		{
+			dependencies: [
+				"3144DC68B266730C"
+				"76B70EF552B35779"
+			]
+			description: [
+				"电阻器是用于制作第一个电路的组件。"
+				""
+				"优先选择使用&a细线&r的配方是明智的，因为从长远来看，它们会为你节省更多材料。"
+				""
+				"这个线材配方很昂贵，但一旦到达LV，它将变得更便宜。"
+			]
+			id: "391E853DCE86BFD0"
+			rewards: [{
+				count: 4
+				id: "0AEE150D99E66D54"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "电路中更容易的组件"
+			tasks: [{
+				id: "35CFB9E695DE3549"
+				item: "gtceu:resistor"
+				type: "item"
+			}]
+			title: "电子元件一：电阻器"
+			x: 8.25d
+			y: -0.375d
+		}
+		{
+			dependencies: ["5DD49D500327A0E2"]
+			description: [
+				"&b流体管道&r可以在机器之间传输&7蒸汽&r。"
+				""
+				"每个管道都有一定的吞吐量（L/t或mB/t），还有一个&6温度限制&r（这很重要，因为蒸汽会烧毁木质管道）。有些管道有&b特殊&r属性，现在不需要担心。"
+				""
+				"每种材料都有几种管道尺寸。管道越大，&a吞吐量越高&r，但&d制作成本越高&r。例如，普通的&6青铜流体管道&r传输120 L/t。（它还有一个1,200 L的内部缓冲区！）"
+				""
+				"获取一个小型或普通的&6青铜流体管道&r以完成此任务。两者都用于制作。"
+				"{@pagebreak}"
+				"&a提醒：&r1秒=20个刻，假设服务器不会卡顿！"
+				""
+				"&d注意：&r启用了GT6风格的管道。这意味着放置管道只会将它们连接到它们放置的方块。要打开更多连接，请使用扳手对管道进行操作。"
+				""
+				"你还可以使用扳手进行Shift+右键单击，以禁用来自侧面的输入。这可以帮助抵消液体流动的方向。"
+			]
+			icon: "gtceu:bronze_normal_fluid_pipe"
+			id: "1FFD2242B94A7378"
+			rewards: [{
+				count: 2
+				id: "66E3F49541CA77B9"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "液体，气体...我们不歧视"
+			tasks: [
+				{
+					id: "4F0936174B0C4BEF"
+					item: "gtceu:bronze_small_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "247FDDE676824A5B"
+					item: "gtceu:bronze_normal_fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "流体管道"
+			x: -1.125d
+			y: 0.75d
+		}
+		{
+			dependencies: ["315DBB3B23F95E0D"]
+			description: [
+				"&d固体锅炉&r是目前唯一可用的锅炉，因为其他锅炉所需的&a玻璃&r目前还不可用。你可以只使用一个，但建议制作第二个。"
+				""
+				"重要提示：锅炉可能会爆炸！这仍然会让&e有经验的GT玩家&r感到困惑，因此在设置锅炉时请记住此任务。"
+				"{@pagebreak}"
+				"水与&6高温&r不相容，可能会发生&c蒸汽爆炸&r，具体情况如下："
+				""
+				"- 锅炉&4过热&r。其温度由GUI中的&c红色条&r指示！"
+				"...并且..."
+				"- 锅炉没有&b水&r。这由GUI中缺少&b蓝条&r表示。"
+				"...并且..."
+				"- 锅炉在&6两个&r条件都&2存在&r时接收到水。"
+				"{@pagebreak}"
+				"你可以通过在加热之前用水填充锅炉，并确保水供应是稳定的来避免灾难。排水速度很慢-&b1 mB&r的水沸腾成&7160 mB&r的蒸汽-因此你不必太担心用完水。"
+				""
+				"锅炉可以在除底部以外的所有面上自动排出蒸汽。对于自动化的水输入，请使用底部面。"
+				""
+				"&3注意：&r在此模组包中，爆炸被配置为&c不&r损坏任何方块或实体，但你仍将&d失去&r你的机器！"
+			]
+			id: "5DD49D500327A0E2"
+			shape: "square"
+			subtitle: "蒸汽时代的蒸汽"
+			tasks: [{
+				id: "0F864E85D4956919"
+				item: "gtceu:lp_steam_solid_boiler"
+				type: "item"
+			}]
+			title: "高压锅"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5DD49D500327A0E2"]
+			description: [
+				"&d蒸汽机&r会接受从附近锅炉中泵入其内部储存罐的任何蒸汽。它们将运行JEI中的配方，最高可达32 EU/t(&7LV&r级)。"
+				""
+				"&6这个任务将在&l技巧和窍门&r&6选项卡中解锁一个新的教程——查看它以了解更多信息！&r"
+			]
+			id: "03DBF1961AE21C76"
+			shape: "square"
+			tasks: [{
+				id: "03BA041BE9C347FD"
+				item: "gtceu:bronze_machine_casing"
+				type: "item"
+			}]
+			title: "蒸汽机行为"
+			x: 1.125d
+			y: 0.75d
+		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: [
+				"&b合金冶炼炉&r用于制造合金。你将需要它来制造高效的&6青铜&r配方，以及在不久的将来制造&4红色合金&r。"
+				""
+				"在所有&6蒸汽时代&r的机器中，这是最需要蒸汽的。如果你发现自己的蒸汽不足，用&d任何软木槌&r轻轻敲打机器，暂时停止它。"
+			]
+			id: "48AED37B4E20A99A"
+			rewards: [{
+				count: 8
+				id: "241026922AD16AB3"
+				item: "gtceu:bronze_plate"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "合金冶炼炉制造合金..."
+			tasks: [{
+				id: "2F3B195A110E41C2"
+				item: "gtceu:lp_steam_alloy_smelter"
+				type: "item"
+			}]
+			title: "蒸汽合金冶炼炉"
+			x: 2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["249374557D095913"]
+			description: [
+				"制造真空管可能会让你开始质疑自己的存在。对此我们很抱歉。"
+				""
+				"这主要是因为电线和棒子现在非常昂贵，但它们将在&7LV&r时代变得更便宜。"
+				""
+				"真空管也是你的第一个超低电压(&8ULV&r)电路！恭喜！不过它们本身用处不大。"
+			]
+			id: "3CF550B81716B8B9"
+			rewards: [{
+				count: 32
+				id: "259F8029A6ED0C85"
+				item: "minecraft:glass_pane"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.66d
+			subtitle: "电路中更难的组件"
+			tasks: [{
+				count: 2L
+				id: "099C373568DF4500"
+				item: "gtceu:vacuum_tube"
+				type: "item"
+			}]
+			title: "电子零件三：真空管"
+			x: 4.5d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"22997534983F6812"
+				"48AED37B4E20A99A"
+			]
+			description: [
+				"使用研钵或磨粉机(随你的选择！)微型制作玻璃粉末，然后将其转化为&a玻璃块&r。"
+				""
+				"如果你迷失了方向，下一页有一个更详细的指南，但是我们建议你在JEI中浏览并自己解析配方。能够浏览JEI并解析配方是完成这个包的&6必备技能&r。"
+				""
+				"制造玻璃将会更容易。你可能已经注意到了多汁的&3电弧炉&r配方——别担心，很快就会有了。"
+				""
+				"电子电路需要玻璃管，所以制造一些吧！"
+				"{@pagebreak"
+				"迷失了？别担心！"
+				""
+				"首先，使用&3粉碎方法&r将沙子变成&9石英沙粉&r。"
+				""
+				"接下来，将一些燧石碾碎成&9燧石粉&r，并在制作栏中将这些粉末分成小堆。"
+				""
+				"将两者合并成&9玻璃粉&r，然后在合金冶炼炉中用&9块模&r将其塑造成玻璃。"
+				""
+				"最后，玻璃！"
+			]
+			icon: "minecraft:glass"
+			id: "249374557D095913"
+			rewards: [{
+				count: 16
+				id: "662203C8B58AE656"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.66d
+			subtitle: "一定很令人满意，对吧？"
+			tasks: [
+				{
+					id: "4B958F6E2AA74763"
+					item: "minecraft:glass"
+					type: "item"
+				}
+				{
+					id: "16FC5B5DCBBEE53E"
+					item: "gtceu:glass_tube"
+					type: "item"
+				}
+			]
+			title: "终于有玻璃了！"
+			x: 3.375d
+			y: 0.1875d
+		}
+		{
+			dependencies: ["48AED37B4E20A99A"]
+			description: [
+				"&4红色合金&r是铜和红石的合金，在格雷科技宇宙中因其导电性而受到赞赏。"
+				""
+				"你将需要一些用于&9电子电路&r。"
+				""
+				"&b传说：这种材料最初来自RedPower——多么令人回味！"
+			]
+			id: "54AF8696674766B4"
+			rewards: [{
+				count: 16
+				id: "0D64AF2E29B7F41A"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "一个完全虚构的合金"
+			tasks: [{
+				id: "4D3C4CF6577957A1"
+				item: "gtceu:red_alloy_ingot"
+				type: "item"
+			}]
+			title: "红色合金"
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"3CF550B81716B8B9"
+				"391E853DCE86BFD0"
+				"4ED5A9AEF7B928BA"
+				"54AF8696674766B4"
+				"77EA56D16A9B3BFC"
+			]
+			description: [
+				"我们到达了&7LV&r！耶呼！！"
+				""
+				"开玩笑的（哈哈），实际上你需要三个电路板才能在&7LV&r时代开始有所作为。幸运的是，有人把这个备用电路板留在这里。浪费它太可惜了，所以拿去吧。"
+				""
+				"在这里，我们还会送给你一个&aLV机壳&r。这是制作任何&7LV&r机器所需的！我们甚至慷慨到这个任务会免费给你第二个机壳！"
+				""
+				"电路板是格雷科技进展的重要组成部分，所以继续攀登吧！"
+				""
+				"&6一旦你完成了这个任务和LV电机任务，你就可以准备进入LV时代了。&r"
+			]
+			icon: "gtceu:basic_electronic_circuit"
+			id: "4B979482EF026BFF"
+			rewards: [
+				{
+					id: "18CBC119F9A02091"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "187A334C34304FEA"
+					item: "gtceu:lv_machine_hull"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "你的第一个&a电子电路板&r！"
+			tasks: [
+				{
+					count: 2L
+					id: "2D394A5292C3BA46"
+					item: "gtceu:basic_electronic_circuit"
+					type: "item"
+				}
+				{
+					id: "4296EFD816E40A37"
+					item: "gtceu:lv_machine_hull"
+					type: "item"
+				}
+			]
+			title: "电子零件四：电路板"
+			x: 7.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1FFD2242B94A7378"]
+			description: [
+				"&d锡液体管&r在材料层和成本方面具有非常高的吞吐量&r。你可能想考虑制作一些来帮助流体物流。"
+				""
+				"要获得&d锡&r，你应该从它的&e粉末&r形式开始制作。"
+				""
+				"这个任务要求使用小型或普通管道。获得任何一种尺寸即可完成任务。"
+				"{@pagebreak}"
+				"&b传说：&d锡液体管&r最初是在&9GT++&r中创建的，并且对于一个叫做&4GT:NH&r的小包来说是一个巨大的能量飞跃。我们想传播一些这种快乐！"
+				""
+				"此外，在现实世界中，&d锡&r是一种用于硬币的合金，而不是管道！GTCEu的逻辑真是疯狂。"
+			]
+			icon: "gtceu:potin_normal_fluid_pipe"
+			id: "3C70B0717E9377A4"
+			rewards: [{
+				count: 6
+				id: "18C834E9EC619985"
+				item: "gtceu:potin_plate"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "……我要去战斗，我只需要你最好的锡液体管。"
+			tasks: [
+				{
+					id: "6850DB7FDF4191F8"
+					item: "gtceu:potin_small_fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "2F54CBC38F40471C"
+					item: "gtceu:potin_normal_fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "锡贩子……"
+			x: -1.125d
+			y: 1.875d
+		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: [
+				"有了这台机器的创造，许多曾经需要你使用锤子的配方现在可以在这里制作！"
+				""
+				"它可以将&b圆石加工成砾石&r，将&d砾石加工成沙子&r - 而且速度还很快！"
+				""
+				"最后但并非最不重要的是，它以更好的比例制作&a板子&r：&6三个锭可以制作两个板子&r。值得投资！"
+				""
+				"你知道吗？&a额外奖励&r！如果你制作了它，我们会把&8铁砧&r还给你。（这是一个小提醒，你可以使用铁砧修复格雷科技工具）"
+			]
+			id: "1931FC6DEAC29646"
+			rewards: [{
+				id: "5C8B8D03ACE3CEED"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "锻锤锤……"
+			tasks: [{
+				id: "4F4074D7CE5A61A0"
+				item: "gtceu:lp_steam_forge_hammer"
+				type: "item"
+			}]
+			title: "蒸汽锻锤"
+			x: 0.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: [
+				"&b磨粉机&r解放了你从&egrinding stuff into dust&r的痛苦过程，但代价是时间成本高昂。在这台机器中加工一块铁矿石需要&c二十秒&r的时间——是在熔炉中熔炼一块锭需要的时间的两倍！"
+				""
+				"磨粉机也标志着&e矿石加工&r的出现，但这是一个可怕的话题，我们将在下一个任务中探讨。"
+				"{@pagebreak"
+				"磨粉机只会输出JEI配方中显示的第一个物品。其他插槽将被锁定，直到你制作出&6HV&r磨粉机。"
+				""
+				"我们(&o重要！&r)的建议：现在最好直接熔炼矿石！效率损失可以通过更快的采矿来弥补。使用磨粉机来制作像&aClay Dust&r这样的东西！"
+			]
+			id: "1C50A758A1DE25CB"
+			rewards: [{
+				count: 32
+				id: "26175A33C13BBF0C"
+				item: "gtceu:clay_dust"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "磨粉机磨粉……"
+			tasks: [{
+				id: "6DFD6AC8CF31305C"
+				item: "gtceu:lp_steam_macerator"
+				type: "item"
+			}]
+			title: "蒸汽磨粉机"
+			x: 1.125d
+			y: 1.875d
+		}
+		{
+			dependencies: ["48AED37B4E20A99A"]
+			description: ["与铁（是的，与锻铁相同）相比，因瓦尔在格雷科技工具中使用时的耐久性增加了50％，速度也更快。非常适合采矿——如果你还没有解锁钢铁，你可能要考虑在工具中使用它！"]
+			id: "76F61E499780C30B"
+			rewards: [{
+				id: "662F23FEDBA35D8D"
+				item: {
+					Count: 1b
+					id: "gtceu:invar_mining_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.75d
+			subtitle: "铁镍合金"
+			tasks: [{
+				count: 3L
+				id: "49E114B96843E5C9"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/invar"
+					}
+				}
+				title: "Invar Ingot"
+				type: "item"
+			}]
+			title: "因瓦尔合金"
+			x: 2.25d
+			y: 1.875d
+		}
+		{
+			dependencies: [
+				"3144DC68B266730C"
+				"1C50A758A1DE25CB"
+			]
+			description: [
+				"将木材磨成木浆，然后压缩成木板。与树脂结合制成空板。"
+				""
+				"插入一些昂贵的铜线（它们在&7LV&r时代会变得更便宜），你就有了第一个电路的基础。"
+				""
+				"快要完成了！"
+			]
+			icon: "gtceu:resin_printed_circuit_board"
+			id: "4ED5A9AEF7B928BA"
+			rewards: [{
+				count: 4
+				id: "2A1EAEB72424AFB9"
+				item: "gtceu:wood_plate"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.75d
+			subtitle: "电路的电路部分……"
+			tasks: [
+				{
+					id: "3704C06203B7485A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/wood"
+						}
+					}
+					optional_task: true
+					title: "Wood Plates"
+					type: "item"
+				}
+				{
+					id: "131521889242DDB8"
+					item: "gtceu:resin_printed_circuit_board"
+					type: "item"
+				}
+			]
+			title: "电子零件二：电路板"
+			x: 6.0d
+			y: 1.875d
+		}
+		{
+			dependencies: ["1C50A758A1DE25CB"]
+			description: [
+				"在格雷科技中，矿石加工的最简单形式就是通过两个粉末将一个矿石转化为两个锭，就像其他几个科技模组一样。"
+				""
+				"添加辅料是所需的或可选的步骤。"
+				""
+				"一旦进入LV时代，将进一步解释矿石加工。"
+				""
+				"&6这个任务解锁了&l技巧和窍门&r&6选项卡中的新教程——去看看学习更多！&r"
+			]
+			icon: "gtceu:gold_crushed_ore"
+			id: "7813F183681E0342"
+			shape: "square"
+			size: 0.75d
+			subtitle: "……我该怎么处理它？"
+			tasks: [{
+				id: "1C4CFA0AD3125A6D"
+				title: "Oh god, what have I gotten myself into!?"
+				type: "checkmark"
+			}]
+			title: "这是什么玩意？！"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1C50A758A1DE25CB"]
+			description: [
+				"&o……或者可能是相反的？&r"
+				""
+				"&3蒸汽磨床&r是你开始进行矿石加工的&l原因&r。它可以快速轻松地粉碎大批物品。"
+				"{@pagebreak}"
+				"&b传说：这个多方块结构最初来自GT++。它需要Tumbaga来制作，这是一种混合了金和青铜的合金。"
+			]
+			icon: "gtceu:steam_grinder"
+			id: "7FF95F1216D104B2"
+			rewards: [{
+				count: 24
+				id: "36B5ABA86707D569"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "蒸汽烤箱的长兄"
+			tasks: [
+				{
+					id: "478F7F5E6B4FC488"
+					item: "gtceu:steam_grinder"
+					type: "item"
+				}
+				{
+					id: "03C98558808BFE64"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "2DC0277BA681DFAE"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "68A6EFAD92986DFA"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 22L
+					id: "4E7178278B4E3189"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+			]
+			title: "蒸汽磨床"
+			x: 1.125d
+			y: 3.0d
+		}
+		{
+			dependencies: ["76F61E499780C30B"]
+			description: [
+				"&o...小家伙。别让他知道！&r"
+				""
+				"&3蒸汽烤箱&r是一个很好的多方块选项，如果你需要&6轻松熔炼大量物品&r。不再需要手动清空和加燃料的熔炉排队等待！"
+				"{@pagebreak}"
+				""
+				"&b传说:&r 这个多方块虽然与它的兄弟蒸汽磨床非常相似，但它并不是从格雷科技版本或插件中移植过来的。它的实际起源是来自Railcraft的蒸汽烤箱，可以追溯到1.4.7！"
+			]
+			icon: "gtceu:steam_oven"
+			id: "6C25D11A26306168"
+			rewards: [{
+				count: 24
+				id: "72D375E16194CAE2"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "蒸汽磨床的大哥"
+			tasks: [
+				{
+					id: "0EA421E6E53FA6A8"
+					item: "gtceu:steam_oven"
+					type: "item"
+				}
+				{
+					id: "0516BE263B5E27D4"
+					item: "gtceu:steam_input_hatch"
+					type: "item"
+				}
+				{
+					id: "772885C6A810E804"
+					item: "gtceu:steam_input_bus"
+					type: "item"
+				}
+				{
+					id: "3C3A4803A6F267F3"
+					item: "gtceu:steam_output_bus"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "427EA1F4AE420C1F"
+					item: "gtceu:steam_machine_casing"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "50AD2CBE77234D06"
+					item: "gtceu:bronze_firebox_casing"
+					type: "item"
+				}
+			]
+			title: "蒸汽烤箱"
+			x: 2.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["03DBF1961AE21C76"]
+			description: ["蒸汽压缩机解锁了一些令人心动的新配方，将帮助你向钢铁进发！"]
+			id: "07415D6305C3B1D2"
+			rewards: [{
+				id: "1F47D2A131498C25"
+				item: "gtceu:wrought_iron_block"
+				type: "item"
+			}]
+			shape: "square"
+			size: 0.9d
+			subtitle: "蒸汽压缩机压缩..."
+			tasks: [{
+				id: "21C99D59F1BE48A3"
+				item: "gtceu:lp_steam_compressor"
+				type: "item"
+			}]
+			title: "蒸汽压缩机"
+			x: 1.125d
+			y: -0.375d
+		}
+		{
+			dependencies: ["40DE888E6025C646"]
+			description: ["旅行背包可以帮助你"]
+			icon: {
+				Count: 1b
+				id: "travelersbackpack:standard"
+				tag: { }
+			}
+			id: "4A993CC40AB6D35C"
+			rewards: [{
+				id: "38A84272E0407C69"
+				item: "travelersbackpack:hose"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "减轻你的背包负担"
+			tasks: [{
+				id: "04B0DC811E2D32B1"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "travelersbackpack:custom_travelers_backpack"
+					}
+				}
+				type: "item"
+			}]
+			title: "旅行背包"
+			x: 2.31d
+			y: -2.64d
+		}
+	]
+	subtitle: ["利用蒸汽的力量并学习基础知识"]
+	title: "蒸汽时代"
+}

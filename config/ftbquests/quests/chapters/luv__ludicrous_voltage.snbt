@@ -1,0 +1,951 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "luv__ludicrous_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:luv_electric_motor"
+	id: "262A03F6F4EC713C"
+	order_index: 6
+	quest_links: [
+		{
+			id: "7F8B55C8510200AF"
+			linked_quest: "188A8C3DD38C2762"
+			shape: "rsquare"
+			size: 0.66d
+			x: 7.59d
+			y: 0.33d
+		}
+		{
+			id: "217218CFDDD8EAC4"
+			linked_quest: "195E5BFDE4C5A0DE"
+			size: 0.66d
+			x: 7.59d
+			y: 3.96d
+		}
+		{
+			id: "0BD725095A2264FF"
+			linked_quest: "7CFC112B8F460549"
+			size: 0.66d
+			x: 6.2700000000000005d
+			y: 3.96d
+		}
+		{
+			id: "67271280B90D765D"
+			linked_quest: "300348B1238BCB9A"
+			size: 0.66d
+			x: 0.0d
+			y: 5.61d
+		}
+		{
+			id: "7E79CDC95173C788"
+			linked_quest: "1A4AD56965407DC5"
+			size: 0.66d
+			x: 0.66d
+			y: 6.2700000000000005d
+		}
+		{
+			id: "2FD482405B15F06A"
+			linked_quest: "77070668969E31BF"
+			size: 0.66d
+			x: 1.32d
+			y: 6.2700000000000005d
+		}
+		{
+			id: "6205AC829E90CE53"
+			linked_quest: "4F6E351C5F676618"
+			size: 0.66d
+			x: 2.31d
+			y: 5.28d
+		}
+		{
+			id: "4E999806429BF983"
+			linked_quest: "77B7B1EDD19831E0"
+			shape: "gear"
+			size: 1.5d
+			x: 4.95d
+			y: 5.28d
+		}
+	]
+	quests: [
+		{
+			dependencies: [
+				"78277DBC07D3C45C"
+				"2DAC91AF2EBB68E2"
+				"1783D89CE81C8E2E"
+			]
+			description: ["&a高级处理阵列&r是常规版本的升级版。现在最多可以有&a64&r台机器，而不是16台。"]
+			id: "4194EC9F1C6632E4"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "你的蓝色方块现在变成了绿色！"
+			tasks: [{
+				id: "356EC5387BA79103"
+				item: "gtceu:luv_processing_array"
+				type: "item"
+			}]
+			title: "高级处理阵列"
+			x: -0.33d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"77B7B1EDD19831E0"
+				"78277DBC07D3C45C"
+			]
+			description: [
+				"&a超高功率集成电路&r解锁&3ZPM能源仓&r和&3动力仓&r，以及主动变压器。"
+				""
+				"你可能知道钻头，但你知道螺丝刀吗？"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:uhpic_chip"
+			id: "52D00CD3E8D1E293"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [
+				{
+					id: "375256F3884D78A5"
+					item: "gtceu:uhpic_wafer"
+					type: "item"
+				}
+				{
+					id: "131EF40752C3F5B4"
+					item: "gtceu:uhpic_chip"
+					type: "item"
+				}
+			]
+			title: "超高功率集成电路"
+			x: 0.99d
+			y: 0.0d
+		}
+		{
+			dependencies: ["00C14E3B8009DF7F"]
+			description: [
+				"&3介电PCB冷却剂&r用于高级晚期和末期机械。"
+				""
+				"你只需要在&dLuV&r中使用一点点，但你会想在&cZPM&r层次自动化它。"
+			]
+			id: "35549F0404C87BCA"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "对环境绝对有益"
+			tasks: [{
+				id: "75FD9D0D9F78A41E"
+				type: "checkmark"
+			}]
+			title: "介电PCB冷却剂"
+			x: 2.31d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"52D00CD3E8D1E293"
+				"35549F0404C87BCA"
+				"5ED7707B0ECF2207"
+			]
+			description: [
+				"&3主动变压器&r是一个多方块，用于在更大的尺度上转换能量。例如，你可以通过使用适当的能量舱口直接将HV电力转换为LV电力。"
+				""
+				"它还有第二个功能，在上面的任务中详细说明。"
+				"{@pagebreak}"
+				"&bLore&r：这是TecTech的另一个功能，也需要将这些电缆涂成颜色。如果你涂色，它们看起来也很棒，但这是可选的。"
+			]
+			id: "1AD003487B4EC2EF"
+			shape: "rsquare"
+			size: 1.1d
+			subtitle: "不仅仅是一个大变压器"
+			tasks: [{
+				id: "0A0A8E96C95EE141"
+				type: "checkmark"
+			}]
+			title: "主动变压器"
+			x: 3.63d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"77B7B1EDD19831E0"
+				"5ED7707B0ECF2207"
+				"52D952ADBEB67454"
+			]
+			description: [
+				"&3数据库&r是一个能够存储大量数据的多方块结构。你可以使用&aData Access Hatches&r填充它，并使用&aData Storage Items&r填充这些Hatches。"
+				""
+				"之后，你需要能源，然后需要一种将其连接到你的装配线的方法！这可以通过&3Optical Fiber Cables&r完成，这些电缆可用于连接&3Optical Data Hatches&r。"
+				"{@pagebreak}"
+				"使用&9Optical Transmission Hatch&r发送数据（如输出），使用&9Optical Reception Hatch&r接收数据（如输入）。"
+				""
+				"光缆有一些限制。它们只能连接&e一个输入到一个输出&r。数据库是解决此问题的方法，因为你可以在其上放置许多Hatches以在不同方向上进行路由。"
+				""
+				"你还可以使用此行为&echain&r Data Banks。将一个数据库连接到另一个数据库，然后将其中一个连接到装配线将提供两个库的数据！"
+				"{@pagebreak}"
+				"&e注意：&r此多方块结构将在后续进程中需要，但在早期设置非常有用。"
+				""
+				"&bLore&r：此多方块结构也源自TecTech，但还需要对光缆进行涂漆。你不必在这里这样做，但如果你这样做，它看起来非常好！"
+			]
+			id: "42760D3A86EFDCA3"
+			size: 1.1d
+			subtitle: "建立服务器房间的时间"
+			tasks: [{
+				id: "56D3B40470528839"
+				type: "checkmark"
+			}]
+			title: "大规模数据存储"
+			x: 4.95d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1AD003487B4EC2EF"]
+			description: [
+				"&3Active Transforme&rr有第二种用途——&6激光能量&r。激光就像超导体，但行为略有不同。它们将能量输入分配到所有连接的Active Transformer上，实现广泛的能量分配。你可以使用&3Active Transformers&r将常规EU转换为激光能量，反之亦然。"
+				""
+				"与光缆一样，它们只能连接到&e一个输入和输出&r。但是，这些电缆也只能沿&e直线移动&r。要转向它们，需要一个带有激光源Hatch（输出）和目标Hatch（输入）的&3Active Transforme&rr。"
+				"{@pagebreak}"
+				"&bLore&r：这又是TecTech的另一个功能，但这次还有更多内容。TecTech的激光按电压分层，并携带数千安培的电流。"
+			]
+			id: "07159FCD9744DD98"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "使用激光的时间到了！"
+			tasks: [{
+				id: "407ED1D738EA10D1"
+				type: "checkmark"
+			}]
+			title: "激光能量传输"
+			x: 3.63d
+			y: -1.32d
+		}
+		{
+			dependencies: ["78277DBC07D3C45C"]
+			description: [
+				"使用&9硅岩&r掺杂&9硅&r将获得更好的&a单晶硅&r。"
+				""
+				"用于提高&d硅片&r的产量。"
+				""
+				"这还将解锁&3LuV 电路装配机&rr中&6HV&r电路的&6最佳配方&r，你很可能想要大量生产&d兰波顿能量水晶&r。"
+			]
+			id: "3F31E99D0284A60A"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "2F8C92A86CAF338F"
+				item: "gtceu:naquadah_boule"
+				type: "item"
+			}]
+			title: "硅岩参杂单晶硅"
+			x: -0.33d
+			y: 1.32d
+		}
+		{
+			dependencies: ["7A1E3C3A2D699C5B"]
+			description: [
+				"&a硅岩&r是一种晚期游戏材料，具有多种用途。它是建造聚变反应堆和进入ZPM级别所必需的。"
+				""
+				"由于某种原因，它的流体是&a绿&r的 - 别问我们为什么。"
+				""
+				"&b传说:&r硅岩是来自星际之门的材料。"
+			]
+			hide_dependency_lines: true
+			id: "78277DBC07D3C45C"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "你是不是指星门合金？"
+			tasks: [{
+				id: "36833D5050F81992"
+				item: "gtceu:naquadah_ingot"
+				type: "item"
+			}]
+			title: "硅岩"
+			x: 0.99d
+			y: 1.32d
+		}
+		{
+			dependencies: [
+				"78277DBC07D3C45C"
+				"7A1E3C3A2D699C5B"
+			]
+			description: [
+				"&a硅岩线圈&r将热容量提升至&d7,200K&r。"
+				""
+				"这些线圈是进入&dLuV&r的后半段及更高级别所必需的。"
+			]
+			id: "2FCBA0D780DBDA9E"
+			size: 1.1d
+			subtitle: "比太阳表面温度还要热！"
+			tasks: [{
+				count: 16L
+				id: "28332FC9FCA83E41"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			title: "硅岩线圈"
+			x: 2.31d
+			y: 1.32d
+		}
+		{
+			dependencies: [
+				"0F192D1F44B9B599"
+				"2FCBA0D780DBDA9E"
+			]
+			description: [
+				"&aLuV超导体&r是制造&9聚变反应堆&r的重要要求。"
+				""
+				"严重警告 - 你将需要&e大量&r&r的它们。"
+			]
+			id: "5ED7707B0ECF2207"
+			size: 0.66d
+			subtitle: "庆幸这些不需要泵"
+			tasks: [{
+				id: "10FB849CE994B1A5"
+				item: "gtceu:indium_tin_barium_titanium_cuprate_single_wire"
+				type: "item"
+			}]
+			title: "LuV超导体"
+			x: 4.95d
+			y: 1.32d
+		}
+		{
+			dependencies: ["546CC03435E763CF"]
+			description: [
+				"&c警告&r：&9等离子体&r非常热，温度超过&d30k Kelvin&r！"
+				""
+				"然而，这并&6&l不&r意味着需要一种特殊的管道来输送等离子体！等离子体的处理略有不同，有点违反规则。"
+				""
+				"支持等离子体的流体管道，如&a钨&r、&a纳卡达&r或&a杜兰尼姆&r，可以容纳任何温度的等离子体。这意味着它们不会在等离子体的热下融化！"
+				""
+				""
+				"警告：&r错误的管道中的等离子体将导致&c虚空&r、&c管道燃烧&r和&l不成比例的&r死亡率。小心！"
+				""
+				"&b传说:&r这个机制起源于GT6，就像酸一样！"
+			]
+			id: "173C1FA72301B5E7"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "星星在呼唤..."
+			tasks: [{
+				id: "062ECB2F9C9D741D"
+				type: "checkmark"
+			}]
+			title: "星际流体"
+			x: 6.2700000000000005d
+			y: 1.32d
+		}
+		{
+			dependencies: ["173C1FA72301B5E7"]
+			description: [
+				"使用这个涡轮机从等离子体中提取大量的能量！"
+				""
+				"&a氦等离子体&r是成本最佳的燃料。"
+				""
+				"如果你是那种质疑等离子涡轮机有多现实的人...如果你想要一些将事实弯曲成虚构的东西，可以查一下磁流体发电机。"
+			]
+			id: "4E9DED9569AA17F5"
+			size: 1.1d
+			subtitle: "等离子体？涡轮机？！怎么可能？"
+			tasks: [{
+				id: "13230F892A8F6FA1"
+				item: "gtceu:plasma_large_turbine"
+				type: "item"
+			}]
+			title: "大型等离子涡轮机"
+			x: 7.59d
+			y: 1.32d
+		}
+		{
+			dependencies: ["378F0AFCF95354B2"]
+			description: ["这是&cZPM&r的主要材料。在制造&9聚变&r和&9水晶电路&r之后，准备制造大量的它们。"]
+			id: "24F0454B9A090C44"
+			size: 0.66d
+			subtitle: "星际之门最强"
+			tasks: [{
+				id: "16895659E44B65B5"
+				item: "gtceu:naquadah_alloy_ingot"
+				type: "item"
+			}]
+			title: "硅岩合金"
+			x: -0.33d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"78277DBC07D3C45C"
+				"48DEABA155605D23"
+			]
+			description: [
+				"将&9硅岩&r精炼成更多的产品将是你下一个自动化挑战。主要资源是&a富集硅岩&r、&a超能硅岩&r和&a三钨&r。"
+				""
+				"这个处理线还会产生许多有用的副产品，你可以使用JEI发现它们。"
+				"{@pagebreak}"
+				"&a富集硅岩&r目前没有太多用途，但将来将用于发电。"
+				""
+				"&a超能硅岩&r是后期游戏材料，用于制作&3UV&r组件。"
+				""
+				"&a三钨&r是你现在最有用的资源。它用于建造聚变反应堆，并在所有&cZPM&r机器中广泛使用。"
+				"{@pagebreak}"
+				"&e注意&r：这个处理链包含比你之前处理过的更复杂的循环。"
+				""
+				"后面的输出可以送回到前面的过程中，但每次循环会损失少量流体。"
+				""
+				"这可能很难自动化。祝你好运！"
+				"{@pagebreak}"
+				"&r&b传说&r：许多格雷科技版本都有硅岩处理。"
+				""
+				"第一个可能是Impact，有自己原始的硅岩燃料过程。"
+				""
+				"Gregicality Legacy紧随其后，有制作硅岩材料（和变种）以及燃料的过程。"
+				""
+				"之后，GTNH为材料和燃料添加了自己的硅岩过程。"
+				""
+				"最后，GTCEu添加了你即将设置的过程！"
+			]
+			icon: "gtceu:naquadah_dust"
+			id: "378F0AFCF95354B2"
+			size: 1.1d
+			subtitle: "不要触碰酸"
+			tasks: [{
+				amount: 1000L
+				fluid: "gtceu:fluoroantimonic_acid"
+				id: "0495EEA395A1B5EC"
+				type: "fluid"
+			}]
+			title: "纳卡达链"
+			x: 0.99d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"378F0AFCF95354B2"
+				"2FCBA0D780DBDA9E"
+				"00C14E3B8009DF7F"
+			]
+			description: [
+				"&a凯金&r是进展的非常重要的材料。你需要它来制造&9聚变反应堆&r，并在所有&cZPM&r中使用。"
+				""
+				"它还需要一个&dLuV&r EBF来熔炼！你可能需要一个专门的EBF来处理它。"
+			]
+			icon: "gtceu:trinium_ingot"
+			id: "0DC999F79A685194"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "另一个星际之门材料！"
+			tasks: [
+				{
+					id: "48F555D3FC7EA449"
+					item: "gtceu:trinium_sulfide_dust"
+					type: "item"
+				}
+				{
+					id: "0F64CAA30D89B10B"
+					item: "gtceu:trinium_ingot"
+					type: "item"
+				}
+			]
+			title: "凯金"
+			x: 2.31d
+			y: 2.64d
+		}
+		{
+			dependencies: ["4F6E351C5F676618"]
+			description: [
+				"&a钚-241&r是&9聚变反应堆&r的另一个要求。它非常容易制造：只需离心一些&9Pu-239&r即可分离一些出来！"
+				""
+				"将来，这种材料将需要一个&d核反应堆&r来生产，但这在GTCEu中还没有。"
+				"{@pagebreak}"
+				"&b传说&r：在GT Impact中，制造Pu-241是一个挑战。你的第一个Pu-241必须作为其非常昂贵的硅岩燃料过程的副产品生产，而且只能在某些后聚变的情况下独立制造！"
+			]
+			id: "2BBD3BC7D1B955C2"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "辣钚同位素"
+			tasks: [{
+				id: "757053C4979D8B08"
+				item: "gtceu:plutonium_241_dust"
+				type: "item"
+			}]
+			title: "钚-241"
+			x: 4.95d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"0DC999F79A685194"
+				"5ED7707B0ECF2207"
+				"52D952ADBEB67454"
+				"7CFC112B8F460549"
+				"327C3E02CD751453"
+			]
+			description: [
+				"使用 &aJEI&r 中的聚变玻璃建造所显示的结构。"
+				""
+				"为了节省聚变外壳，尽可能在结构中安装输入和输出舱口（如所示）。"
+				""
+				"这一次，我们将尝试一些新的东西：让我们同时解释传说和机制。"
+				""
+				"享受旅程吧！"
+				"{@pagebreak}"
+				"&b传说:&r 格雷科技 5 的 &3聚变反应堆&r 可以将你提供的 EU 存储在其内部缓冲区中。最大可存储量由 &3能量舱口&r 的数量确定。"
+				""
+				"只有在内部存储了足够的 &9启动 EU&r 后，才能开始配方，这将被 &c消耗&r。有了这些储存的能量，反应堆可以一直运行配方，直到它变得空闲。此时，它需要再次充满 EU 才能重新启动。"
+				"{@pagebreak}"
+				"Greg 的 &3聚变反应堆&r（现在是 GTCEu 的聚变反应堆）带有一个名为 &4热量&r 的额外机制。"
+				""
+				"当反应堆运行时，&9启动 EU&r 将被转换为 &4热量&r。该热量将保留，直到反应堆变得空闲，此时它将慢慢降低。"
+				""
+				"下次找到配方时，它将使用所有可能的热量，并从 &9启动 EU&r 中扣除它，让你为短暂的暂停节省能量。"
+				""
+				"&3聚变反应堆 I&r 只能运行最多需要 160MEU 的配方。即使你升级到 ZPM 舱口，它也只能超频到 &dLuV&r，所以不要为此而感到压力。"
+			]
+			id: "546CC03435E763CF"
+			shape: "gear"
+			size: 1.4d
+			subtitle: "恒星能量"
+			tasks: [{
+				id: "48A4D39ED0E11EBC"
+				item: "gtceu:luv_fusion_reactor"
+				type: "item"
+			}]
+			title: "聚变反应堆 I"
+			x: 6.2700000000000005d
+			y: 2.64d
+		}
+		{
+			dependencies: ["546CC03435E763CF"]
+			description: [
+				"&a铕&r 是第一个重要的聚变材料。你将在以后经常使用它。"
+				""
+				"&e注意&r：液态铕的温度非常高，但不是等离子体。请根据需要规划管道！"
+				"{@pagebreak}"
+				"&b传说&r：在 Gregicality Legacy 中，铕被鲁斯福镭取代成为第一个聚变材料，因为铕实际上是在稀土中发现的，而不是在现实中被聚变。"
+			]
+			id: "7A74F692F14F0FF8"
+			shape: "gear"
+			size: 1.4d
+			subtitle: "如何聚合铕？"
+			tasks: [{
+				id: "220305C9DA0F512B"
+				item: "gtceu:europium_ingot"
+				type: "item"
+			}]
+			title: "铕"
+			x: 7.59d
+			y: 2.64d
+		}
+		{
+			dependencies: ["7A74F692F14F0FF8"]
+			description: [
+				"&a水晶CPU&r用于生产&9水晶电路&r——谁能想到呢？"
+				""
+				"制造这些电路组件与以往有很大不同。它们不再依赖标准的硅晶片，而是依赖&9翡翠&r或&9橄榄石&r。"
+				""
+				"获得第一个水晶芯片可能会很困难，因此你可能希望投资于高级自动化釜。获得第一个芯片后，你可以使用&9铕&r进行复制。不要担心其他配方，它们是为&cZPM&r后期准备的。"
+				"{@pagebreak}"
+				"&e注意&r：使用&9高级物品探测器&r覆盖物可以自动化这些过程。它们的工作方式与高级能量探测器相同。"
+				""
+				"&b传说&r：在GT5u模组包中，制作第一个水晶芯片需要低重力釜，这意味着在Galacticraft太空站或月球上进行此过程！"
+			]
+			icon: "gtceu:crystal_cpu"
+			id: "764091A111FB4DA6"
+			size: 0.66d
+			subtitle: "这些甚至没有任何意义！"
+			tasks: [
+				{
+					id: "3B9666A5C3CBDCD6"
+					item: "gtceu:engraved_crystal_chip"
+					type: "item"
+				}
+				{
+					id: "6AFCBD40BD589726"
+					item: "gtceu:crystal_cpu"
+					type: "item"
+				}
+			]
+			title: "水晶CPU"
+			x: 8.91d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"77B7B1EDD19831E0"
+				"4F6E351C5F676618"
+			]
+			description: [
+				"使用&3LuV能源仓&r&r或&3LuV动力仓&r为你的多方块发电机完成此任务。"
+				""
+				"从&dLuV&r开始，你将开始升级更多的多方块，这意味着需要更多的能量孔！&9EBF&r和&9装配线&r都需要能量升级。"
+				""
+				"不要忘记&d4安培&r变体的存在！"
+			]
+			hide_dependency_lines: true
+			icon: "gtceu:luv_energy_input_hatch"
+			id: "00C14E3B8009DF7F"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [
+				{
+					id: "6733F9F527CA9B29"
+					item: "gtceu:luv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "6CE9FCCC37446BFD"
+					item: "gtceu:luv_energy_output_hatch"
+					type: "item"
+				}
+			]
+			title: "升级你的装配线"
+			x: 2.31d
+			y: 3.96d
+		}
+		{
+			dependencies: [
+				"77B7B1EDD19831E0"
+				"46C7E1D5E37B1ED2"
+			]
+			description: ["&a维度卡&r是&9量子链接隧道&r的升级版，使&9无线终端&r可以在任何维度中无限范围地访问你的AE系统。"]
+			id: "7E2076D45F83D9C3"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "到无限，超越极限！"
+			tasks: [{
+				id: "3A263074B7909AAA"
+				item: "aeinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			title: "无限无线范围"
+			x: 3.63d
+			y: 5.28d
+		}
+		{
+			dependencies: ["77B7B1EDD19831E0"]
+			description: [
+				"如果配方大小开始让你担心，不用担心——&2AE2&r现在允许你将无限数量的物品放入处理模式中。"
+				""
+				"由于这种创新，你可以自动化所有&3装配线&r配方。"
+			]
+			id: "79192BA29BE69170"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "3DFCDF1B24506A8A"
+				type: "checkmark"
+			}]
+			title: "打包谁？"
+			x: 3.63d
+			y: 6.6d
+		}
+		{
+			dependencies: ["77B7B1EDD19831E0"]
+			description: [
+				"以16倍的钻探功率为代价，&3高级流体钻探装置II&r将获得&664倍的流体产出&r。矿脉的耗尽速度也降至之前的八分之一。这意味着你将从基岩流体矿脉中获得&6128倍&r的油（或其他流体），直到耗尽为止！"
+				""
+				"即使在耗尽之后，你仍然可以安全地使用它，并且非常节能。"
+				""
+				"一个&3高级流体钻探装置II&r就足以让你在游戏结束之前，钻取任何流体。"
+			]
+			id: "4AEAC79007790BD8"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "这个东西完全疯狂！"
+			tasks: [{
+				id: "5904009DC40731D6"
+				item: "gtceu:ev_fluid_drilling_rig"
+				type: "item"
+			}]
+			title: "疯狂的流体钻探"
+			x: 6.2700000000000005d
+			y: 5.28d
+		}
+		{
+			dependencies: ["77B7B1EDD19831E0"]
+			description: [
+				"这个大型矿工几乎与普通矿工相同，只是它的范围更广，使用的钻井液更多。"
+				""
+				"这是一个可选的侧升级 - 你可能甚至不想要。"
+				""
+				"&b传说&r: 未来可能会重新平衡这些。有关详细信息，请参见多方块矿工任务。"
+			]
+			id: "1BE779AF4487E3EB"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "414C3982BED7EA0D"
+				item: "gtceu:luv_large_miner"
+				type: "item"
+			}]
+			title: "疯狂的矿物钻探"
+			x: 6.2700000000000005d
+			y: 6.6d
+		}
+		{
+			dependencies: [
+				"7A74F692F14F0FF8"
+				"195E5BFDE4C5A0DE"
+				"5B07279B08BF8DDE"
+			]
+			description: [
+				"&aLuV 兰波顿能量球簇&r比&9IV&r更好！当然，它的价格也更高..."
+				"{@pagebreak}"
+				"&b传说&r: 在旧版本的GT中，例如GTNH过去或GCYL中，这些球体的价格昂贵得离谱！它们需要8个前一级的球体！幸运的是，那些日子已经过去了。"
+			]
+			id: "0D7C978F9CDF771B"
+			size: 0.66d
+			subtitle: "更多的能量！"
+			tasks: [{
+				id: "6D1376BF3CEA87A7"
+				item: "gtceu:lapotronic_energy_orb_cluster"
+				type: "item"
+			}]
+			title: "疯狂的电池"
+			x: 7.59d
+			y: 5.28d
+		}
+		{
+			dependencies: ["42CD789B8C40E424"]
+			description: ["更便宜的&dLuV&r电路！这将使那些机器臂更便宜。"]
+			id: "47087361D6DE7DCF"
+			size: 0.66d
+			tasks: [{
+				id: "3CF7F369F390A3E5"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			title: "更多LuV电路"
+			x: 8.91d
+			y: 5.28d
+		}
+		{
+			dependencies: [
+				"5C4D3CF214972E5A"
+				"0D7C978F9CDF771B"
+			]
+			description: [
+				"高级量子胸甲结合了保护、个人电池和&6终极喷气背包&r，一体化设计。"
+				""
+				"要&d启用充电&r，在手持时按住Shift右键，然后装备它（请注意，有时它不想充电...你会原谅它的，对吧？）。"
+				""
+				"请注意，这储存了&o大量&r的能量。你可能需要投资一个&3LuV 闪聚充电箱&r。"
+				""
+				"&b传说&r: 这个装甲部件受到了工业时代插件Gravisuite的启发，该插件添加了类似于这个胸甲的引力套装。"
+			]
+			id: "282E03466566AB8F"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "终于..."
+			tasks: [{
+				id: "47927C54DE11BD02"
+				type: "checkmark"
+			}]
+			title: "最佳飞行"
+			x: 7.59d
+			y: 6.6d
+		}
+		{
+			dependencies: ["47087361D6DE7DCF"]
+			description: [
+				"不是主机架的ZPM电路！"
+				""
+				"此外，&b晶体超级计算机&r听起来真的很酷，对吧？"
+			]
+			id: "7AE681E2AB31EA0D"
+			size: 0.66d
+			tasks: [{
+				id: "0E274B445A95250A"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			title: "更多ZPM电路"
+			x: 8.91d
+			y: 6.6d
+		}
+		{
+			dependencies: [
+				"77B7B1EDD19831E0"
+				"7CFC112B8F460549"
+			]
+			description: ["&aLuV电动勘探者&r是&eHV&r的重大升级。它将使找到流体和矿脉变得非常容易。"]
+			id: "7033A24F37F9B9B9"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "如果你还没有发财，现在你会了"
+			tasks: [{
+				id: "718BA09242A22550"
+				item: "gtceu:prospector.luv"
+				type: "item"
+			}]
+			title: "LuV勘探者"
+			x: 4.95d
+			y: 3.96d
+		}
+		{
+			dependencies: [
+				"195E5BFDE4C5A0DE"
+				"6C241455C5434C2E"
+				"764091A111FB4DA6"
+			]
+			description: [
+				"&9晶体&r线的第一个电路。"
+				""
+				"&b传说&r: 水晶电路的概念自格雷科技的早期版本以来就存在。我们仍然不确定它们是否存在于现实生活中。"
+			]
+			id: "42CD789B8C40E424"
+			size: 1.1d
+			tasks: [{
+				id: "6357389871CE70C2"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			title: "最佳IV电路！"
+			x: 8.91d
+			y: 3.96d
+		}
+		{
+			dependencies: ["0338C9219DC2F819"]
+			description: [
+				"你是纤维增强环氧的粉丝吗？那么，我们有一些消息要告诉你！"
+				""
+				"&a多层纤维增强印刷电路板&r是你电路之旅的下一步。与之前的电路板相比，它们并不特别有趣：只是之前的两个粘在一起。"
+				"{@pagebreak}"
+				"&b传说：&r在Gregicality Legacy中，这些电路板要复杂得多。它们需要Kapton，一种双聚合物材料。这是一个挑战，至少可以这么说。在未来，GTCEu团队可能会使这些电路板更加复杂。"
+			]
+			id: "6C241455C5434C2E"
+			size: 0.66d
+			tasks: [{
+				id: "5B8C1C15E5413CEC"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			title: "多层纤维增强印刷电路板"
+			x: 9.9d
+			y: 3.96d
+		}
+		{
+			dependencies: [
+				"35D4F93EFB6EACB6"
+				"300348B1238BCB9A"
+				"1A4AD56965407DC5"
+				"12FEE0A47E4658D5"
+				"4F6E351C5F676618"
+				"77070668969E31BF"
+				"3A7491323AC5C70C"
+			]
+			description: [
+				"&dLuV&r组件比它们的前身要难以生产得多。它们需要一个&9装配线&r，许多不同形式的材料，还需要大量的流体！"
+				""
+				"你会注意到，&9钐&r是制作&aLuV+电机&r所必需的。单独的钐并不难获得，但冶炼它稍微有些复杂。它需要&9液态氦&r在冷冻机中。如果你制作过&9IV超导体&r，你可能已经见过这个了。"
+				"{@pagebreak}"
+				"&b传说：&r在原始的格雷科技 5中，这些组件是无法获得的！"
+			]
+			icon: "gtceu:luv_electric_motor"
+			id: "11D3B21A177B0E14"
+			shape: "rsquare"
+			size: 0.8d
+			subtitle: "乐趣等级-关键"
+			tasks: [
+				{
+					id: "0BA1015B5C7A0BD5"
+					item: "gtceu:luv_electric_motor"
+					type: "item"
+				}
+				{
+					id: "70CFEBF19D3187E4"
+					item: "gtceu:luv_electric_piston"
+					type: "item"
+				}
+				{
+					id: "03F3F0C59537103D"
+					item: "gtceu:luv_electric_pump"
+					type: "item"
+				}
+				{
+					id: "682AD49DA21B55C7"
+					item: "gtceu:luv_conveyor_module"
+					type: "item"
+				}
+				{
+					id: "6A9298CBB8CF2A60"
+					item: "gtceu:luv_robot_arm"
+					type: "item"
+				}
+				{
+					id: "31BB271A1E939852"
+					item: "gtceu:luv_emitter"
+					type: "item"
+				}
+				{
+					id: "57609974EC62C885"
+					item: "gtceu:luv_sensor"
+					type: "item"
+				}
+			]
+			title: "纯粹的快乐"
+			x: 0.99d
+			y: 5.28d
+		}
+		{
+			dependencies: ["0425179329ED1B72"]
+			description: ["&dLuV&r+电缆的要求。"]
+			id: "12FEE0A47E4658D5"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "4CAD2BE5558D7501"
+				item: "gtceu:polyphenylene_sulfide_foil"
+				type: "item"
+			}]
+			title: "聚苯硫醚"
+			x: 0.99d
+			y: 4.29d
+		}
+		{
+			dependencies: ["4F6E351C5F676618"]
+			description: [
+				"&o如果你在玩这个模组包时遇到TPS问题的可能性很小，这个任务更适合拥有格雷科技和AE2的后期基地，而这些提示也适用于其他模组包。&r"
+				""
+				"如果你运行命令&9/forge tps&r，你将得到当前的&4TPS&r和以毫秒为单位的&4tick时间&r。"
+				"如果tick时间超过50ms，服务器负载过重，无法保持稳定的20TPS。"
+				""
+				"任何机器都会增加tick时间，但不要太担心添加机器。大多数卡顿通常来自未优化的事物。"
+				""
+				"一般要&c避免&r的事情："
+				"&9-&r 实体非常糟糕。地面物品或生物实体应尽可能保持较低。幸运的是，在这个模组包中这不应该是一个问题。"
+				"&9-&r 将所有东西建在一个小空间里。请注意，这不会影响TPS，但你会遭受FPS下降。"
+				"&9-&r 大量的抽屉墙，因为迭代每一个抽屉进行插入和提取可能会很费力。"
+				""
+				"使用AE2时要&c避免&r的事情："
+				"&9-&r 在大型网络上使用ME导入和导出总线。使用ME接口代替。"
+				"&9-&r 使用制卡器进行大量请求的被动操作。请注意，这不像以前那样糟糕，因为AE2非官方版本进行了优化。"
+				"&9-&r 通过子网络进行递归插入和/或提取。如果你使用子网络，请让它们做非常具体的事情，而不是与另一个AE2网络交互。"
+				""
+				"使用格雷科技时要&c避免&r的事情（GTCEu已经得到了很多改进，但是像任何模组一样，你可能会破坏你的TPS）："
+				"&9-&r 许多EU生产者连接到同一条线上的许多EU消费者。相反，使用二极管或电池缓冲器将你的发电机线路与你的机器线路分开。"
+				"&9-&r 大量的流体管道。它们个别来说不会卡顿，但如果你有成千上万个它们，它们会累加。"
+				"&9-&r 大型物品管道网络。小型网络更好，以减少对库存的迭代次数。"
+			]
+			icon: "minecraft:mud"
+			id: "63F9531F391040B2"
+			shape: "rsquare"
+			size: 0.66d
+			title: "解决卡顿问题"
+			x: 2.31d
+			y: 6.6d
+		}
+		{
+			dependencies: ["5CA86A333670A55C"]
+			description: ["&a磁性钐&r需要一个&3IV极化器&r。"]
+			id: "35D4F93EFB6EACB6"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "感到吸引了吗？"
+			tasks: [{
+				id: "1CAACC2FAABE68A1"
+				item: "gtceu:iv_polarizer"
+				type: "item"
+			}]
+			title: "IV磁性"
+			x: 0.0d
+			y: 4.95d
+		}
+	]
+	subtitle: ["研究科学和融合元素"]
+	title: "&dLuV&r - 荒谬电压"
+}

@@ -1,0 +1,15 @@
+{
+  "item.buildinggadgets.gadget_building": "Handheld Building Zapper",
+  "item.buildinggadgets.gadget_copy_paste": "Handheld Copy-Paste Zapper",
+  "item.buildinggadgets.gadget_destruction": "Handheld Destruction Zapper",
+  "item.buildinggadgets.gadget_exchanging": "Handheld Exchanging Zapper",
+  "key.buildinggadgets.category": "Building Zappers",
+  "buildinggadgets.message.boundTE": "Bound Zapper to Inventory",
+  "buildinggadgets.message.unboundTE": "Unbound Zapper from Inventory",
+  "gui.buildinggadgets.help.area.arrow.data_flow": "Represents the flow of data from one item to another; either from a template to a zapper/template, or from a zapper/template to a template or piece of paper",
+  "gui.buildinggadgets.help.area.preview": "Preview of the data stored in the zapper/template",
+  "gui.buildinggadgets.help.area.slot.gadget": "Accepts §ncopy-paste zapper§r or §ntemplate§r to be saved/copied from and loaded to \\n\\n§9Colored overlay§r indicates that the item will receive data",
+  "gui.buildinggadgets.help.button.copy": "Copies data from a zapper/template to your computer's clipboard",
+  "gui.buildinggadgets.help.button.load": "Loads data onto a zapper/template from a template",
+  "gui.buildinggadgets.help.button.save": "Saves the data in the zapper/template to a pre-existing template, or to a piece of paper, creating a template"
+}

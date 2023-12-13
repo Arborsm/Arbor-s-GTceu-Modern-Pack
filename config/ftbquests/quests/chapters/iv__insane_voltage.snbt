@@ -1,0 +1,1061 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv__insane_voltage"
+	group: "693226878D58638A"
+	icon: "gtceu:iv_electric_motor"
+	id: "32EF20533F323E02"
+	order_index: 5
+	quest_links: [{
+		id: "050247AED8C803F9"
+		linked_quest: "30A6EDDF25A5E5F8"
+		shape: "gear"
+		size: 1.5d
+		x: 0.0d
+		y: 5.2845918367346885d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"52D952ADBEB67454"
+				"214783B2BB6730C5"
+				"216E5A3574AC08BF"
+				"5B07279B08BF8DDE"
+				"6B128610C7D2825D"
+			]
+			description: [
+				"这套装甲与Nano套装相比提供了更多的QoL。"
+				""
+				"&9头盔:&r 提供&d夜视&r（默认按键为&4M&r，但请检查是否有冲突），防止有害的药水效果，并自动为你吃饭！"
+				""
+				"&9胸甲:&r 抵消燃烧，但可以进一步升级为&dLuV&r时代末期的&a高级&r版本。请注意，这不包括没有高级升级的喷气背包。"
+				""
+				"&9护腿:&r 提供了Nano护腿没有的速度提升。"
+				""
+				"&9靴子:&r 提供&d踏步辅助&r，抵消坠落伤害，并增加跳跃高度！"
+				""
+				"&b传说:&r 这套装甲最初受到IndustrialCraft的启发，但其在GTCE环境中的第一次实现是通过Nuke Powered Utils，这是一个GTCE的附加模组。"
+			]
+			hide_dependency_lines: true
+			id: "5C4D3CF214972E5A"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "不是真正的商标"
+			tasks: [{
+				id: "0494A8915551F41D"
+				type: "item"
+			}]
+			title: "QuarkTech"
+			x: 6.6d
+			y: 1.32d
+		}
+		{
+			dependencies: [
+				"300348B1238BCB9A"
+				"7A1E3C3A2D699C5B"
+			]
+			description: ["这种超导体将在&dLuV&r时期的进展中需要。"]
+			icon: "gtceu:samarium_iron_arsenic_oxide_double_wire"
+			id: "52D952ADBEB67454"
+			size: 0.66d
+			tasks: [{
+				icon: "gtceu:samarium_iron_arsenic_oxide_single_wire"
+				id: "3789CEDA4AEEBD91"
+				type: "item"
+			}]
+			title: "IV超导体"
+			x: -1.32d
+			y: 1.32d
+		}
+		{
+			dependencies: ["7FA0ACB7F161F378"]
+			description: [
+				"如果你已经制作并离心了&a稀土&r，那太好了！如果没有，你可以从各种矿石中获得它作为&9副产品&r，或者从离心&d独居石&r中获得。"
+				""
+				"为了提取&a稀土&r，你应该使用尽可能高级的&3离心机&r，因为有更高的奖励产出的机会。"
+				"{@pagebreak}"
+				"你可以获得的元素有："
+				""
+				"&9-&r &a镧&r用于&3聚变&r - 最终你会需要很多！"
+				"&9-&r &a钇&r用于&d钇钡铜氧化物&r（YBCO），一种用于&3紫外线&r的导线材料。"
+				"&9-&r &a铈&r没有特别有用。"
+				"&9-&r &a钐&r用于&dIV超导体&r和&dLuV&r+电机的&d磁性杆&r。"
+				"&9-&r &a钕&r通常制造最强的磁铁，但是游戏平衡...你懂的。"
+				"&9-&r &a镉&r没有特别有用。"
+				"{@pagebreak}"
+				"&b传说:&r 稀土元素（REE）含有比这更多的金属，但我们已经很难让它们有用途了！"
+			]
+			id: "300348B1238BCB9A"
+			size: 0.66d
+			tasks: [{
+				count: 64L
+				id: "0BC7D23CA52A619D"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			title: "稀土"
+			x: -1.32d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"1776FA1F3255731E"
+				"5CA86A333670A55C"
+				"069FD86133D7D582"
+			]
+			description: [
+				"&aHSS-G线圈&r将热容量提高到&d5,400K&r。"
+				""
+				"永远诱人的&6线圈奖励&r&r应该是制作早期的高激励，因为它们只在&dLuV&r时代变得必要。"
+				""
+				"此时，你可以回到只使用一个&3电力高炉&r为整个基地供电，使用你拥有的最高电压。"
+				""
+				"&6热金属&r开始需要更长时间冷却，因为&3真空冷冻机&r无法获得完美的超频。为此，你可能需要使用双重或四重&3真空冷冻机&r。"
+			]
+			icon: "gtceu:hssg_coil_block"
+			id: "7A1E3C3A2D699C5B"
+			subtitle: "接近太阳温度"
+			tasks: [{
+				icon: { Count: 16b, id: "gtceu:hssg_coil_block" }
+				id: "544762609C1B9613"
+				type: "item"
+			}]
+			title: "HSS-G线圈"
+			x: 0.0d
+			y: 1.32d
+		}
+		{
+			dependencies: ["069FD86133D7D582"]
+			description: [
+				"&7高速钢&r（HSS）是更耐磨的钢合金，通常用于铁路。"
+				""
+				"如果你以前出于任何原因制作了&d终极合金&r，那么你已经获得了&a钼&r。否则，它可以在下界矿脉中找到。"
+				""
+				"我们希望你拥有大量的&9钨钢&r，因为你仍然需要更多！它用于制造&aHSS&r合金，目前是&aHSS-G&r。"
+			]
+			hide_dependency_lines: true
+			id: "1776FA1F3255731E"
+			size: 0.66d
+			tasks: [{
+				id: "7F7D77145AC8197E"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			title: "HSS-G"
+			x: 1.3199999999999996d
+			y: 1.32d
+		}
+		{
+			dependencies: ["7A1E3C3A2D699C5B"]
+			description: [
+				"从技术上讲，&aHSS-E&r不含锰，但其他一些HSS合金确实含有锰，所以...差不多吧？"
+				""
+				"&aHSS-E&r在进展中有一些利基用途。"
+				""
+				"这种合金具有极好的工具耐久性和损伤性能。它作为&3大型涡轮机&r的&d转子&r具有最佳的功率倍增器（直到中子！），虽然效率不如&aHSS-S&r。"
+			]
+			id: "1783D89CE81C8E2E"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "096C0C576B0F3358"
+				item: "gtceu:hsse_ingot"
+				type: "item"
+			}]
+			title: "HSS-E"
+			x: 0.0d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"1776FA1F3255731E"
+				"0425179329ED1B72"
+				"58BBD540D7D4FF01"
+			]
+			description: [
+				"当运行&3极限燃烧发动机&r时，你会想要加速它！&m否则你为什么要费心呢？&r"
+				""
+				"你需要一个&34A IV发电机舱口&r作为输出，以及一个&3真空冷冻机&r来制造&a液态氧气&r。"
+				""
+				"现在你将拥有相当于1个&dLuV&r安培的能量，同时以&6200%的效率&r燃烧燃料！"
+				""
+				"别忘了给它提供少量的&a润滑剂&r。"
+				""
+				"&3ECE&r也是无虚空的，不像大型涡轮机。任何无法输出的能量都会暂时暂停多方块结构。"
+				"{@pagebreak"
+				"&b传说:&r ECE来自GT:NH。然而...它的实现一开始并不顺利。工具提示上的统计数据看起来与这个类似-到目前为止，一切都好。"
+				""
+				"糟糕的部分是在计算数字时出现的。玩家最终意识到他们需要运行大约16个HV真空冷冻机才能跟上液态氧气的速度..."
+				""
+				"它唯一接受的燃料是高辛烷汽油，据说在加速时燃烧效率为300%，但事实上这是一个谎言。效率仍然是100%！"
+				""
+				"GT:NH团队最终决定重新设计ECE和其他电源选项...太好了！"
+			]
+			id: "466AC4DD902115EF"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "终极燃烧发电机！"
+			tasks: [{
+				id: "7F0E2A5AD0E2FC25"
+				item: "gtceu:extreme_combustion_engine"
+				type: "item"
+			}]
+			title: "极限燃烧发动机"
+			x: 1.32d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"7820DF52516344F4"
+				"4CD9F6D1B4CC7D81"
+				"5BACED5AE350EAB1"
+				"4343746E706264E6"
+				"528CE69DA4358B2E"
+			]
+			description: [
+				"你应该拥有所有的工具来自己制造&a聚苯并咪唑&r！"
+				""
+				"一条（不请自来的）建议-在查看配方时，将它们固定在&2JEI&r（默认为\"A”热键）。我们希望你一直在这样做，因为它可以使计划变得更容易！"
+				""
+				"&aPBI&r只有在从&dLuV&r进展到&cZPM&r时才变得必要，但是提前解决它将解锁&6高级SMD&r。"
+				""
+				"任务可以使用任何&r形式的PBI完成。你可能需要条形码来进行自动化。"
+			]
+			icon: "gtceu:polybenzimidazole_plate"
+			id: "7CFC112B8F460549"
+			subtitle: "GTCEu最难的聚合物！"
+			tasks: [
+				{
+					amount: 1000L
+					fluid: "gtceu:polybenzimidazole"
+					id: "5971118ED25AC71A"
+					type: "fluid"
+				}
+				{
+					id: "7C5D37940A0C8409"
+					item: "gtceu:polybenzimidazole_ingot"
+					type: "item"
+				}
+				{
+					id: "65165EC105F048AD"
+					item: "gtceu:polybenzimidazole_plate"
+					type: "item"
+				}
+			]
+			title: "聚苯并咪唑"
+			x: -1.32d
+			y: 3.96d
+		}
+		{
+			dependencies: [
+				"7A1E3C3A2D699C5B"
+				"7CFC112B8F460549"
+			]
+			description: [
+				"更好的&a SMD&r可以以更便宜的价格制造出更复杂的电路。"
+				""
+				"你需要尚未制造的合金，其中大部分在&dLuV&r时代及以后是常见的。"
+				""
+				"&a高级SMD&r是&d晶体&r电路线所必需的。"
+			]
+			icon: "gtceu:advanced_smd_transistor"
+			id: "195E5BFDE4C5A0DE"
+			size: 0.66d
+			tasks: [
+				{
+					id: "25B01725B3E33952"
+					item: "gtceu:advanced_smd_transistor"
+					type: "item"
+				}
+				{
+					id: "5BA971DE64CA560F"
+					item: "gtceu:advanced_smd_resistor"
+					type: "item"
+				}
+				{
+					id: "1ED6BE67774595EA"
+					item: "gtceu:advanced_smd_capacitor"
+					type: "item"
+				}
+				{
+					id: "027CA58B4F5D5F99"
+					item: "gtceu:advanced_smd_diode"
+					type: "item"
+				}
+				{
+					id: "3D7DE6355D703AFB"
+					item: "gtceu:advanced_smd_inductor"
+					type: "item"
+				}
+			]
+			title: "高级SMD"
+			x: 0.0d
+			y: 3.96d
+		}
+		{
+			dependencies: [
+				"7CC79617A4965F25"
+				"30A6EDDF25A5E5F8"
+				"12B4423F055BFBF5"
+			]
+			description: [
+				"你已经掌握了钨钢？需要纳米处理器主机？让我们制造一些机械。"
+				""
+				"需要 &3IV 组装机&r 和 &3IV 切割机&r 才能解锁 &3IV 能量 + 发电机舱门&r。"
+				""
+				"将它们升级为 &2Gregicality 多方块结构&r 是一个明智的决定。"
+				"{@pagebreak"
+				"&b传说:&r 我们经常被问到为什么没有将 GcyM 包含在模组包中。我的理由是展示 GTCEu 本身的强大。"
+				""
+				"你知道 GTCE 的内容停留在 EV，而内容直到 UV 都是由第三方模组 Shadows of Greg 补充的吗？"
+				""
+				"当然，在任何更贪婪的模组包中都应该包含 GcyM，因为它是一个很棒的 QoL 模组。"
+			]
+			icon: "gtceu:iv_assembler"
+			id: "5CA86A333670A55C"
+			tasks: [
+				{
+					id: "2BD1CC61E5122DC7"
+					item: "gtceu:iv_assembler"
+					type: "item"
+				}
+				{
+					id: "7FF6345C38537641"
+					item: "gtceu:iv_cutter"
+					type: "item"
+				}
+			]
+			title: "IV 机械"
+			x: 1.3199999999999996d
+			y: 3.96d
+		}
+		{
+			dependencies: [
+				"30A6EDDF25A5E5F8"
+				"14D277A164202FF8"
+			]
+			description: [
+				"&a大型钨钢锅炉&r 是最终的蒸汽锅炉。它比之前的更高效，也产生更多的蒸汽。"
+				""
+				"这个东西是 &n一个巨大的新手陷阱&r，你绝对应该使用其他东西。不要制造它，它不好，甚至不是一个梗！蒸汽在这个点之后不再扩展，这个锅炉很可能会在未来被移除。"
+				""
+				"&e注意&r：通过点击勾号，可以跳过此任务（为了完成进度）。你不必真的制造一个。"
+				""
+				"&b传说&r：在 GT5u 中也没有人制造这些……你知道的，我几乎为这个多方块结构感到难过。"
+			]
+			icon: "gtceu:tungstensteel_large_boiler"
+			id: "328CFD483C26EA44"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "祝你好运去加油，哈哈"
+			tasks: [
+				{
+					id: "4C89839747EDFFF5"
+					item: "gtceu:tungstensteel_large_boiler"
+					type: "item"
+				}
+				{
+					id: "4F863C04757556B2"
+					type: "checkmark"
+				}
+			]
+			title: "最差的燃烧"
+			x: -1.32d
+			y: 5.2845918367346885d
+		}
+		{
+			dependencies: ["528CE69DA4358B2E"]
+			description: [
+				"&a层压玻璃&r 是 &1IV&r 及其以后的新一代玻璃。它是在 &3成型压力机&r 中使用新的聚合物 &d聚乙烯酸丁酯&r 制造的。"
+				""
+				"如果你已经拥有了用于裂解燃料的 &3蒸馏塔&r，并且已经自动化了环氧树脂，那么这些步骤都不应该特别困难。"
+				""
+				"如果你还没有设置好这两个东西，你知道该怎么做！"
+				""
+				"&9注意:&r &d聚乙烯醋酸酯&r（制造玻璃所需）也可以用于制作 &a胶水&r！"
+			]
+			id: "12B4423F055BFBF5"
+			size: 0.66d
+			tasks: [{
+				id: "2358A62B80B56238"
+				item: "gtceu:laminated_glass"
+				type: "item"
+			}]
+			title: "层压玻璃"
+			x: 1.32d
+			y: 5.28d
+		}
+		{
+			dependencies: [
+				"7A1E3C3A2D699C5B"
+				"216E5A3574AC08BF"
+			]
+			description: [
+				"HSS-S 是另一种 &m完全虚构的&r &7高速钢&r，合金化了铱和锇。"
+				""
+				"&aHSS-S&r 将是制造 &dLuV 电机&r 所必需的。"
+				""
+				"这种合金具有很高的采矿速度，在 &3大型涡轮机&r 中用作 &d转子&r 时，可以获得极高的 &6效率&r。"
+			]
+			id: "3A7491323AC5C70C"
+			size: 0.66d
+			subtitle: "我们编造了这个"
+			tasks: [{
+				id: "578E3442D589DAE8"
+				item: "gtceu:hsss_ingot"
+				type: "item"
+			}]
+			title: "HSS-S"
+			x: 2.6399999999999997d
+			y: 1.32d
+		}
+		{
+			dependencies: ["7D15EEE81B1A3100"]
+			description: [
+				"获取&a铟&r需要大量的&d硫酸&r和两种不同的矿石：方铅矿和闪锌矿。"
+				""
+				"&d硫酸&r可以在&3大型化学反应器&r中大规模生产，或从&9铂族污泥&r过程中获得废料。"
+				""
+				"在&dLuV&r中，强制使用&9纳卡达链&r也将授予&a铟&r，这意味着此设置将有限寿命。"
+				"{@pagebreak"
+				"&b传说:&r 这是从格雷科技 5继承的另一个小链。然而，这曾经产生一个微小的粉尘，这很有趣。"
+			]
+			icon: "gtceu:indium_dust"
+			id: "0F192D1F44B9B599"
+			size: 0.66d
+			subtitle: "超导体至尊"
+			title: "铟"
+			x: 2.6399999999999997d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"7820DF52516344F4"
+				"0F192D1F44B9B599"
+				"5CA86A333670A55C"
+				"528CE69DA4358B2E"
+			]
+			description: [
+				"&aHPIC&r解锁&3IV能量舱口&r和&3发电机&r...你知道该怎么做！"
+				""
+				"制作&3IV化学反应器&r是&d可选的&r。如果你愿意，可以用&3大型化学反应器&r制作。"
+				""
+				"如果你想用模式自动化你的LCR，请回到P2P隧道任务以获取更多信息。"
+			]
+			id: "0425179329ED1B72"
+			size: 0.66d
+			tasks: [{
+				id: "3550E45267942DE8"
+				item: "gtceu:hpic_chip"
+				type: "item"
+			}]
+			title: "高功率集成电路"
+			x: 2.6399999999999997d
+			y: 3.96d
+		}
+		{
+			dependencies: ["30A6EDDF25A5E5F8"]
+			description: [
+				"&1IV&r组件-幸运的是-在复杂性方面并不是一个很大的进步。"
+				""
+				"然而，制作这些所需的&d钨钢&r数量巨大。"
+				""
+				"&a发射器&r和&a传感器&r不在这，因为它们需要&d下界之星&r和&d铱&r，两者都有自己的专门任务。"
+			]
+			icon: "gtceu:iv_electric_motor"
+			id: "01AB252C72B565FE"
+			shape: "rsquare"
+			size: 0.66d
+			title: "\"乐趣”无限"
+			x: 0.0d
+			y: 6.6d
+		}
+		{
+			dependencies: [
+				"7CC79617A4965F25"
+				"30A6EDDF25A5E5F8"
+				"14D277A164202FF8"
+			]
+			description: [
+				"更好的矿石加工，为了&6有机会获得副产品&r，只需要这个&3破碎机&r！必备。"
+				""
+				"现在，终于是大规模矿石加工自动化的时候了。"
+				""
+				"下一个任务将开启一切！"
+			]
+			id: "05003665368F5A57"
+			size: 0.66d
+			tasks: [{
+				id: "4043CFB3C4E0DB90"
+				item: "gtceu:iv_macerator"
+				type: "item"
+			}]
+			title: "进一步的副产品碎片化"
+			x: 1.3199999999999996d
+			y: 6.6d
+		}
+		{
+			dependencies: ["05003665368F5A57"]
+			description: [
+				"欢迎来到自动化时代！"
+				""
+				"矿石加工现在触手可及。"
+				""
+				"&6此任务解锁了&l提示和技巧&r&6选项卡中的新教程-查看它以了解更多！&r"
+			]
+			icon: "gtceu:almandine_refined_ore"
+			id: "724FB950CC472BB4"
+			size: 0.66d
+			tasks: [{
+				id: "496C00BA0D8F5445"
+				type: "checkmark"
+			}]
+			title: "设置矿石加工"
+			x: 2.6399999999999997d
+			y: 6.6d
+		}
+		{
+			dependencies: [
+				"73E8283634E5E33A"
+				"12B4423F055BFBF5"
+				"327C3E02CD751453"
+				"0425179329ED1B72"
+				"069FD86133D7D582"
+				"6B128610C7D2825D"
+			]
+			description: [
+				"制作&dLuV&r组件需要更多的工作。你需要考虑制作&3装配线&r以便进展。"
+				""
+				"这个多方块结构有&e可变的大小&r&r。每个&3ULV输入总线&r接受不同的物品堆栈。"
+				""
+				"你需要建造一个大小为&d10&r的装配线来开始，或者一个大小为&d14&r的装配线来接受基础GTCEu中所有可能的配方。"
+				""
+				"配方需要&a流体&r，因此最好将&3输入仓&r永久填充&d焊接合金&r、&d润滑剂&r和&d苯乙烯丁二烯橡胶&r。"
+				""
+				"&6此任务解锁了&l提示和技巧&r&6选项卡中的新教程-查看它以了解更多！&r"
+			]
+			id: "77B7B1EDD19831E0"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "又名\"Assline”"
+			tasks: [{
+				id: "1BD34023E42B4E50"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			title: "装配线"
+			x: 3.96d
+			y: 5.2845918367346885d
+		}
+		{
+			dependencies: [
+				"5E6BA54E8A5BEBDE"
+				"14D277A164202FF8"
+				"6B128610C7D2825D"
+			]
+			description: [
+				"&3加工阵列&r是一个强大的&6自动化工具&r。它将几个单独的块机器组合成一个单一的多方块结构。"
+				""
+				"首先将最多&d16&r个机器放入&3机器访问接口&r中。"
+				""
+				"&3PA&r现在将&a模拟&r你放在里面的所有机器，就好像它们同时运行一样。"
+				""
+				"这意味着可以同时进行多达&d16&r个配方-这是真正的&4并行化&r！"
+				""
+				"&6这个任务解锁了&l技巧和窍门&r&6选项卡中的新教程-去看看学习更多！&r"
+				"{@pagebreak}"
+				"&b传说:&r 在格雷科技 5中，数据球被用于物质复制器中存储你想要复制的材料的\"数据”。这里没有复制-球现在只是一个简单的制作组件。"
+				""
+				"此外，格雷科技 5的PA和其他多方块结构被用作洁净室。这里没有这样的东西！"
+			]
+			id: "2DAC91AF2EBB68E2"
+			subtitle: "PA做了那么少，又做了那么多"
+			tasks: [{
+				id: "515EDFE316170EEA"
+				item: "gtceu:iv_processing_array"
+				type: "item"
+			}]
+			title: "加工阵列"
+			x: 6.6d
+			y: 5.28d
+		}
+		{
+			dependencies: [
+				"0988B5FB795FF7DA"
+				"383B789B654C4094"
+				"69E384F389B0D07B"
+			]
+			description: [
+				"电池中有2.5亿EU？这是能持续放电25分钟的电力！"
+				""
+				"&a兰波顿能量球&r应该是你能源存储困境的结束。"
+				""
+				"如果你的电力发电不稳定，或者由于&3大型涡轮机&r的特性需要缓冲大量电力，则这种能源存储形式非常适合。"
+				""
+				"这种电力的提升并不便宜。&d雕刻的兰波顿水晶芯片&r价值&a8个兰波顿水晶&r。"
+			]
+			id: "5B07279B08BF8DDE"
+			size: 0.66d
+			subtitle: "太神奇了！"
+			tasks: [{
+				id: "3B8E3903EA888A6F"
+				item: "gtceu:lapotronic_energy_orb"
+				type: "item"
+			}]
+			title: "疯狂电池"
+			x: 7.92d
+			y: 5.2845918367346885d
+		}
+		{
+			dependencies: ["145F71A817C5996E"]
+			description: ["&aZPM主机&r用于制作&3LuV电路组装机&r（当然），还允许你进入&3聚变&r。"]
+			id: "327C3E02CD751453"
+			tasks: [{
+				id: "59901F46ED2C46DF"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			title: "第一个ZPM电路！"
+			x: 9.24d
+			y: 5.2845918367346885d
+		}
+		{
+			dependencies: [
+				"1B520580219AFAE9"
+				"216E5A3574AC08BF"
+			]
+			description: [
+				"&a下界之星&r用于高级&d传感器&r、&d发射器&r和&d场发生器&r。"
+				""
+				"如果你需要永久药水效果，则还可以将其用于&d信标&r。最后，一个原版多块结构！"
+				""
+				"关于配方所需的&a下界空气&r：请自行查看&9液态下界空气&r的蒸馏。这是非常有益的。"
+			]
+			icon: "minecraft:nether_star"
+			id: "6B128610C7D2825D"
+			subtitle: "跳起来，超级明星"
+			tasks: [
+				{
+					id: "71D5FE3076C1F56C"
+					item: "gtceu:nether_star_dust"
+					type: "item"
+				}
+				{
+					id: "08814DD921835365"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:gems/nether_star"
+						}
+					}
+					title: "Any #forge:gems/nether_star"
+					type: "item"
+				}
+			]
+			title: "下界之星"
+			x: 5.28d
+			y: 3.96d
+		}
+		{
+			dependencies: [
+				"64CACABB48635904"
+				"5BACED5AE350EAB1"
+			]
+			description: [
+				"&a铂族金属&r是六种具有催化性质的稀有金属。它们是&3钌&r、&d铑&r、&7钯&r、&9锇&r、&b铱&r和&e铂&r。"
+				""
+				"你需要&4自动化&r整个过程，因为这些金属在后期游戏中都会被广泛使用。"
+				"{@pagebreak}"
+				"首先，用&d硝酸&r处理各种含有PGM的&apure crushed ores&r，制成&aplatinum group sludge&r。"
+				""
+				"然后，用&d王水&r离心分离，制成各种PGM盐。"
+				""
+				"&d氯气&r可以从&e原始铂粉&r中完美回收。"
+				""
+				"&d硝酸&r是从&7原始钯粉&r中通过&d氨水&r进行&osort of&r回收的，但我建议保留多余的氨水用于其他用途（火箭燃料和PBI）。"
+				""
+				"其他PGM盐都有自己的特殊迷你链 - 在下一个任务中会详细介绍。"
+				"{@pagebreak}"
+				"&9注意：&e铂&r和&7钯&r也可以从末地或通过正常的矿石加工获得。"
+				""
+				"&b传说：&r听说过Gregicality或格雷科技: New Horizons中臭名昭著的\"Platline”吗？这个极具挑战性的链条是通过Bartworks添加到GT:NH中的。这个概念很棒，但我们不得不大大调整它，以使进入GTCEu的后期游戏更加顺畅。"
+			]
+			icon: "gtceu:platinum_group_sludge_dust"
+			id: "635D14B8E9F996FD"
+			tasks: [{
+				id: "4DCFD28954A351A8"
+				item: "gtceu:platinum_group_sludge_dust"
+				type: "item"
+			}]
+			title: "铂族金属加工"
+			x: 3.96d
+			y: 1.32d
+		}
+		{
+			dependencies: [
+				"635D14B8E9F996FD"
+				"7820DF52516344F4"
+				"528CE69DA4358B2E"
+			]
+			description: [
+				"This part of the chain starts by obtaining some &aRarest Metal Residue&r."
+				""
+				"You will need an &1IV&r powered &3Large Chemical Reactor&r, but the average power is not too bad."
+				""
+				"&dChlorine&r is fully looped, and &dHydrogen&r is slightly negative (&ounless you put Acidic Osmium Solution in the Distillation Tower and electrolyze the water back... on second thoughts, don't do that&r)."
+				""
+				"&aIridium&r is required to progress in the &1IV&r Age, so you should get your PGS line automated!"
+			]
+			icon: "gtceu:iridium_ingot"
+			id: "216E5A3574AC08BF"
+			tasks: [
+				{
+					id: "236EFFBCE5885D61"
+					item: "gtceu:rarest_metal_mixture_dust"
+					type: "item"
+				}
+				{
+					id: "1AAE4205D9FA580D"
+					item: "gtceu:iridium_dust"
+					type: "item"
+				}
+				{
+					id: "75849AB6B11652E9"
+					item: "gtceu:osmium_dust"
+					type: "item"
+				}
+			]
+			title: "铱和锇"
+			x: 3.96d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"635D14B8E9F996FD"
+				"528CE69DA4358B2E"
+				"069FD86133D7D582"
+				"5DBBD9B1F5B01F4E"
+			]
+			description: [
+				"This part of the chain starts with &aInert Metal Mixture&r."
+				""
+				"&dSulfuric Acid&r can be perfectly recycled. You will produce excess &dOxygen&r and &dHydrogen&r that can be stored."
+				""
+				"&aRuthenium&r and &aRhodium&r are gatekeepers to the &dLuV&r Age. If you automate them now, you won't need to do it later!"
+			]
+			icon: "gtceu:ruthenium_ingot"
+			id: "214783B2BB6730C5"
+			size: 0.66d
+			tasks: [
+				{
+					id: "08FEDEE28C37331F"
+					item: "gtceu:ruthenium_dust"
+					type: "item"
+				}
+				{
+					id: "014BD952B8944694"
+					item: "gtceu:rhodium_dust"
+					type: "item"
+				}
+				{
+					id: "38D0B4A76E4436F8"
+					item: "gtceu:inert_metal_mixture_dust"
+					type: "item"
+				}
+			]
+			title: "Ruthenium and Rhodium"
+			x: 3.96d
+			y: 0.0d
+		}
+		{
+			dependencies: ["214783B2BB6730C5"]
+			description: [
+				"进入&dLuV&r时代需要的不仅仅是&a铑镀钯&r和&9LuV电路&r，还需要&3装配线&r。"
+				""
+				"随着你朝着&e聚变&r的方向努力，组件的&4资源成本&r也会&4显著增加&r。"
+				""
+				"如果你几乎没有自动化，现在（在&1IV&r时代）是一个好时机。"
+				""
+				"利用&3处理阵列&r或&2Gregicality多方块&r中的所有特殊多方块。"
+				""
+				"如果你的发电依赖于&3大型涡轮机&r，你仍然可以获得&3LuV转子支架&r。"
+			]
+			id: "4F6E351C5F676618"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "主要的&dLuV&r材料"
+			tasks: [{
+				icon: "gtceu:rhodium_plated_palladium_ingot"
+				id: "0A57BEFB8BD9958A"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			title: "铑镀钯"
+			x: 5.28d
+			y: 0.0d
+		}
+		{
+			dependencies: ["216E5A3574AC08BF"]
+			description: [
+				"这个大型矿工与普通矿工几乎相同，只是它的范围更广，使用的钻井液更多。"
+				""
+				"这是一个可选升级 - 你甚至可能不需要！"
+			]
+			id: "07906458E1A15683"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				id: "7E67EFBB59C847D7"
+				item: "gtceu:iv_large_miner"
+				type: "item"
+			}]
+			title: "多方块矿工II"
+			x: 6.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["216E5A3574AC08BF"]
+			description: [
+				"&3电力变电站&r是一个多方块电力存储系统。用&9电容块&r的&2-18层&r填充它以增加存储量。每层必须充满电容器，你可以使用空电容器填充未使用的空间。"
+				""
+				"&9电容器&r也比用于制造它们的电池能够存储更多的能量。在&3电力变电站&r中，&9电容器&r可以混合使用，因此它们不必全部是同一级别。"
+				""
+				"在&1IV&r级别，你可以制造&5EV&r和/或&1IV&r电容器。"
+				""
+				"能量可以通过普通的能量舱输入，通过普通的发电机舱输出。"
+				""
+				"你也可以使用&9变电站舱口&r传输更多的安培数。这些舱口只在变电站中工作，不在常规多方块中工作。"
+			]
+			id: "04E9D2F484702965"
+			subtitle: "最后的集中式电力"
+			tasks: [{
+				id: "6F18E4631B04E636"
+				type: "checkmark"
+			}]
+			title: "电力变电站"
+			x: 5.28d
+			y: 1.32d
+		}
+		{
+			dependencies: ["216E5A3574AC08BF"]
+			description: [
+				"可能没有人会制造这个物品，但它可以为建筑工具提供&6无限&r的建筑糊。这对于建筑可能会有用。"
+				""
+				"这只是为了告诉你这个存在。享受或什么的..."
+			]
+			hide_dependency_lines: true
+			id: "2554FE006F827BC7"
+			shape: "rsquare"
+			size: 0.66d
+			subtitle: "IV中的创意物品？"
+			tasks: [{
+				id: "04A399D60AAD6B57"
+				item: "buildinggadgets:construction_paste_container_creative"
+				type: "item"
+			}]
+			x: 7.259999999999999d
+			y: 1.32d
+		}
+		{
+			dependencies: [
+				"73E8283634E5E33A"
+				"0F192D1F44B9B599"
+				"63A87C9303D54487"
+			]
+			description: [
+				"我们知道...这实际上并不是被&d铟&r所限制的。然而，你得相信我们 - 这是更好的配方，所以我们不想让你浪费时间。"
+				""
+				"&a量子比特CPU&r用于生产&1量子&r处理器。"
+			]
+			id: "225F57C95C6D7650"
+			size: 0.66d
+			subtitle: "这实际上与量子无关"
+			tasks: [{
+				id: "4C2C6546F0928AD7"
+				item: "gtceu:qbit_cpu_chip"
+				type: "item"
+			}]
+			title: "量子比特CPU"
+			x: 5.28d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"73E8283634E5E33A"
+				"216E5A3574AC08BF"
+				"069FD86133D7D582"
+				"6B128610C7D2825D"
+			]
+			description: [
+				"哇！说实话，到这里来真的很难。你会感激不用为电路板制作新的聚合物。"
+				""
+				"&3IV电路组装器&r解锁了&1量子&r电路系列。"
+				""
+				"这也解锁了&dMV电路&r的&6最佳配方。"
+			]
+			id: "2BB16260A76718B8"
+			tasks: [{
+				id: "230762F7951EB866"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			title: "IV电路组装"
+			x: 6.6d
+			y: 2.64d
+		}
+		{
+			dependencies: ["0338C9219DC2F819"]
+			description: [
+				"&1量子&r电路系列的下一个电路板。"
+				""
+				"&9提示：为了高效快速地生产电路板，你应该使用两个&3大型化学反应器&r，两者都供应&6HV&r电力或更高（让它们共享同一个&3能量孔&r）："
+				""
+				"&9- &r一个&3LCR&r应该专门用于&a三氯化铁&r。&d氢气&r是可循环的，所以在本地复制&d盐酸&r - 这样你只需要被动输入&a铁粉&r和&a氯气&r。"
+				""
+				"&9- &r一个&3LCR&r应该制作&a覆板&r和&a空电路板&r，以使未来AE2的&e制造拉取&r极为容易。保持一个输入孔充满硫酸不应该是问题。"
+			]
+			id: "0988B5FB795FF7DA"
+			size: 0.66d
+			tasks: [{
+				id: "4EB5F93570DAE79B"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			title: "极限电路板"
+			x: 7.92d
+			y: 2.64d
+		}
+		{
+			dependencies: [
+				"0988B5FB795FF7DA"
+				"225F57C95C6D7650"
+				"2BB16260A76718B8"
+			]
+			description: [
+				"&1量子&r线路的第一个电路。"
+				""
+				"如果你愿意，你可以进一步追求&d高级SMD&r，以使这些电路更便宜。"
+				""
+				"这样做需要&9PBI&r和需要你制作一组&aHSS-G线圈&r的合金。"
+			]
+			id: "49C1D61741AA288E"
+			size: 0.75d
+			tasks: [{
+				id: "4E109F0F515B210F"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			title: "最佳EV电路！"
+			x: 9.24d
+			y: 2.64d
+		}
+		{
+			dependencies: ["4343746E706264E6"]
+			description: [
+				"火箭燃料主要是为了与其他模组兼容。模组开发者喜欢它！"
+				""
+				"作为GTCEu发电机的实际燃料？糟糕极了！"
+				""
+				"在这个模组包中，&a火箭燃料&r是获得&d下界之星&r所必需的。"
+				""
+				"自动化可能会对你的资源造成很大的打击，但你可以安全地使用超频的&3大型化学反应器&r进行批量制作。"
+			]
+			id: "1B520580219AFAE9"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [{
+				amount: 6000L
+				fluid: "gtceu:rocket_fuel"
+				id: "040946A4E48F28E8"
+				type: "fluid"
+			}]
+			title: "火箭燃料"
+			x: 6.6d
+			y: 3.96d
+		}
+		{
+			dependencies: ["117FBB18DEE6F08B"]
+			description: [
+				"下一个板材。"
+				""
+				"只需要在&3化学浴&r中使用一些&a环氧&r就可以了。"
+			]
+			id: "0338C9219DC2F819"
+			size: 0.66d
+			tasks: [{
+				id: "7092FDCCDDC53679"
+				item: "gtceu:reinforced_epoxy_resin_plate"
+				type: "item"
+			}]
+			title: "纤维增强环氧"
+			x: 7.932857142857115d
+			y: 3.8538775510204437d
+		}
+		{
+			dependencies: ["698B5F65F2DE4439"]
+			description: ["不是主机架的LuV电路！"]
+			id: "145F71A817C5996E"
+			size: 0.66d
+			tasks: [{
+				id: "0205E6C037A453A8"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			title: "更多LuV电路"
+			x: 9.57d
+			y: 4.29d
+		}
+		{
+			dependencies: ["49C1D61741AA288E"]
+			description: [
+				"更好的IV电路。"
+				""
+				"在IV时代内的进展不再感到痛苦。"
+			]
+			id: "698B5F65F2DE4439"
+			size: 0.66d
+			tasks: [{
+				id: "3B46E4592A6AC60E"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			title: "更多IV电路"
+			x: 8.91d
+			y: 3.63d
+		}
+		{
+			dependencies: [
+				"216E5A3574AC08BF"
+				"0425179329ED1B72"
+			]
+			description: [
+				"这个任务将通过&3IV能量孔&r或&3IV发电机孔&r完成你的多方块发电机。"
+				""
+				"不要忘记&d4安培&r变体存在！但是它们需要&aNiobium-Titanium电缆&r，这需要&9聚苯硫醚&r。"
+				"在&dLuV&r章节中查看（剧透：很容易获得！）。"
+			]
+			icon: "gtceu:iv_energy_input_hatch"
+			id: "48DEABA155605D23"
+			shape: "rsquare"
+			size: 0.66d
+			tasks: [
+				{
+					id: "5A16A90F5B6FBDA9"
+					item: "gtceu:iv_energy_input_hatch"
+					type: "item"
+				}
+				{
+					id: "04CFDD86ADF6B918"
+					item: "gtceu:iv_energy_output_hatch"
+					type: "item"
+				}
+			]
+			title: "第一百万次升级你的EBF"
+			x: 3.96d
+			y: 3.96d
+		}
+	]
+	subtitle: ["自动化一切并学习如何组装"]
+	title: "&1IV&r - 疯狂电压"
+}

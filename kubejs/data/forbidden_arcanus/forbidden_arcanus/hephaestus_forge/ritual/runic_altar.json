@@ -1,0 +1,73 @@
+{
+  "additional_requirements": {
+    "enhancers": [
+      "forbidden_arcanus:elementarium"
+    ]
+  },
+  "essences": {
+    "aureal": 100,
+    "blood": 1000,
+    "experience": 0,
+    "souls": 3
+  },
+  "inputs": [
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:livingrock"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:mana_pearl"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:prismarine_crystals"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:manasteel_ingot"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:livingrock"
+      }
+    },
+    {
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:mana_pearl"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "minecraft:prismarine_crystals"
+      }
+    },
+	{
+      "amount": 1,
+      "ingredient": {
+        "item": "botania:manasteel_ingot"
+      }
+    }
+  ],
+  "main_ingredient": {
+    "item": "touhou_little_maid:hakurei_gohei"
+  },
+  "result": {
+    "type": "forbidden_arcanus:create_item",
+    "result_item": {
+      "Count": 1,
+      "id": "botania:runic_altar"
+    }
+  }
+}

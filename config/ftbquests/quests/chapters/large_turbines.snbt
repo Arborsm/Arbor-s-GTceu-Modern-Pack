@@ -1,0 +1,182 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "large_turbines"
+	group: "719BFF182E0820D1"
+	icon: {
+		Count: 1b
+		id: "gtceu:turbine_rotor"
+		tag: {
+			GT.PartStats: {
+				Material: "iron"
+			}
+		}
+	}
+	id: "52E70B217806A134"
+	order_index: 4
+	quest_links: [{
+		id: "6CC3CC0770652DD9"
+		linked_quest: "188A8C3DD38C2762"
+		x: 0.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["188A8C3DD38C2762"]
+			description: ["&3转子支架&r在&3大型涡轮机&r的等级以上，每个等级会使产量乘以2，同时每个等级增加10%的效率。"]
+			icon: "gtceu:hv_rotor_holder"
+			id: "4F5DD5816D242E7D"
+			shape: "rsquare"
+			size: 0.76d
+			tasks: [{
+				id: "600E11FFBAC10C1C"
+				type: "checkmark"
+			}]
+			title: "转子支架"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["188A8C3DD38C2762"]
+			description: [
+				"&a转子&r的&9功率&r、&d效率&r和&4耐久度&r基于工具属性。"
+				""
+				"&9功率&r是应用于&3涡轮机&r产量的乘数。这与&3转子支架&r叠加。"
+				""
+				"&d效率&r减少燃料消耗。这也与&3转子支架&r叠加。"
+				""
+				"&4耐久度&r是&3涡轮机&r活动时转子&r的寿命（以秒为单位）。"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:turbine_rotor"
+				tag: {
+					GT.PartStats: {
+						Material: "neodymium"
+					}
+				}
+			}
+			id: "44D051EC36AE418F"
+			shape: "rsquare"
+			size: 0.76d
+			tasks: [{
+				id: "169057975DC345BA"
+				title: "Rotors"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["188A8C3DD38C2762"]
+			description: [
+				"涡轮机的&9功率&r输出影响燃料消耗和EU/t的产生。它的计算公式如下："
+				""
+				"&eproduction = baseEUt x rotorPower x 2^(rotorHolderTier - turbineTier)&r"
+				""
+				"&d效率&r减少燃料消耗，但不改变EU/t的产生。它的计算公式如下："
+				""
+				"&eefficiency = rotorEfficiency x (1 + 0.1 x (rotorHolderTier - turbineTier))&r"
+			]
+			icon: "minecraft:lectern"
+			id: "1CE29CDDAED21346"
+			size: 0.87d
+			tasks: [{
+				id: "7DE01F7FA5E97F0B"
+				title: "In summary..."
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1CE29CDDAED21346"]
+			description: [
+				"让我们模拟一个大型蒸汽涡轮机，使用Ultimet转子和&5EV&r转子支架："
+				""
+				"产量 = 1024 x 1.60 x 2 = 3276 EU/t"
+				""
+				"效率 = 1.30 x 1.10 = 143%"
+				""
+				"（因此，蒸汽消耗将超过钛锅炉或约70%油门的钨钢锅炉）"
+				"{@pagebreak}"
+				"接下来，我们将分析燃气涡轮机，使用Chrome转子和&5EV&r转子支架："
+				""
+				"产量 = 4096 x 1.70 x 1 = 5325 EU/t"
+				""
+				"效率 = 1.55 x 1.00 = 155%"
+				""
+				"（同样的燃料消耗将使用6.7个涡轮燃气涡轮机产生3435 EU/t！）"
+				"{@pagebreak}"
+				"最后，我们来看看等离子涡轮机，使用HSS-S转子和&cZPM&r转子支架："
+				""
+				"产量 = 16834 x 2.50 x 4 = 168340 EU/t"
+				""
+				"效率 = 1.80 x 1.20 = 216%"
+				""
+				"（这比ZPM放大器还要多！）"
+			]
+			icon: {
+				Count: 1b
+				id: "gtceu:programmed_circuit"
+				tag: {
+					Configuration: 0
+				}
+			}
+			id: "392D915D3389DC66"
+			shape: "rsquare"
+			size: 0.76d
+			subtitle: "请在你的桌子上使用计算器！"
+			tasks: [{
+				id: "3CBCA60F3007AB27"
+				title: "...and some examples!"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["188A8C3DD38C2762"]
+			description: [
+				"&9-&r涡轮机依靠&e惯性&r工作，需要持续运行才能达到最大功率。"
+				""
+				"&9-&r任何多余的能量都将被&c废弃&r。你需要使用大型能量缓冲器和&3高级能量检测器&r，如果你希望保持高效。"
+				""
+				"&9-&r它们需要转子&r，这将随着时间的推移而失去耐久度，最终&c损坏&r。"
+				""
+				"&9-&r需要一点数学才能获得预期的结果。"
+			]
+			icon: "minecraft:barrier"
+			id: "33F0EA149F3705CF"
+			size: 0.76d
+			tasks: [{
+				id: "73E2A16AA5E8A05C"
+				type: "checkmark"
+			}]
+			title: "缺点"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["188A8C3DD38C2762"]
+			description: [
+				"&9-&r 由于分层的&3转子支架&r，涡轮机可以将&9电力&r产量远远提高，远超其基本输出。"
+				""
+				"&9-&r &a转子&r可以大大提高&d燃料效率&r和&9电力&r产量。"
+				""
+				"&9-&r 如果正确设置，你将获得很多满足感（耶！）"
+			]
+			icon: "minecraft:knowledge_book"
+			id: "1A84A7FC1C0BD611"
+			size: 0.76d
+			tasks: [{
+				id: "2F59C5CFA57C340C"
+				type: "checkmark"
+			}]
+			title: "正面因素！"
+			x: 0.5d
+			y: 1.5d
+		}
+	]
+	title: "大型涡轮机"
+}
