@@ -277,6 +277,9 @@
 				id: "gtceu:iron_wrench"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "25BFD5598A82C056"
@@ -360,6 +363,9 @@
 				id: "gtceu:wrought_iron_wire_cutter"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "76D1CB36DBC50309"

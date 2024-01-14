@@ -177,6 +177,9 @@
 				id: "gtceu:iron_wrench"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "2375A0CB4CD34F73"

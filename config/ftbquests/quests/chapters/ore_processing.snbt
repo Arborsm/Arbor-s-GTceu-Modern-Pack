@@ -79,6 +79,9 @@
 				id: "gtceu:iron_hammer"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "3ED1A3C91E61A743"

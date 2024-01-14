@@ -56,7 +56,7 @@ ServerEvents.recipes(event => {
     .duration(120)
     .EUt(0)
 
-  function addASSRecipe (name, itemInputs, itemOutputs, fluidInputs, fluidOutputs, eut, time, circuit) {
+  function addASSRecipe(name, itemInputs, itemOutputs, fluidInputs, fluidOutputs, eut, time, circuit) {
     const dur = time * 20
     const recipe = event.recipes.gtceu.assembler(name + '_ass').duration(dur).EUt(eut)
     if (itemInputs != null) {
@@ -119,7 +119,7 @@ ServerEvents.recipes(event => {
     .EUt(UHV)
     .duration(1200)
 
-  function shaped (name, a, b, c) {
+  function shaped(name, a, b, c) {
     event.shaped(name, ['ABA', 'SCH', 'ABA'], { A: a, B: b, C: c, S: '#forge:tools/screwdrivers', H: '#forge:tools/hammers' })
   }
   shaped('cobblemon:poke_ball', 'cobblemon:red_apricorn', 'gtceu:copper_plate', 'gtceu:iron_ring')
@@ -148,7 +148,7 @@ ServerEvents.recipes(event => {
     .itemOutputs('cobblemon:revive')
     .EUt(32)
     .duration(240)
-  function addMIXRecipe (name, itemInputs, itemOutputs, fluidInputs, fluidOutputs, eut, time, circuit) {
+  function addMIXRecipe(name, itemInputs, itemOutputs, fluidInputs, fluidOutputs, eut, time, circuit) {
     const dur = time * 20
     const recipe = event.recipes.gtceu.mixer(name + '_mix').duration(dur).EUt(eut)
     if (itemInputs != null) {

@@ -3,9 +3,12 @@
   "noAggressiveProbing": true,
   "docsTimestamp": 1694524116376,
   "allowRegistryObjectDumps": false,
+  "allowRegistryLiteralDumps": true,
   "requireSingleAndPerm": true,
   "enabled": true,
-  "disableRecipeJsonDump": false,
+  "modChanged": false,
+  "disableRecipeJsonDump": true,
   "dumpJSONIntermediates": false,
+  "pullSchema": false,
   "version": 1
 }

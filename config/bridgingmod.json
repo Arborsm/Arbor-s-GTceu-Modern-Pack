@@ -1,7 +1,11 @@
 {
   "enableBridgingAssist": true,
+  "onlyBridgeWhenCrouched": false,
   "enableSlabAssist": true,
+  "enableNonSolidReplace": true,
   "showCrosshair": true,
+  "showOutline": false,
+  "outlineColour": 1711276032,
   "showDebugHighlight": true,
   "showDebugTrace": false
 }

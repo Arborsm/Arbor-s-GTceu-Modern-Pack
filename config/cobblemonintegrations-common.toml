@@ -10,10 +10,12 @@
 		#Hide the Pokemon label/nametag completely.
 		hidePokemonLabel = false
 
-[enhancedcelestials]
-	#Use datapacks for LunarEvent configuration.
-	#Apply EXP/EV changes only in wild battles?
-	applyInPVP = false
-	#Allow Pokemon to spawn/evolve using the lunarEvent conditions? (setting to False will disable all lunar event variants)
-	allowLunarEventVariants = true
+[waystones]
+	#Allow Pokemon to be used for Waystone teleportation.
+	allowWaystoneTeleport = true
+	#Does the Pokemon need to have Teleport accessible. If false, any psychic type can teleport.
+	requireTeleportMove = true
+	#Minimum level to Teleport.
+	#Range: 0 ~ 255
+	waystoneMinTeleportLevel = 0
 

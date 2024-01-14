@@ -1,14 +1,14 @@
 {
-  "configVersion": 2,
+  "configVersion": 3,
   "enableSignBuffering": true,
   "targetFPSNameTags": 60,
   "enableNametagScreenBuffering": false,
-  "pollRate": 60,
+  "pollRate": 120,
   "chatSettings": {
     "enabled": true,
-    "maxFps": 20,
+    "maxFps": 60,
     "forceBlend": false,
-    "forceUpdates": false
+    "forceUpdates": true
   },
   "debugScreenSettings": {
     "enabled": true,
@@ -17,7 +17,7 @@
     "forceUpdates": false
   },
   "hotbarSettings": {
-    "enabled": true,
+    "enabled": false,
     "maxFps": 20,
     "forceBlend": false,
     "forceUpdates": false

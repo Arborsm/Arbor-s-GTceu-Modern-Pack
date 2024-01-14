@@ -244,7 +244,7 @@ ServerEvents.recipes(event => {
     { item: 'gtceu:palladium_metal_dust', count: 1, chance: 1000, advChance: 0 }
   ])
 
-  addSifterRecipe('gtceu:hodium_nitrate_dust_sf', ['gtceu:hodium_nitrate_dust'], null, 30, LV, [
+  addSifterRecipe('gtceu:rhodium_nitrate_dust_sf', ['gtceu:hodium_nitrate_dust'], null, 30, LV, [
     { item: 'gtceu:rhodium_filter_cake_dust', count: 1, chance: 2000, advChance: 0 },
     { item: 'gtceu:rhodium_filter_cake_dust', count: 1, chance: 2000, advChance: 0 },
     { item: 'gtceu:rhodium_filter_cake_dust', count: 1, chance: 2000, advChance: 0 },

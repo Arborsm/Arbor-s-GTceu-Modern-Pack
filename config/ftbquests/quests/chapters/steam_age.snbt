@@ -224,6 +224,9 @@
 					id: "gtceu:red_steel_pickaxe"
 					tag: {
 						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				type: "item"
@@ -981,6 +984,9 @@
 					id: "gtceu:invar_mining_hammer"
 					tag: {
 						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				type: "item"

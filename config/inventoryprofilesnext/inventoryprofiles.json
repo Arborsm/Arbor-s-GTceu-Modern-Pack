@@ -1,5 +1,25 @@
 {
     "ModSettings": {
+        "include_hotbar_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_all_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_focus_mach_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "move_just_refill_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
         "highlight_foused_items": {
             "value": false
         },
@@ -11,6 +31,9 @@
             "value": false
         },
         "enable_inventory_settings_button": {
+            "value": false
+        },
+        "enable_profiles_ui": {
             "value": false
         },
         "enable_inventory_buttons": {

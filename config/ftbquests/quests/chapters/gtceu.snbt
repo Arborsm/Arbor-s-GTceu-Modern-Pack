@@ -8,6 +8,9 @@
 		id: "gtceu:iron_wrench"
 		tag: {
 			Damage: 0
+			GT.Tool: {
+				Damage: 0
+			}
 		}
 	}
 	id: "2F8B0AFE317363C9"
@@ -182,6 +185,9 @@
 				id: "gtceu:steel_axe"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "13354F24F80F65FB"
@@ -199,6 +205,9 @@
 					id: "gtceu:diamond_axe"
 					tag: {
 						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				id: "3880A08A72884627"
@@ -280,6 +289,9 @@
 					id: "gtceu:steel_hammer"
 					tag: {
 						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				id: "1A4DDB914D7D2F3C"
@@ -313,6 +325,9 @@
 				id: "gtceu:steel_mining_hammer"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "4A365A7CC9E374F9"
@@ -324,6 +339,9 @@
 					id: "gtceu:steel_mining_hammer"
 					tag: {
 						Damage: 0
+						GT.Tool: {
+							Damage: 0
+						}
 					}
 				}
 				id: "4F372C393ADC6CE2"
@@ -429,6 +447,9 @@
 				id: "gtceu:iron_wrench"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "2001CB4968D3E0A2"
@@ -508,6 +529,9 @@
 				id: "gtceu:iron_screwdriver"
 				tag: {
 					Damage: 0
+					GT.Tool: {
+						Damage: 0
+					}
 				}
 			}
 			id: "5C3501DD3B4788FA"
@@ -839,6 +863,9 @@
 						id: "gtceu:iron_shovel"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"
@@ -850,6 +877,9 @@
 						id: "gtceu:iron_axe"
 						tag: {
 							Damage: 0
+							GT.Tool: {
+								Damage: 0
+							}
 						}
 					}
 					type: "item"

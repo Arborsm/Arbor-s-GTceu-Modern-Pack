@@ -17,7 +17,6 @@
 	playScreenOpenSounds = true
 	#-
 	playMouseClickSounds = true
-	#Default 5 minutes
-	#Range: > 0
-	ticksToMarkPlayerIdle = 6000
+	#-
+	showPlayerAnimations = true
 

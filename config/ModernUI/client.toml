@@ -22,18 +22,18 @@
 	inventoryPause = false
 	#Framerate limit on window inactive (out of focus or minimized), 0 = no change.
 	#Range: 0 ~ 255
-	framerateInactive = 60
+	framerateInactive = 255
 	#Framerate limit on window minimized, 0 = same as framerate inactive.
 	#This value will be no greater than framerate inactive.
 	#Range: 0 ~ 255
-	framerateMinimized = 0
+	framerateMinimized = 5
 	#Master volume multiplier on window inactive (out of focus or minimized), 1 = no change.
 	#Range: 0.0 ~ 1.0
-	masterVolumeInactive = 1.0
+	masterVolumeInactive = 0.5
 	#Master volume multiplier on window minimized, 1 = same as master volume inactive.
 	#This value will be no greater than master volume inactive.
 	#Range: 0.0 ~ 1.0
-	masterVolumeMinimized = 1.0
+	masterVolumeMinimized = 0.20000000298023224
 
 #Tooltip Config
 [tooltip]
